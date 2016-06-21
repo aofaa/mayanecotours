@@ -81,35 +81,35 @@ Henequén, Sisal, Truck, Vida Maya">
       <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
         <div id="experiencia">
           <h1>VIVE LA EXPERIENCIA</h1>
-          <div class="col-xs-12 col-sm-3 col-md-3">
+          <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/zonas.png" class="img-responsive center-block">
             <p>Zonas arqueológicas</p>
           </div>
-          <div class="col-xs-12 col-sm-3 col-md-3">
+          <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/recorridos.png" class="img-responsive center-block">
             <p>Recorridos y fotografía</p>
           </div>
-          <div class="col-xs-12 col-sm-3 col-md-3">
+          <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/cenotes.png" class="img-responsive center-block">
             <p>Cenotes</p>
           </div>
-          <div class="col-xs-12 col-sm-3 col-md-3">
+          <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/kayak.png" class="img-responsive center-block">
             <p>Kayak</p>
           </div>
-          <div class="col-xs-12 col-sm-3 col-md-3">
+          <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/esnorquel.png" class="img-responsive center-block">
             <p>Esnórquel</p>
           </div>
-          <div class="col-xs-12 col-sm-3 col-md-3">
+          <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/rapel.png" class="img-responsive center-block">
             <p>Rappel</p>
           </div>
-          <div class="col-xs-12 col-sm-3 col-md-3">
+          <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/grutas.png" class="img-responsive center-block">
             <p>Grutas</p>
           </div>
-          <div class="col-xs-12 col-sm-3 col-md-3">
+          <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/buceo.png" class="img-responsive center-block">
             <p>Buceo</p>
           </div>
