@@ -37,12 +37,21 @@ Henequén, Sisal, Truck, Vida Maya">
 <?php include('includs/analytics.php'); ?>
 
 <?php include('includs/menu.php'); ?>
-<section>
+<section class="hidden-xs">
     <div class="bg-form-interior">
       <?php include('includs/form_interior.php'); ?>
     </div>
     <img src="images/banner_interiores/buceo_inmersion.jpg" class="banner-interiores">
 </section>
+
+<section class="visible-xs">
+  <img src="images/banner_interiores360px/buceo_inmersion.jpg" class="banner-interiores">
+</section>
+
+<!--formulario movil-->
+<?php include('formulario_interiores_movil.php') ?>
+<!--------end-------->
+
 <section class="bg-titulo">
   <div class="container">
     <div class="row">
