@@ -2236,6 +2236,14 @@ body {
     padding-bottom: 10px;
     line-height: 20px;
 }
+
+.dropdown-menu {
+	font-family: 'Oxygen Bold';
+	font-size: 12px;
+	text-align: left;
+	list-style: none;
+}
+
 .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;

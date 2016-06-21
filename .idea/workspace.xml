@@ -22,31 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6037736">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chichen_cenote.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chichen_cenote.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.4716983">
-              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="52" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Kayak_xcambo_progreso.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Kayak_xcambo_progreso.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46981132">
-              <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.5849057">
+              <caret line="2239" column="0" selection-start-line="2239" selection-start-column="0" selection-end-line="2244" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -60,7 +40,6 @@
         <option value="$PROJECT_DIR$/contacto.php" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/interiores_formulario_movil.php" />
         <option value="$PROJECT_DIR$/chichen_cenote.php" />
         <option value="$PROJECT_DIR$/includs/form_contacto.php" />
@@ -90,6 +69,7 @@
         <option value="$PROJECT_DIR$/ruta_puuc_lotun.php" />
         <option value="$PROJECT_DIR$/vida_maya.php" />
         <option value="$PROJECT_DIR$/Kayak_xcambo_progreso.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -177,7 +157,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19818456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -235,14 +215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3207547">
           <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6037736">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -496,18 +468,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Kayak_xcambo_progreso.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46981132">
+          <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/chichen_cenote.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.4716983">
+        <state vertical-scroll-proportion="0.5471698">
           <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="52" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Kayak_xcambo_progreso.php">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46981132">
-          <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.5849057">
+          <caret line="2239" column="0" selection-start-line="2239" selection-start-column="0" selection-end-line="2244" selection-end-column="1" />
           <folding />
         </state>
       </provider>
