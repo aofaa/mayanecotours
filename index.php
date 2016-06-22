@@ -1,4 +1,5 @@
 <?php
+include('includs/session.php');
 $titulo="Mayan Ecotours";
 
 $protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') === FALSE ? 'http' : 'https';
@@ -52,7 +53,7 @@ Henequén, Sisal, Truck, Vida Maya">
               <li><a href="javascript:void(0);"><img src="images/banner01.jpg" alt="" title="" /></a></li>
               <li><a href="javascript:void(0);"><img src="images/banner02.jpg" alt="" title="" /></a></li>
               <li><a href="javascript:void(0);"><img src="images/banner03.jpg" alt="" title="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banner03.jpg" alt="" title="" /></a></li>
+              <li><a href="javascript:void(0);"><img src="images/banner04.jpg" alt="" title="" /></a></li>
             </ul>
         </div>
     </div>
@@ -169,7 +170,7 @@ Henequén, Sisal, Truck, Vida Maya">
             <p>
               Contáctanos y te platicaremos todas las opciones que tenemos para ofrecerte las emociones que buscas.
             </p>
-            <a href="" class="btn-aventura">¡COMIENZA TU AVENTURA AHORA!</a>
+            <a href="tours_medida.php" class="btn-aventura">¡COMIENZA TU AVENTURA AHORA!</a>
           </div>
         </div>
       </div>

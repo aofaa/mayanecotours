@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2ca3083-640a-41b0-846b-82bebbb0469d" name="Default" comment="" />
+    <list default="true" id="a2ca3083-640a-41b0-846b-82bebbb0469d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/includs/session.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mayanecotours.zip" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banner03.jpg" afterPath="$PROJECT_DIR$/images/banner03.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/banner04.jpg" afterPath="$PROJECT_DIR$/images/banner04.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/correo.png" afterPath="$PROJECT_DIR$/images/correo.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/cuzama.jpg" afterPath="$PROJECT_DIR$/images/cuzama.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/icono-mapa.png" afterPath="$PROJECT_DIR$/images/icono-mapa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/thumbnail_interiores/08_cuzama.jpg" afterPath="$PROJECT_DIR$/images/thumbnail_interiores/08_cuzama.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/thumbnail_interiores/18_esnorquel.jpg" afterPath="$PROJECT_DIR$/images/thumbnail_interiores/18_esnorquel.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kayak_xcambo_progreso.php" afterPath="$PROJECT_DIR$/Kayak_xcambo_progreso.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buceo_cenote_dos_inmersion.php" afterPath="$PROJECT_DIR$/buceo_cenote_dos_inmersion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buceo_cenote_una_inmersion.php" afterPath="$PROJECT_DIR$/buceo_cenote_una_inmersion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/buceo_cueva_una_inmersion.php" afterPath="$PROJECT_DIR$/buceo_cueva_una_inmersion.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/celestun.php" afterPath="$PROJECT_DIR$/celestun.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cenotes_cuzama.php" afterPath="$PROJECT_DIR$/cenotes_cuzama.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chichen_cancun.php" afterPath="$PROJECT_DIR$/chichen_cancun.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chichen_cenote.php" afterPath="$PROJECT_DIR$/chichen_cenote.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chichen_paseo.php" afterPath="$PROJECT_DIR$/chichen_paseo.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chichen_playa_carmen.php" afterPath="$PROJECT_DIR$/chichen_playa_carmen.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/esnorquel_cenotes_hacienda.php" afterPath="$PROJECT_DIR$/esnorquel_cenotes_hacienda.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hacienda_sotuta_peon.php" afterPath="$PROJECT_DIR$/hacienda_sotuta_peon.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includs/footer.php" afterPath="$PROJECT_DIR$/includs/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includs/form_footer.php" afterPath="$PROJECT_DIR$/includs/form_footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/includs/menu.php" afterPath="$PROJECT_DIR$/includs/menu.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/izamal_dia.php" afterPath="$PROJECT_DIR$/izamal_dia.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayapan_bicicleta_esnorquel.php" afterPath="$PROJECT_DIR$/mayapan_bicicleta_esnorquel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mayapan_grutas_esnorquel.php" afterPath="$PROJECT_DIR$/mayapan_grutas_esnorquel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/querido_viajero.php" afterPath="$PROJECT_DIR$/querido_viajero.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/rappel_esnorquel_gruta_comida_hacienda.php" afterPath="$PROJECT_DIR$/rappel_esnorquel_gruta_comida_hacienda.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ruta_puuc_lotun.php" afterPath="$PROJECT_DIR$/ruta_puuc_lotun.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uxmal_comida.php" afterPath="$PROJECT_DIR$/uxmal_comida.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uxmal_luz_sonido.php" afterPath="$PROJECT_DIR$/uxmal_luz_sonido.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uxmal_paseo_kabah.php" afterPath="$PROJECT_DIR$/uxmal_paseo_kabah.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vida_maya.php" afterPath="$PROJECT_DIR$/vida_maya.php" />
+    </list>
     <ignored path="mayanecotours.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,11 +60,67 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5849057">
-              <caret line="2239" column="0" selection-start-line="2239" selection-start-column="0" selection-end-line="2244" selection-end-column="1" />
+            <state vertical-scroll-proportion="-4.3773584">
+              <caret line="2155" column="0" selection-start-line="2155" selection-start-column="0" selection-end-line="2161" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includs/menu.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.115385">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="109" />
+              <folding>
+                <marker date="1466630239588" expanded="true" signature="2902:4224" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="3089:4194" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="4815:6043" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="5003:6013" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="6449:7479" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="6640:7449" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="8491:26068" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="8554:11837" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="8770:11807" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="11901:16159" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="12119:16129" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="16223:19562" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="16414:19532" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="19626:20064" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="19813:20034" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="20128:22304" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="20321:22274" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="22368:23498" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="22557:23468" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="23562:24671" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="23750:23834" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="23750:24641" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="24735:26042" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="24923:25007" placeholder="..." />
+                <marker date="1466630239588" expanded="true" signature="24923:26012" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chichen_cenote.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chichen_cenote.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-2.4339623">
+              <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="94" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uxmal_luz_sonido.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/uxmal_luz_sonido.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9802514">
+              <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -34,42 +128,49 @@
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/contacto.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/interiores_formulario_movil.php" />
-        <option value="$PROJECT_DIR$/chichen_cenote.php" />
         <option value="$PROJECT_DIR$/includs/form_contacto.php" />
         <option value="$PROJECT_DIR$/includs/form_contacto_movil.php" />
-        <option value="$PROJECT_DIR$/includs/form_footer.php" />
         <option value="$PROJECT_DIR$/includs/form_interior.php" />
         <option value="$PROJECT_DIR$/includs/form_interior360.php" />
         <option value="$PROJECT_DIR$/includs/form_tour.php" />
         <option value="$PROJECT_DIR$/includs/form_tour_movil.php" />
+        <option value="$PROJECT_DIR$/querido_viajero.php" />
+        <option value="$PROJECT_DIR$/buceo_cenote_dos_inmersion.php" />
+        <option value="$PROJECT_DIR$/buceo_cenote_una_inmersion.php" />
+        <option value="$PROJECT_DIR$/buceo_cueva_una_inmersion.php" />
+        <option value="$PROJECT_DIR$/celestun.php" />
+        <option value="$PROJECT_DIR$/cenotes_cuzama.php" />
+        <option value="$PROJECT_DIR$/esnorquel_cenotes_hacienda.php" />
+        <option value="$PROJECT_DIR$/hacienda_sotuta_peon.php" />
+        <option value="$PROJECT_DIR$/Kayak_xcambo_progreso.php" />
+        <option value="$PROJECT_DIR$/mayapan_bicicleta_esnorquel.php" />
+        <option value="$PROJECT_DIR$/mayapan_grutas_esnorquel.php" />
+        <option value="$PROJECT_DIR$/rappel_esnorquel_gruta_comida_hacienda.php" />
+        <option value="$PROJECT_DIR$/ruta_puuc_lotun.php" />
+        <option value="$PROJECT_DIR$/uxmal_luz_sonido.php" />
+        <option value="$PROJECT_DIR$/vida_maya.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/includs/form_footer.php" />
+        <option value="$PROJECT_DIR$/includs/footer.php" />
+        <option value="$PROJECT_DIR$/izamal_dia.php" />
+        <option value="$PROJECT_DIR$/includs/menu.php" />
+        <option value="$PROJECT_DIR$/includs/session.php" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/chichen_paseo.php" />
+        <option value="$PROJECT_DIR$/chichen_cenote.php" />
         <option value="$PROJECT_DIR$/chichen_cancun.php" />
         <option value="$PROJECT_DIR$/chichen_playa_carmen.php" />
         <option value="$PROJECT_DIR$/uxmal_comida.php" />
         <option value="$PROJECT_DIR$/uxmal_paseo_kabah.php" />
-        <option value="$PROJECT_DIR$/uxmal_luz_sonido.php" />
-        <option value="$PROJECT_DIR$/esnorquel_cenotes_hacienda.php" />
-        <option value="$PROJECT_DIR$/izamal_dia.php" />
-        <option value="$PROJECT_DIR$/hacienda_sotuta_peon.php" />
-        <option value="$PROJECT_DIR$/buceo_cenote_una_inmersion.php" />
-        <option value="$PROJECT_DIR$/buceo_cenote_dos_inmersion.php" />
-        <option value="$PROJECT_DIR$/buceo_cueva_una_inmersion.php" />
-        <option value="$PROJECT_DIR$/celestun.php" />
-        <option value="$PROJECT_DIR$/cenotes_cuzama.php" />
-        <option value="$PROJECT_DIR$/mayapan_grutas_esnorquel.php" />
-        <option value="$PROJECT_DIR$/mayapan_bicicleta_esnorquel.php" />
-        <option value="$PROJECT_DIR$/rappel_esnorquel_gruta_comida_hacienda.php" />
-        <option value="$PROJECT_DIR$/ruta_puuc_lotun.php" />
-        <option value="$PROJECT_DIR$/vida_maya.php" />
-        <option value="$PROJECT_DIR$/Kayak_xcambo_progreso.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -113,8 +214,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -135,6 +234,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,6 +243,31 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="SvnConfiguration">
@@ -160,7 +286,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19818456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20121029" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -203,27 +329,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tours_medida.php">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.1651707">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/tours_medida.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3207547">
-          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contacto.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16792452">
-          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="51" />
-          <folding />
+        <state vertical-scroll-proportion="-2.1651707">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -232,7 +349,7 @@
         <state vertical-scroll-proportion="0.46655232">
           <caret line="278" column="34" selection-start-line="278" selection-start-column="34" selection-end-line="278" selection-end-column="34" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
             <marker date="1466547019971" expanded="true" signature="6376:6405" placeholder="..." />
             <marker date="1466547019971" expanded="true" signature="8181:8210" placeholder="..." />
             <marker date="1466547019971" expanded="true" signature="9864:9893" placeholder="..." />
@@ -244,19 +361,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/includs/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.87432677">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includs/form_contacto.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.513465">
           <caret line="27" column="157" selection-start-line="27" selection-start-column="151" selection-end-line="27" selection-end-column="157" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -264,15 +372,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3913824">
           <caret line="27" column="158" selection-start-line="27" selection-start-column="158" selection-end-line="27" selection-end-column="158" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includs/form_footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49371633">
-          <caret line="29" column="147" selection-start-line="29" selection-start-column="147" selection-end-line="29" selection-end-column="147" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -280,7 +379,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -288,7 +386,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38958707">
           <caret line="19" column="162" selection-start-line="19" selection-start-column="162" selection-end-line="19" selection-end-column="162" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -296,7 +393,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40933573">
           <caret line="22" column="160" selection-start-line="22" selection-start-column="160" selection-end-line="22" selection-end-column="160" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -304,7 +400,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38958707">
           <caret line="22" column="159" selection-start-line="22" selection-start-column="159" selection-end-line="22" selection-end-column="159" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -312,182 +407,271 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.50987434">
           <caret line="19" column="163" selection-start-line="19" selection-start-column="163" selection-end-line="19" selection-end-column="163" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chichen_paseo.php">
+    <entry file="file://$PROJECT_DIR$/querido_viajero.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.109433964">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chichen_cancun.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47924528">
-          <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chichen_playa_carmen.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34042552">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uxmal_comida.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6698113">
-          <caret line="47" column="47" selection-start-line="47" selection-start-column="47" selection-end-line="47" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uxmal_paseo_kabah.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24339622">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/uxmal_luz_sonido.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43962264">
-          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/esnorquel_cenotes_hacienda.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12075472">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/izamal_dia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5924528">
-          <caret line="47" column="2" selection-start-line="47" selection-start-column="2" selection-end-line="47" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hacienda_sotuta_peon.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31320754">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/buceo_cenote_una_inmersion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50377357">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="52" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.1754717">
+          <caret line="48" column="144" selection-start-line="48" selection-start-column="144" selection-end-line="48" selection-end-column="144" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buceo_cenote_dos_inmersion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.094339624">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.6509434">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buceo_cenote_una_inmersion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7641509">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/buceo_cueva_una_inmersion.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4">
-          <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+        <state vertical-scroll-proportion="0.6735849">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/celestun.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23207547">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.76981133">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cenotes_cuzama.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4490566">
-          <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+        <state vertical-scroll-proportion="0.48867926">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mayapan_grutas_esnorquel.php">
+    <entry file="file://$PROJECT_DIR$/circuitos.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30754718">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        <state vertical-scroll-proportion="-1.6660682">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mayapan_bicicleta_esnorquel.php">
+    <entry file="file://$PROJECT_DIR$/contacto.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63584906">
-          <caret line="47" column="59" selection-start-line="47" selection-start-column="59" selection-end-line="47" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.17594256">
+          <caret line="65" column="9" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rappel_esnorquel_gruta_comida_hacienda.php">
+    <entry file="file://$PROJECT_DIR$/hacienda_sotuta_peon.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19433962">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.73773587">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ruta_puuc_lotun.php">
+    <entry file="file://$PROJECT_DIR$/esnorquel_cenotes_hacienda.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48679245">
-          <caret line="47" column="57" selection-start-line="47" selection-start-column="57" selection-end-line="47" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vida_maya.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33962265">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.87169814">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Kayak_xcambo_progreso.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46981132">
-          <caret line="47" column="63" selection-start-line="47" selection-start-column="63" selection-end-line="47" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.53962266">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chichen_cenote.php">
+    <entry file="file://$PROJECT_DIR$/mayapan_bicicleta_esnorquel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5471698">
-          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="52" selection-end-column="22" />
+        <state vertical-scroll-proportion="0.4811321">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mayapan_grutas_esnorquel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rappel_esnorquel_gruta_comida_hacienda.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9358491">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ruta_puuc_lotun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9358491">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vida_maya.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5207547">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5849057">
-          <caret line="2239" column="0" selection-start-line="2239" selection-start-column="0" selection-end-line="2244" selection-end-column="1" />
+        <state vertical-scroll-proportion="-4.3773584">
+          <caret line="2155" column="0" selection-start-line="2155" selection-start-column="0" selection-end-line="2161" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includs/form_footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6337522">
+          <caret line="37" column="125" selection-start-line="37" selection-start-column="125" selection-end-line="37" selection-end-column="125" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includs/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48679245">
+          <caret line="84" column="107" selection-start-line="84" selection-start-column="107" selection-end-line="84" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/izamal_dia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5264151">
+          <caret line="58" column="10" selection-start-line="58" selection-start-column="10" selection-end-line="58" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.032075472">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includs/session.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chichen_paseo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9358491">
+          <caret line="99" column="196" selection-start-line="99" selection-start-column="196" selection-end-line="99" selection-end-column="196" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includs/menu.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="109" />
+          <folding>
+            <marker date="1466630239588" expanded="true" signature="2902:4224" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="3089:4194" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="4815:6043" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="5003:6013" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="6449:7479" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="6640:7449" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="8491:26068" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="8554:11837" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="8770:11807" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="11901:16159" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="12119:16129" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="16223:19562" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="16414:19532" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="19626:20064" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="19813:20034" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="20128:22304" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="20321:22274" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="22368:23498" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="22557:23468" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="23562:24671" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="23750:23834" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="23750:24641" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="24735:26042" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="24923:25007" placeholder="..." />
+            <marker date="1466630239588" expanded="true" signature="24923:26012" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chichen_cancun.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3716981">
+          <caret line="143" column="20" selection-start-line="143" selection-start-column="20" selection-end-line="143" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chichen_playa_carmen.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3264151">
+          <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uxmal_comida.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.85471696">
+          <caret line="162" column="121" selection-start-line="162" selection-start-column="121" selection-end-line="162" selection-end-column="121" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uxmal_paseo_kabah.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5188679">
+          <caret line="144" column="20" selection-start-line="144" selection-start-column="20" selection-end-line="144" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chichen_cenote.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.4339623">
+          <caret line="60" column="12" selection-start-line="60" selection-start-column="12" selection-end-line="60" selection-end-column="94" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uxmal_luz_sonido.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9802514">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
           <folding />
         </state>
       </provider>

@@ -423,6 +423,11 @@ a:hover, a:focus {
 	margin-bottom: 20px;
 }
 
+.img-eventos{
+	float:right;
+	margin: 0px 0px 0px 10px
+}
+
 #caracteristicas{
 	margin-right: 0px;
 	margin-left: -15px;
@@ -910,6 +915,13 @@ a:hover, a:focus {
 
 	
 /** FORM FOOTER **/
+.img-hotel{
+	position: absolute;
+	left: 0;
+	margin-top: 15px;
+	z-index: 2;
+}
+
 ::-webkit-input-placeholder {
   color: #053719;
   opacity: 1;
@@ -1633,12 +1645,33 @@ body {
 
 
 /*Form footer*/
+
+.img-hotel {
+	position: absolute;
+	left: 0;
+	margin-top: 116px;
+	z-index: 2;
+	width: 130px;
+}
+
+.img-logo-footer {
+	padding-top: 21px;
+	margin-bottom: 10px;}
+
+.dir-footer {
+	font-size: 13px;
+	text-align: center;
+	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
 .bg-form {
     background: rgba(3, 53, 16, 0.7);
     padding: 20px;
     margin-right: 0px;
     margin-left: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .columna1 {
@@ -2120,6 +2153,14 @@ body {
 }
 
 /*FOOTER*/
+.img-hotel {
+	position: absolute;
+	left: 0;
+	margin-top: 15px;
+	z-index: 2;
+	width: 140px;
+}
+
 .telefonos {
     margin-top: -25px;
     margin-left: 36px;
@@ -2493,7 +2534,7 @@ padding-top: 20px;
     padding-bottom: 15px;
 }
 .bg-form-interiores360{
-	padding-bottom: 50px;
+	padding-bottom: 0px;
 }
 
 .fom-interiores360{
@@ -2635,6 +2676,19 @@ padding-top: 20px;
 /*Form footer*/
 .bg-footer {
     background: #0a5e2a;
+}
+
+.img-hotel{
+	position: absolute;
+	left: 0;
+	margin-top: 125px;
+	z-index: 2;
+	width: 95px;
+}
+
+.img-logo-footer {
+	padding-top: 0px;
+	margin-bottom: 20px;
 }
 
 .img-correo{

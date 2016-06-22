@@ -1,5 +1,11 @@
 <?php
-$titulo="Chichen Itzá | Cenote y comida con opción de hacer rappel y tirolesa";
+include('includs/session.php');
+
+if($_SESSION['lang']=='en') {
+  $titulo="Chichen Itzá | Cenote & lunch with option to rappel and zip line";
+}else{
+  $titulo="Chichen Itzá | Cenote y comida con opción de hacer rappel y tirolesa";
+}
 
 $protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') === FALSE ? 'http' : 'https';
 $host     = $_SERVER['HTTP_HOST'];
@@ -48,91 +54,186 @@ Henequén, Sisal, Truck, Vida Maya">
   <img src="images/banner_interiores360px/chichen-itza.jpg" class="banner-interiores">
 </section>
 
-<!--formulario movil-->
-<?php include('formulario_interiores_movil.php') ?>
-<!--------end-------->
-
 <section class="bg-titulo">
   <div class="container">
     <div class="row">
       <div id="titulo-interiores">
-        <h1>Chichen Itzá <span class="linea-interior">|</span> <span class="subinteriores">Cenote y comida con opción de hacer rappel y tirolesa</span></h1>
+        <h1><?php if($_SESSION['lang']=='en'){echo'Chichen Itzá';}else{echo'Chichen Itzá';} ?> <span class="linea-interior">|</span> <span class="subinteriores"><?php if($_SESSION['lang']=='en'){echo'Cenote & lunch with option to rappel and zip line';}else{echo'Cenote y comida con opción de hacer rappel y tirolesa';} ?></span></h1>
       </div>
     </div>
   </div>
 </section>
+
+<!--formulario movil-->
+<?php include('formulario_interiores_movil.php') ?>
+<!--------end-------->
+
 <section class="bg-interiores">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
-        <div id="info-general">
-          <h1>INFORMACIÓN GENERAL</h1>
-          <p>
-            Una de las principales representantes de la cultura Maya, es considerada la urbe más famosa de esta civilización que hoy en día permanece para asombrar a sus visitantes.
-          </p>
-          <p>
-            Con un nombre que significa “Boca del pozo de los Itzaes”, Chichen Itzá sobresalió como uno de los asentamientos más extensos del centro-norte de la Península de Yucatán. Durante su época de esplendor concentró la actividad económica, cultural, política y social de toda la zona maya. Hacia finales del siglo X, la ciudad fue invadida por una tribu guerrera, los toltecas, ocasionando una inesperada mezcla cultural; sin embargo, unos años más tarde, fue abandonada por razones desconocidas.
-          </p>
-          <p>
-            Entre los edificios representativos podemos admirar El Templo de los Guerreros, El Grupo de las Mil Columnas, La Plataforma de Venus, el Tzompantli, El Juego de Pelota, El Observatorio o Caracol y la Iglesia. Mención aparte recibe la espectacular Pirámide de Kukulcán, de abrumadora grandeza, un símbolo del legado Maya. Con una estructura de 30 metros de altura y cuatro lados, se encuentra coronada con un templo en la cima; en el interior se encuentra la escultura del Chac Mool y un trono en forma de jaguar, pintado de color rojo.
-          </p> 
-          <p>
-            Según la creencia popular, la Pirámide de Kukulcán es la representación del Calendario Maya: cada escalón equivale a un día del año y debido a que cada lado tiene 91 escalones, al multiplicarse por los cuatro lados, da un total de 364 más uno que representa la plataforma, sumando así los 365 días del año solar. También es notable su carácter mágico-astronómico, puesto que podemos observar el descenso de “Kukulcán o la Serpiente Emplumada” durante el equinoccio de primavera o de otoño, un extraordinario fenómeno de luz y sombra que marca el inicio de las estaciones. 
-          </p>
-          <p>
-            Otro de los atractivos es El Cenote Sagrado, punto de ceremonias religiosas en honor a Chaac, el dios del agua. Con ofrendas ceremoniales, como objetos preciosos de oro, jade y cobre al igual que sacrificios humanos, los mayas obtenían la simpatía y protección por parte de él.
-          </p>
-          <p>
-            La legendaria ciudad maya, declarada “Patrimonio de la Humanidad” por la UNESCO desde 1988 y “Maravilla del Mundo” desde 2007, está localizada al oriente de Yucatán, a 120 kilómetros de Mérida y se accede a ella por la autopista a Cancún. Cuenta con un parador turístico con diversos servicios además de un museo.
-          </p>
-          <p>
-            La zona arqueológica de Chichen Itzá puede ser visitada todos los días en horario de 8:00 a.m. hasta las 5:00 p.m. y por las noches ofrece un espectáculo de luz y sonido, donde resurge su esplendor y grandeza.
-          </p>
-
-        </div>
-        <hr class="hr-interiores">
-        <div class="col-xs-12 col-sm-6 col-md-6">
-          <div id="caracteristicas">
-            <h1>CARACTERÍSTICAS DEL TOUR</h1>
+        <?php
+        if($_SESSION['lang']=='en')
+        {
+        ?>
+          <div id="info-general">
+            <h1>INFORMACIÓN GENERAL</h1>
             <p>
-              Chichen Itzá es una de las zonas arqueológicas más grandes y ricas en monumentos de la República Mexicana.  Desde 1988 es Patrimonio de la Humanidad y hoy se levanta orgullosa por ser designada como una de las Siete Maravillas del Mundo Moderno.
+              Chichen Itzá or “Mouth of the Well Itzaes” is one of the most famous and controversial metropolis still standing in the Mayan world. Once a prominent cultural and political center of the old Maya civilization, it was one of the most extensive settlements during the end of the tenth century when the city was invaded by a predominantly warlike tribe, the Toltecs. This invasion infused the culture with a new series of elements, not least of which is the representation of the snake god Kukulcan. However, years later the city was abandoned for reasons which are still unknown.
             </p>
             <p>
-              Después de visitar la zona arqueológica de Chichén Itzá, te llevamos a un cenote de tipo abierto en donde tendrás la oportunidad de hacer rappel, tirolesa, esnórquel o simplemente conocerlo y tirarte en una hamaca después de una rica comida tradicional del sureste mexicano.
+              During its golden age, Chichen Itza was the most powerful city in the Peninsula of Yucatan. Among its most remarkable buildings is the Temple of Warriors, the group of Thousands of Columns, the Platform of Venus, the Tzompantli, the Ball Court, the Snail or Observatory in the Church.
             </p>
             <p>
-              No importa el nivel de experiencia que tengas en actividades al aire libre, pero si te gustan los retos y las actividades extremas, ¡puedes hacerlo!, ponte un reto y véncelo con la asistencia de nuestros guías especializados que te acompañarán y asesorarán haciendo del reto toda una experiencia para recordar.
-            </p>
-            <br>
-            <p>
-              <span>Incluye:</span><br>
-              <ul class="listas">
-              <li>Salida desde su respectivo hotel a las 9:00 a.m.</li>
-              <li>Transportación con aire acondicionado</li>
-              <li>Guía certificado que entra con ustedes  a la zona arqueológica</li>
-              <li>Visita a un impresionante cenote</li>
-              <li>Equipo de esnórquel</li>
-              <li>Opción de hacer rappel o tirolesa</li>
-              <li>Comida</li>
-              <li>Entrada al Cenote</li>
-              <li>Regreso a tu hotel  a las 5:00 p.m.</li>
-              </ul>
+              The spectacular Pyramid of Kukulcan in Chichen Itzá is breathtaking as it towers above its visitors. It is a four-sided pyramid, 30 meters high and crowned with a temple. The Pyramid actually has two distinct structures, each correspond to a different era. The oldest is completely covered by the most recent. Inside lies the sculpture of a “Chac Mool” and a throne in the form of a red painted jaguar. It is believed that this pyramid represents the Mayan calendar: each step is one day of the year. There are 91 steps on each of the four sides, plus the one represented by the platform, a total of 365 days, the solar year to the day, giving rise to the belief that the monument was erected to honor the god of the sun.
             </p>
             <p>
-              <span>No incluye:</span><br>
-              • Entrada a la zona arqueológica<br>
-              • Bebidas<br>
-              • Propinas
+              The astronomical meaning of this building is obvious in Chichen Itza. It is here that the “Feathered Serpent” descends punctually every equinox, in a light and shadow phenomenon that attracts thousands of visitors annually from all over the globe.
             </p>
             <p>
-              <span>Recomendaciones:</span><br>
-              Llevar sombrero o gorra, ropa cómoda, traje de baño, cámara fotográfica, repelente de insectos y protector solar biodegradable.
+              The sacred cenote of Chichen Itza was the heart of religious activities not only for the city itself, but for the entire Mayan region. As part of their reverence to the god of water, the Maya threw in ceremonial offerings consisting mainly of precious objects. Stuffs of gold, jade, copper, cloth and basketwork have been retrieved from its murky depths. So great was the city’s power that for centuries after its declines it was occupied sporadically for religious ceremonies before being forgotten and left to be swallowed by the jungle.
+            </p>
+            <p>
+              And so the centuries passed until the arrival of the explorers, ancient relics promised. From among the trees and undergrowth, new discoveries continue to be made.
+            </p>
+            <p>
+              Chichen Itza is a marvelous, magical place to penetrate the intriguing, imposing an unforgettable world of the Maya, and to experience a firsthand view of this extraordinary culture.
             </p>
           </div>
+        <?php
+        }else{
+        ?>
+          <div id="info-general">
+            <h1>INFORMACIÓN GENERAL</h1>
+            <p>
+              Una de las principales representantes de la cultura Maya, es considerada la urbe más famosa de esta civilización que hoy en día permanece para asombrar a sus visitantes.
+            </p>
+            <p>
+              Con un nombre que significa “Boca del pozo de los Itzaes”, Chichen Itzá sobresalió como uno de los asentamientos más extensos del centro-norte de la Península de Yucatán. Durante su época de esplendor concentró la actividad económica, cultural, política y social de toda la zona maya. Hacia finales del siglo X, la ciudad fue invadida por una tribu guerrera, los toltecas, ocasionando una inesperada mezcla cultural; sin embargo, unos años más tarde, fue abandonada por razones desconocidas.
+            </p>
+            <p>
+              Entre los edificios representativos podemos admirar El Templo de los Guerreros, El Grupo de las Mil Columnas, La Plataforma de Venus, el Tzompantli, El Juego de Pelota, El Observatorio o Caracol y la Iglesia. Mención aparte recibe la espectacular Pirámide de Kukulcán, de abrumadora grandeza, un símbolo del legado Maya. Con una estructura de 30 metros de altura y cuatro lados, se encuentra coronada con un templo en la cima; en el interior se encuentra la escultura del Chac Mool y un trono en forma de jaguar, pintado de color rojo.
+            </p>
+            <p>
+              Según la creencia popular, la Pirámide de Kukulcán es la representación del Calendario Maya: cada escalón equivale a un día del año y debido a que cada lado tiene 91 escalones, al multiplicarse por los cuatro lados, da un total de 364 más uno que representa la plataforma, sumando así los 365 días del año solar. También es notable su carácter mágico-astronómico, puesto que podemos observar el descenso de “Kukulcán o la Serpiente Emplumada” durante el equinoccio de primavera o de otoño, un extraordinario fenómeno de luz y sombra que marca el inicio de las estaciones.
+            </p>
+            <p>
+              Otro de los atractivos es El Cenote Sagrado, punto de ceremonias religiosas en honor a Chaac, el dios del agua. Con ofrendas ceremoniales, como objetos preciosos de oro, jade y cobre al igual que sacrificios humanos, los mayas obtenían la simpatía y protección por parte de él.
+            </p>
+            <p>
+              La legendaria ciudad maya, declarada “Patrimonio de la Humanidad” por la UNESCO desde 1988 y “Maravilla del Mundo” desde 2007, está localizada al oriente de Yucatán, a 120 kilómetros de Mérida y se accede a ella por la autopista a Cancún. Cuenta con un parador turístico con diversos servicios además de un museo.
+            </p>
+            <p>
+              La zona arqueológica de Chichen Itzá puede ser visitada todos los días en horario de 8:00 a.m. hasta las 5:00 p.m. y por las noches ofrece un espectáculo de luz y sonido, donde resurge su esplendor y grandeza.
+            </p>
+          </div>
+        <?php
+        }
+        ?>
+        <hr class="hr-interiores">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <?php
+          if($_SESSION['lang']=='en')
+          {
+            ?>
+            <div id="caracteristicas">
+              <h1>CARACTERÍSTICAS DEL TOUR</h1>
+              <p>
+                Chichen Itzá is one of the largest and richest monuments of Mexico’s archaeological sites. It became a World Heritage Site in 1988 and today stands proud to be named one of the Seven Wonders of the Modern World.
+              </p>
+              <p>
+                Later we take you to a beautiful open type cenote where you will have the opportunity to rappel, zip line, snorkel or just relax in a hammock after a delicious traditional meal from southeast Mexico.
+              </p>
+              <p>
+                No matter what level of experience you have in outdoor activities, you can do this fun challenge with the assistance of our guides that will accompany and advise you all the way, giving you a safe and memorable experience that will last for years to come.
+              </p>
+              <br>
+              <p>
+                <span>Included:</span><br>
+              <ul class="listas">
+                <li>Departure from your hotel at 9:00 h</li>
+                <li>Transportation with A/C </li>
+                <li>Certified guide that goes with you to the archaeological site</li>
+                <li>Visit an impressive cenote </li>
+                <li>Option to do rappel and zip line</li>
+                <li>Snorkel equipment and life jacket</li>
+                <li>Lunch</li>
+                <li>Entrance fee to the cenote</li>
+                <li>Return to your hotel at 17:00 h</li>
+              </ul>
+              </p>
+              <p>
+                <span>Not included:</span><br>
+                • Entrance to the archaeological site<br>
+                • Beverages<br>
+                • Tips
+              </p>
+              <p>
+                <span>Recommendations:</span><br>
+                Bring hat or cap, comfortable clothes, camera, bathing suit, towel, and biodegradable sun block and repellent.
+              </p>
+              <p>
+                <span>Note:</span><br>
+                Departs: Monday and Thursday
+              </p>
+            </div>
+            <?php
+          }else{
+            ?>
+            <div id="caracteristicas">
+              <h1>CARACTERÍSTICAS DEL TOUR</h1>
+              <p>
+                Chichen Itzá es una de las zonas arqueológicas más grandes y ricas en monumentos de la República Mexicana.  Desde 1988 es Patrimonio de la Humanidad y hoy se levanta orgullosa por ser designada como una de las Siete Maravillas del Mundo Moderno.
+              </p>
+              <p>
+                Después de visitar la zona arqueológica de Chichén Itzá, te llevamos a un cenote de tipo abierto en donde tendrás la oportunidad de hacer rappel, tirolesa, esnórquel o simplemente conocerlo y tirarte en una hamaca después de una rica comida tradicional del sureste mexicano.
+              </p>
+              <p>
+                No importa el nivel de experiencia que tengas en actividades al aire libre, pero si te gustan los retos y las actividades extremas, ¡puedes hacerlo!, ponte un reto y véncelo con la asistencia de nuestros guías especializados que te acompañarán y asesorarán haciendo del reto toda una experiencia para recordar.
+              </p>
+              <br>
+              <p>
+                <span>Incluye:</span><br>
+              <ul class="listas">
+                <li>Salida desde su respectivo hotel a las 9:00 a.m.</li>
+                <li>Transportación con aire acondicionado</li>
+                <li>Guía certificado que entra con ustedes  a la zona arqueológica</li>
+                <li>Visita a un impresionante cenote</li>
+                <li>Equipo de esnórquel</li>
+                <li>Opción de hacer rappel o tirolesa</li>
+                <li>Comida</li>
+                <li>Entrada al Cenote</li>
+                <li>Regreso a tu hotel  a las 5:00 p.m.</li>
+              </ul>
+              </p>
+              <p>
+                <span>No incluye:</span><br>
+                • Entrada a la zona arqueológica<br>
+                • Bebidas<br>
+                • Propinas
+              </p>
+              <p>
+                <span>Recomendaciones:</span><br>
+                Llevar sombrero o gorra, ropa cómoda, traje de baño, cámara fotográfica, repelente de insectos y protector solar biodegradable.
+              </p>
+            </div>
+            <?php
+          }
+          ?>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
           <div class="row" id="actividades">
             <div class="col-xs-4 col-sm-2 col-md-2">
+              <?php
+              if($_SESSION['lang']=='en')
+              {
+                ?>
+                <?php
+              }else{
+                ?>
+                <?php
+              }
+              ?>
               <p class="txt-activides">Actividades<br>disponibles</p>
             </div>
             <div class="col-xs-4 col-sm-2 col-md-2">
@@ -150,6 +251,16 @@ Henequén, Sisal, Truck, Vida Maya">
           </div>
           <div>
             <img src="images/thumbnail_interiores/01_chichen.jpg" class="img-responsive img-foto-interior center-block">
+            <?php
+            if($_SESSION['lang']=='en')
+            {
+              ?>
+              <?php
+            }else{
+              ?>
+              <?php
+            }
+            ?>
             <div class="bg-salidas1">
               <div id="bg-salidas2">
                 <img src="images/combi.png" class="img-combi">

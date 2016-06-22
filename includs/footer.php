@@ -1,15 +1,21 @@
 <section class="bg-footer">
+  <a href="http://www.hoteldelperegrino.com/reservaciones_hotel_del_peregrino_merida_yucatan_mexico.php" target="_blank"><img src="images/logo-hotel.png" class="img-hotel"></a>
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
         <div class="col-xs-12 col-sm-6 col-md-6">
           <img src="images/logo-footer.png" class="img-responsive center-block img-logo-footer">
-          <div class="col-xs-12 col-sm-12 col-md-7">
+          <div class="col-xs-12 hidden-xs col-sm-12 hidden-sm col-md-1">
+            &nbsp;
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3">
             <div class="row">
-              <img src="images/tel.png" class="img-responsive center-block">
-              <div class="telefonos">
-                <a href="tel:9999873710">(999)987-3710</a> <span>| Móvil:</span> <a href="tel:9991054614">(999)105-4614</a>
-              </div>
+              <a href="tel:9999873710"><img src="images/telefono.png" class="img-responsive img-correo center-block"> </a>
+            </div>
+          </div>
+          <div class="col-xs-12 col-sm-12 col-md-3">
+            <div class="row">
+              <a href="tel:9991054614"><img src="images/whatsapp.png" class="img-responsive img-correo center-block"> </a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-5">
@@ -19,11 +25,25 @@
           </div>
           <div class="col-xs-12 col-sm-12 col-md-8">
             <div class="row">
-              <p class="dir-footer">
-              C. 51 No. 488 por 54 y 56, Centro. Mérida, Yucatán.<br>
-              • Tours de Cenotes en Yucatán   • Ecoturismo en México<br> 
-              • Tours de Ecoturismo en Yucatán 
-              </p>
+              <?php
+              if($_SESSION['lang']=='en'){
+              ?>
+                <p class="dir-footer">
+                  C. 51 No. 488 by 54 and 56, Centro. Mérida, Yucatán<br>
+                  • Cenotes in Yucatan • Ecotourism in México<br>
+                  • Yucatan travel agency
+                </p>
+              <?php
+              }else{
+              ?>
+                <p class="dir-footer">
+                  C. 51 No. 488 por 54 y 56, Centro. Mérida, Yucatán.<br>
+                  • Tours de Cenotes en Yucatán   • Ecoturismo en México<br>
+                  • Tours de Ecoturismo en Yucatán
+                </p>
+              <?php
+              }
+              ?>
             </div>
             <div class="col-xs-2 col-sm-2 col-md-2">
               <div class="row">
@@ -58,9 +78,21 @@
           </div>
           <div class="col-xs-12 col-sm-12 col-md-4">
             <div class="row">
-              <div class="img-tripadvisor">
-                <div id="TA_certificateOfExcellence440" class="TA_certificateOfExcellence" align="center"><ul id="Ic3LbM" class="TA_links b8qSZ6kHbPe"><li id="zyiux8KV" class="YcAYlpWYTxZI"><a target="_blank" href="https://www.tripadvisor.com.mx/Attraction_Review-g150811-d1526385-Reviews-Mayan_Ecotours-Merida_Yucatan_Peninsula.html"><img src="https://www.tripadvisor.com.mx/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a></li></ul></div><script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&uniq=440&locationId=1526385&lang=es_MX&year=2016&display_version=2"></script>
-              </div>
+              <?php
+              if($_SESSION['lang']=='en'){
+                ?>
+                <div class="img-tripadvisor">
+                  <div id="TA_certificateOfExcellence130" class="TA_certificateOfExcellence" align="center"><ul id="EylQTWM3Q3" class="TA_links QK5EUz"><li id="Rv6dwXaffuI" class="UK0ZiWNS"><a target="_blank" href="https://www.tripadvisor.com/Attraction_Review-g150811-d1526385-Reviews-Mayan_Ecotours-Merida_Yucatan_Peninsula.html"><img src="https://www.tripadvisor.com/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a></li></ul></div><script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&uniq=130&locationId=1526385&lang=en_US&year=2016&display_version=2"></script>
+                </div>
+                <?php
+              }else{
+                ?>
+                <div class="img-tripadvisor">
+                  <div id="TA_certificateOfExcellence440" class="TA_certificateOfExcellence" align="center"><ul id="Ic3LbM" class="TA_links b8qSZ6kHbPe"><li id="zyiux8KV" class="YcAYlpWYTxZI"><a target="_blank" href="https://www.tripadvisor.com.mx/Attraction_Review-g150811-d1526385-Reviews-Mayan_Ecotours-Merida_Yucatan_Peninsula.html"><img src="https://www.tripadvisor.com.mx/img/cdsi/img2/awards/CoE2016_WidgetAsset-14348-2.png" alt="TripAdvisor" class="widCOEImg" id="CDSWIDCOELOGO"/></a></li></ul></div><script src="https://www.jscache.com/wejs?wtype=certificateOfExcellence&uniq=440&locationId=1526385&lang=es_MX&year=2016&display_version=2"></script>
+                </div>
+                <?php
+              }
+              ?>
             </div>
           </div>
         </div>

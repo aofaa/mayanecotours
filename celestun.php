@@ -48,10 +48,6 @@ Henequén, Sisal, Truck, Vida Maya">
   <img src="images/banner_interiores360px/celestun.jpg" class="banner-interiores">
 </section>
 
-<!--formulario movil-->
-<?php include('formulario_interiores_movil.php') ?>
-<!--------end-------->
-
 <section class="bg-titulo">
   <div class="container">
     <div class="row">
@@ -61,6 +57,11 @@ Henequén, Sisal, Truck, Vida Maya">
     </div>
   </div>
 </section>
+
+<!--formulario movil-->
+<?php include('formulario_interiores_movil.php') ?>
+<!--------end-------->
+
 <section class="bg-interiores">
   <div class="container">
     <div class="row">
