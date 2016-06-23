@@ -1,5 +1,11 @@
 <?php
-$titulo="Mayapán | Bicicleta y esnórquel en cenote";
+include('includs/session.php');
+
+if($_SESSION['lang']=='en') {
+  $titulo="Mayapan | Biking & snorkeling in cenote";
+}else{
+  $titulo="Mayapán | Bicicleta y esnórquel en cenote";
+}
 
 $protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') === FALSE ? 'http' : 'https';
 $host     = $_SERVER['HTTP_HOST'];
@@ -52,7 +58,7 @@ Henequén, Sisal, Truck, Vida Maya">
   <div class="container">
     <div class="row">
       <div id="titulo-interiores">
-        <h1>Mayapán <span class="linea-interior">|</span> <span class="subinteriores">Bicicleta y esnórquel en cenote</span></h1>
+        <h1><?php if($_SESSION['lang']=='en'){echo'Mayapan ';}else{echo'Mayapán';} ?> <span class="linea-interior">|</span> <span class="subinteriores"><?php if($_SESSION['lang']=='en'){echo'Biking & snorkeling in cenote';}else{echo'Bicicleta y esnórquel en cenote';} ?></span></h1>
       </div>
     </div>
   </div>
@@ -66,53 +72,119 @@ Henequén, Sisal, Truck, Vida Maya">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
-        <div id="info-general">
-          <h1>INFORMACIÓN GENERAL</h1>
-          <p>
-            Conocida como “Bandera de los Mayas”, la ciudad amurallada de Mayapán es considerada la última gran capital maya, pertenece al periodo posclásico tardío, y pese a no contar con grandes construcciones, se han descubierto más de cuatro mil estructuras arquitectónicas en su territorio.
-          </p>
-          <p>
-            En el centro fueron levantados sus templos, siendo el principal una réplica del Castillo de Chichén Itzá pero en menor dimensión, al cual se le nombró Kukulcán. Aquí también se pueden observar edificios cívicos, administrativos y religiosos, así como las residencias de la clase gobernante. Los edificios redondos conocidos como observatorios y los pequeños santuarios son muy representativos de esta ciudad. 
-          </p>
-          <p>
-            Abierta al público todos los días en horario de 8:00 a.m. a 3:00 p.m., Mayapán se localiza en el kilómetro 45 de la carretera Mérida-Acanceh, en la misma dirección de la llamada “Ruta de los Conventos”.
-          </p>
-        </div>
-        <hr class="hr-interiores">
-        <div class="col-xs-12 col-sm-6 col-md-6">
-          <div id="caracteristicas">
-            <h1>CARACTERÍSTICAS DEL TOUR</h1>
+        <?php
+        if($_SESSION['lang']=='en')
+        {
+          ?>
+          <div id="info-general">
+            <h1>GENERAL INFORMATION</h1>
             <p>
-              <span>Incluye:</span><br>
-              <ul class="listas">
-                  <li>Salida de su hotel a las 9:00 a.m.</li>
-                  <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
-                  <li>Guía especializado durante actividades y recorrido</li>
-                  <li>Entrada al cenote</li>
-                  <li>Equipo de esnórquel </li>
-                  <li>Regreso a su hotel a las 5:00 p.m.</li>
-              </ul>
+              Known as “Flag of the Mayas”, the walled city of Mayapan is considered to be the last great Mayan capital, and although it is not a place that has had great construction works, more than four thousand architectonic structures have been discovered in it.
             </p>
             <p>
-              <span>No incluye:</span><br>
-              • Entrada a la zona arqueológica<br>
-              • Comida<br>
-              • Propinas
+              In its center temples were raised, among these the biggest was a replica the Castle of Chichen Itzá but in smaller dimensions, and it was named Kukulcan. Here also civic, administrative and religious buildings can be observed, as well as the residences of the ruling class. The round buildings known as observatories and the small sanctuaries are very representative of this city.
             </p>
             <p>
-              <span>Recomendaciones:</span><br>
-              Llevar sombrero o gorra, ropa cómoda, traje de baño, cámara fotográfica, repelente de insectos y protector solar biodegradable.
+              Open every day from 8am to 3pm, it is located at km 45 of the Merida -Acanceh highway, in the same direction as the route named “Route of the Convents”.
             </p>
             <p>
-              <span>Nota:</span><br>
-              Este tour opera con un mínimo de 4 personas, de cualquier manera contáctenos para conocer disponibilidad.
+              An interesting phenomenon of sunlight and shadows takes place in this site during the winter solstice, identical to the one of Chichen Itzá.
             </p>
           </div>
+          <?php
+        }else{
+          ?>
+          <div id="info-general">
+            <h1>INFORMACIÓN GENERAL</h1>
+            <p>
+              Conocida como “Bandera de los Mayas”, la ciudad amurallada de Mayapán es considerada la última gran capital maya, pertenece al periodo posclásico tardío, y pese a no contar con grandes construcciones, se han descubierto más de cuatro mil estructuras arquitectónicas en su territorio.
+            </p>
+            <p>
+              En el centro fueron levantados sus templos, siendo el principal una réplica del Castillo de Chichén Itzá pero en menor dimensión, al cual se le nombró Kukulcán. Aquí también se pueden observar edificios cívicos, administrativos y religiosos, así como las residencias de la clase gobernante. Los edificios redondos conocidos como observatorios y los pequeños santuarios son muy representativos de esta ciudad.
+            </p>
+            <p>
+              Abierta al público todos los días en horario de 8:00 a.m. a 3:00 p.m., Mayapán se localiza en el kilómetro 45 de la carretera Mérida-Acanceh, en la misma dirección de la llamada “Ruta de los Conventos”.
+            </p>
+          </div>
+          <?php
+        }
+        ?>
+        <hr class="hr-interiores">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <?php
+          if($_SESSION['lang']=='en')
+          {
+            ?>
+            <div id="caracteristicas">
+              <h1>TOUR DETAILS</h1>
+              <p>
+                <span>Included:</span><br>
+              <ul class="listas">
+                <li>Departure from your hotel at 9:00 a.m.</li>
+                <li>Transportation with A/C (bus or van)</li>
+                <li>Certified guide who accompanies you at the archeological site</li>
+                <li>Mountain bikes provided</li>
+                <li>Visit to an impressive cenote</li>
+                <li>Snorkel equipment and life jacket</li>
+                <li>Return to your hotel at 5:00 p.m.</li>
+              </ul>
+              </p>
+              <p>
+                <span>Not included:</span><br>
+                • Entrance to the archaeological site<br>
+                • Lunch<br>
+                • Tips
+              </p>
+              <p>
+                <span>Recommendations:</span><br>
+                Bring hat or cap, comfortable clothes, camera, bathing suit, towel, and biodegradable sun block and repellent.
+              </p>
+              <p>
+                <span>Note:</span><br>
+                This tour operates with minimum 4 people, however contact us for availability.
+              </p>
+            </div>
+            <?php
+          }else{
+            ?>
+            <div id="caracteristicas">
+              <h1>CARACTERÍSTICAS DEL TOUR</h1>
+              <p>
+                <span>Incluye:</span><br>
+              <ul class="listas">
+                <li>Salida de su hotel a las 9:00 a.m.</li>
+                <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
+                <li>Guía especializado durante actividades y recorrido</li>
+                <li>Entrada al cenote</li>
+                <li>Equipo de esnórquel </li>
+                <li>Regreso a su hotel a las 5:00 p.m.</li>
+              </ul>
+              </p>
+              <p>
+                <span>No incluye:</span><br>
+                • Entrada a la zona arqueológica<br>
+                • Comida<br>
+                • Propinas
+              </p>
+              <p>
+                <span>Recomendaciones:</span><br>
+                Llevar sombrero o gorra, ropa cómoda, traje de baño, cámara fotográfica, repelente de insectos y protector solar biodegradable.
+              </p>
+              <p>
+                <span>Nota:</span><br>
+                Este tour opera con un mínimo de 4 personas, de cualquier manera contáctenos para conocer disponibilidad.
+              </p>
+            </div>
+            <?php
+          }
+          ?>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
           <div class="row" id="actividades">
             <div class="col-xs-4 col-sm-2 col-md-2">
-              <p class="txt-activides">Actividades<br>disponibles</p>
+              <?php
+              if($_SESSION['lang']=='en'){echo'<p class="txt-activides">Activities<br>Available</p>';}else{echo'<p class="txt-activides">Actividades<br>disponibles</p>';}
+              ?>
             </div>
             <div class="col-xs-4 col-sm-2 col-md-2">
               <img src="images/actividades/01.jpg" class="img-responsive center-block">
@@ -130,7 +202,18 @@ Henequén, Sisal, Truck, Vida Maya">
           <div>
             <img src="images/thumbnail_interiores/17_mayapan.jpg" class="img-responsive img-foto-interior center-block">
             <div id="bg-video-sin-camioneta">
-              <h1>Salidas: <span>de 9:00 a.m. a 5:00 p.m.</span></h1>
+              <?php
+              if($_SESSION['lang']=='en')
+              {
+                ?>
+                <h1>Departures: <span>9:00 a.m. - 5:00 p.m.</span></h1>
+                <?php
+              }else{
+                ?>
+                <h1>Salidas: <span>de 9:00 a.m. a 5:00 p.m.</span></h1>
+                <?php
+              }
+              ?>
               <?php include('includs/btn_reserva.php'); ?>
             </div>
           </div>

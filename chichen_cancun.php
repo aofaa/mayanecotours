@@ -77,7 +77,7 @@ Henequén, Sisal, Truck, Vida Maya">
         {
           ?>
           <div id="info-general">
-            <h1>INFORMACIÓN GENERAL</h1>
+            <h1>GENERAL INFORMATION</h1>
             <p>
               Chichen Itzá or “Mouth of the Well Itzaes” is one of the most famous and controversial metropolis still standing in the Mayan world. Once a prominent cultural and political center of the old Maya civilization, it was one of the most extensive settlements during the end of the tenth century when the city was invaded by a predominantly warlike tribe, the Toltecs. This invasion infused the culture with a new series of elements, not least of which is the representation of the snake god Kukulcan. However, years later the city was abandoned for reasons which are still unknown.
             </p>
@@ -137,7 +137,7 @@ Henequén, Sisal, Truck, Vida Maya">
           {
             ?>
             <div id="caracteristicas">
-              <h1>CARACTERÍSTICAS DEL TOUR</h1>
+              <h1>TOUR DETAILS</h1>
               <p>
                 <span>Included:</span><br>
               <ul class="listas">
@@ -193,16 +193,8 @@ Henequén, Sisal, Truck, Vida Maya">
           <div class="row" id="actividades">
             <div class="col-xs-4 col-sm-2 col-md-2">
               <?php
-              if($_SESSION['lang']=='en')
-              {
-                ?>
-                <?php
-              }else{
-                ?>
-                <?php
-              }
+              if($_SESSION['lang']=='en'){echo'<p class="txt-activides">Activities<br>Available</p>';}else{echo'<p class="txt-activides">Actividades<br>disponibles</p>';}
               ?>
-              <p class="txt-activides">Actividades<br>disponibles</p>
             </div>
             <div class="col-xs-4 col-sm-2 col-md-2">
               <img src="images/actividades/01.jpg" class="img-responsive center-block">
@@ -214,7 +206,18 @@ Henequén, Sisal, Truck, Vida Maya">
           <div>
             <img src="images/thumbnail_interiores/03_chichen.jpg" class="img-responsive img-foto-interior center-block">
             <div id="bg-video-sin-camioneta">
+              <?php
+              if($_SESSION['lang']=='en')
+              {
+                ?>
+                <h1>Departures: <span>9:00 a.m. a 7:30 p.m.</span></h1>
+                <?php
+              }else{
+                ?>
                 <h1>Salidas: <span>de 9:00 a.m. a 7:30 p.m.</span></h1>
+                <?php
+              }
+              ?>
               <table>
                 <tr>
                   <td><a href="https://www.youtube.com/watch?v=T-7m8WqezDk" target="_blank"><img src="images/video.png" class="img-responsive btn-video"></a></td>

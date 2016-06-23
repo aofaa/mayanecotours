@@ -64,10 +64,29 @@
                             </ul>
                         </li>
 
-                        <li><a href="esnorquel_cenotes_hacienda.php"><?php if($_SESSION['lang']=='en'){echo'Snorkeling & colonial hacienda';}else{echo'Esnórquel en cenote y hacienda';} ?></a></li>
-                        <li><a href="izamal_dia.php"><?php if($_SESSION['lang']=='en'){echo'Day trip to Izamal';}else{echo'Izamal de día';} ?></a></li>
-                        <li><a href="hacienda_sotuta_peon.php"><?php if($_SESSION['lang']=='en'){echo'Hacienda Sotuta de Peon';}else{echo'Hacienda Sotuta de Peón';} ?></a></li>
-
+                        <li><a href="esnorquel_cenotes_hacienda.php"><?php if($_SESSION['lang']=='en'){echo'Snorkeling & colonial hacienda';}else{echo'Esnórquel en cenote y hacienda';} ?><img src="images/estrella.png" class="img-estrella"></a></li>
+                        <li><a href="Kayak_xcambo_progreso.php"><?php if($_SESSION['lang']=='en'){echo'Kayak/ Xcambo/ Progreso';}else{echo'Kayak/ X’cambó/ Progreso';} ?></a></li>
+                        <li><a href="cenotes_cuzama.php"><?php if($_SESSION['lang']=='en'){echo'Cenotes Cuzama';}else{echo'Cenotes Cuzamá';} ?></a></li>
+                        <li><a href="vida_maya.php"><?php if($_SESSION['lang']=='en'){echo'Mayan life';}else{echo'Vida maya';} ?></a></li>
+                        <li><a href="rappel_esnorquel_gruta_comida_hacienda.php"><?php if($_SESSION['lang']=='en'){echo'Rappel/ snorkel/ cave/ lunch in hacienda';}else{echo'Rappel/ esnórquel/ gruta/ comida en hacienda';} ?></a></li>
+                        <li><a href="celestun.php"><?php if($_SESSION['lang']=='en'){echo'Celestun';}else{echo'Celestún';} ?></a></li>
+                        <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php if($_SESSION['lang']=='en'){echo'Mayapan';}else{echo'Mayapán';} ?> </a>
+                            <ul class="dropdown-menu">
+                                <?php
+                                if($_SESSION['lang']=='en'){
+                                    ?>
+                                    <li><a href="mayapan_grutas_esnorquel.php">Caves & snorkeling</a></li>
+                                    <li><a href="mayapan_bicicleta_esnorquel.php">Biking & snorkeling</a></li>
+                                    <?php
+                                }else{
+                                    ?>
+                                    <li><a href="mayapan_grutas_esnorquel.php">Grutas y esnórquel</a></li>
+                                    <li><a href="mayapan_bicicleta_esnorquel.php">Bicicleta y esnórquel</a></li>
+                                    <?php
+                                } ?>
+                            </ul>
+                        </li>
+                        <li><a href="ruta_puuc_lotun.php"><?php if($_SESSION['lang']=='en'){echo'Puuc Route & Loltun';}else{echo'Ruta Puuc y Loltún';} ?></a></li>
                         <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php if($_SESSION['lang']=='en'){echo'Diving';}else{echo'Buceo';} ?> </a>
                             <ul class="dropdown-menu">
                                 <?php
@@ -86,31 +105,8 @@
                                 } ?>
                             </ul>
                         </li>
-
-                        <li><a href="celestun.php"><?php if($_SESSION['lang']=='en'){echo'Celestun';}else{echo'Celestún';} ?></a></li>
-                        <li><a href="cenotes_cuzama.php"><?php if($_SESSION['lang']=='en'){echo'Cenotes Cuzama';}else{echo'Cenotes Cuzamá';} ?> <img src="images/estrella.png" class="img-estrella"></a></li>
-
-                        <li class="dropdown dropdown-submenu"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php if($_SESSION['lang']=='en'){echo'Mayapan';}else{echo'Mayapán';} ?> </a>
-                            <ul class="dropdown-menu">
-                                <?php
-                                if($_SESSION['lang']=='en'){
-                                    ?>
-                                    <li><a href="mayapan_grutas_esnorquel.php">Caves & snorkeling</a></li>
-                                    <li><a href="mayapan_bicicleta_esnorquel.php">Biking & snorkeling</a></li>
-                                    <?php
-                                }else{
-                                    ?>
-                                    <li><a href="mayapan_grutas_esnorquel.php">Grutas y esnórquel</a></li>
-                                    <li><a href="mayapan_bicicleta_esnorquel.php">Bicicleta y esnórquel</a></li>
-                                    <?php
-                                } ?>
-                            </ul>
-                        </li>
-
-                        <li><a href="rappel_esnorquel_gruta_comida_hacienda.php"><?php if($_SESSION['lang']=='en'){echo'Rappel/ snorkel/ cave/ lunch in hacienda';}else{echo'Rappel/ esnórquel/ gruta/ comida en hacienda';} ?></a></li>
-                        <li><a href="ruta_puuc_lotun.php"><?php if($_SESSION['lang']=='en'){echo'Puuc Route & Loltun';}else{echo'Ruta Puuc y Loltún';} ?></a></li>
-                        <li><a href="vida_maya.php"><?php if($_SESSION['lang']=='en'){echo'Mayan life';}else{echo'Vida maya';} ?></a></li>
-                        <li><a href="Kayak_xcambo_progreso.php"><?php if($_SESSION['lang']=='en'){echo'Kayak/ Xcambo/ Progreso';}else{echo'Kayak/ X’cambó/ Progreso';} ?></a></li>
+                        <li><a href="hacienda_sotuta_peon.php"><?php if($_SESSION['lang']=='en'){echo'Hacienda Sotuta de Peon';}else{echo'Hacienda Sotuta de Peón';} ?></a></li>
+                        <li><a href="izamal_dia.php"><?php if($_SESSION['lang']=='en'){echo'Day trip to Izamal';}else{echo'Izamal de día';} ?></a></li>
                     </ul>
                 </li>
                 <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php if($_SESSION['lang']=='en'){echo'Activities';}else{echo'Actividades';} ?> <b class="caret"></b></a>

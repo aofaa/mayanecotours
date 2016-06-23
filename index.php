@@ -51,9 +51,9 @@ Henequén, Sisal, Truck, Vida Maya">
         <div class="demo_block">
             <ul id="banner">
               <li><a href="javascript:void(0);"><img src="images/banner01.jpg" alt="" title="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banner02.jpg" alt="" title="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banner03.jpg" alt="" title="" /></a></li>
-              <li><a href="javascript:void(0);"><img src="images/banner04.jpg" alt="" title="" /></a></li>
+              <li><a href="chichen_cenote.php"><img src="images/banner02.jpg" alt="" title="" /></a></li>
+              <li><a href="uxmal_comida.php"><img src="images/banner03.jpg" alt="" title="" /></a></li>
+              <li><a href="esnorquel_cenotes_hacienda.php"><img src="images/banner04.jpg" alt="" title="" /></a></li>
             </ul>
         </div>
     </div>
@@ -63,15 +63,34 @@ Henequén, Sisal, Truck, Vida Maya">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-4  col-md-6 col-md-offset-6">
-        <div id="maravillas">
-          <h1>¡VEN A CONOCER LAS <br>MARAVILLAS MAYAS!</h1>
-          <p>
-            Con xx años de experiencia, en Mayan Ecotours nos encargamos que tu viaje en solitario, con tu pareja o seres queridos se vuelva una aventura inolvidable, cargada de visitas a sitios de leyenda y con acceso a tantas actividades únicas como desees experimentar.
-          </p>
-          <p>
-            Desde visitas a las famosas pirámides prehispánicas hasta sesiones de buceo en los enigmáticos cenotes y emocionantes recorridos en tirolesa (rappel), nos encargamos de que vivas experiencias inolvidables y extraordinarias.
-          </p>
-        </div>
+        <?php
+        if($_SESSION['lang']=='en')
+        {
+          ?>
+          <div id="maravillas">
+            <h1>COME AND ENJOY THE<br> MAYAN WONDERS!</h1>
+            <p>
+              With xx experience years, in Mayan Ecotours we take charge for your solo travel, or with your partner or family becomes an unforgettable adventure, full of visits to legendary places and facilities to unique activities as you wish.
+            </p>
+            <p>
+              From tours in the worldwide famous Mayan pyramids, diving sessions in magical cenotes and exciting zip line in jungle, we want you to enjoy and live amazing experiences.
+            </p>
+          </div>
+          <?php
+        }else{
+          ?>
+          <div id="maravillas">
+            <h1>¡VEN A CONOCER LAS <br>MARAVILLAS MAYAS!</h1>
+            <p>
+              Con xx años de experiencia, en Mayan Ecotours nos encargamos que tu viaje en solitario, con tu pareja o seres queridos se vuelva una aventura inolvidable, cargada de visitas a sitios de leyenda y con acceso a tantas actividades únicas como desees experimentar.
+            </p>
+            <p>
+              Desde visitas a las famosas pirámides prehispánicas hasta sesiones de buceo en los enigmáticos cenotes y emocionantes recorridos en tirolesa (rappel), nos encargamos de que vivas experiencias inolvidables y extraordinarias.
+            </p>
+          </div>
+          <?php
+        }
+        ?>
       </div>
     </div>
   </div>
@@ -81,7 +100,9 @@ Henequén, Sisal, Truck, Vida Maya">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
         <div id="experiencia">
-          <h1>VIVE LA EXPERIENCIA</h1>
+          <?php
+          if($_SESSION['lang']=='en'){echo'<h1>LIVE THE EXPERIENCE</h1>';}else{echo'<h1>VIVE LA EXPERIENCIA</h1>';}
+          ?>
           <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/zonas.png" class="img-responsive center-block">
             <p>Zonas arqueológicas</p>
@@ -120,12 +141,27 @@ Henequén, Sisal, Truck, Vida Maya">
   </div>
 </section>
 <section id="portfolio"> 
-  <div class="portfolio-wrapper"> 
-    <h1>NUESTROS TOURS ESTRELLA</h1>
-    <p>
-      Conoce a detalle los tours más solicitados por los viajeros. Tres opciones, tres aventuras inolvidables.<br>
-      Da click en el destino de tu interés para conocer lo que ofrece.
-    </p>
+  <div class="portfolio-wrapper">
+    <?php
+    if($_SESSION['lang']=='en')
+    {
+      ?>
+      <h1>OUR FLAGSHIP TOURS</h1>
+      <p>
+        We present the most requested tours for travelers. Three options, three unforgettable adventures.<br>
+        Click and learn more.
+      </p>
+      <?php
+    }else{
+      ?>
+      <h1>NUESTROS TOURS ESTRELLA</h1>
+      <p>
+        Conoce a detalle los tours más solicitados por los viajeros. Tres opciones, tres aventuras inolvidables.<br>
+        Da click en el destino de tu interés para conocer lo que ofrece.
+      </p>
+      <?php
+    }
+    ?>
     <!--======= PORTFOLIO ITEM =========-->
     <div class="portfolio">
       <ul class="items">
@@ -141,7 +177,7 @@ Henequén, Sisal, Truck, Vida Maya">
         <!--======= PORTFOLIO ITEM 2 =========-->
         <li class="item">
           <div class="img"> <img src="images/cuzama.jpg" alt="" >
-            <div class="over"> <a href="cenotes_cuzama.php" class="expand"><img src="images/mas-info.png" class="center-block img-info"></a>
+            <div class="over"> <a href="esnorquel_cenotes_hacienda.php" class="expand"><img src="images/mas-info.png" class="center-block img-info"></a>
             </div>
           </div>
         </li>
@@ -162,16 +198,36 @@ Henequén, Sisal, Truck, Vida Maya">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
         <div class="col-xs-12 col-sm-7 col-md-7">
-          <div id="arma-tour">
-            <h1>ARMA TU TOUR</h1>
-            <p>
-              Si tienes en mente un itinerario en específico te brindamos todas las facilidades y flexibilidad para armar un plan a tu medida. Si aún no lo tienes, nosotros te ayudamos.
-            </p>
-            <p>
-              Contáctanos y te platicaremos todas las opciones que tenemos para ofrecerte las emociones que buscas.
-            </p>
-            <a href="tours_medida.php" class="btn-aventura">¡COMIENZA TU AVENTURA AHORA!</a>
-          </div>
+          <?php
+          if($_SESSION['lang']=='en')
+          {
+            ?>
+            <div id="arma-tour">
+              <h1>CREATE YOUR OWN TOUR</h1>
+              <p>
+                If you have a specific itinerary, we offer facilities and flexibility to build a tour in order to your needs. If you still don´t know, we will help you!
+              </p>
+              <p>
+                Contact us and know all options that we have in Mayan Ecotours.
+              </p>
+              <a href="tours_medida.php" class="btn-aventura">¡COMIENZA TU AVENTURA AHORA!</a>
+            </div>
+            <?php
+          }else{
+            ?>
+            <div id="arma-tour">
+              <h1>ARMA TU TOUR</h1>
+              <p>
+                Si tienes en mente un itinerario en específico te brindamos todas las facilidades y flexibilidad para armar un plan a tu medida. Si aún no lo tienes, nosotros te ayudamos.
+              </p>
+              <p>
+                Contáctanos y te platicaremos todas las opciones que tenemos para ofrecerte las emociones que buscas.
+              </p>
+              <a href="tours_medida.php" class="btn-aventura">¡COMIENZA TU AVENTURA AHORA!</a>
+            </div>
+            <?php
+          }
+          ?>
         </div>
       </div>
     </div>
