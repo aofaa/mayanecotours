@@ -1,5 +1,11 @@
 <?php
-$titulo="Celestún";
+include('includs/session.php');
+
+if($_SESSION['lang']=='en') {
+  $titulo="Celestun";
+}else{
+  $titulo="Celestún";
+}
 
 $protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') === FALSE ? 'http' : 'https';
 $host     = $_SERVER['HTTP_HOST'];
@@ -66,62 +72,133 @@ Henequén, Sisal, Truck, Vida Maya">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
-        <div id="info-general">
-          <h1>INFORMACIÓN GENERAL</h1>
-          <p>
-            Significa en lengua maya “Espanto de piedra”.
-          </p>
-          <p>
-            La Reserva de la Biosfera Ría Celestún fue decretada como tal en el año 2000, con el fin de preservar el frágil ecosistema formado por los esteros hipersalinos, algunas lagunas de baja profundidad y alta concentración en sales que son junto a otras lagunas de la Península, el hogar de la única colonia de flamenco rosado en el hemisferio norte. 
-          </p>
-          <p>
-            Posee un paisaje con gran diversidad de ecosistemas tropicales costeros, que van desde manglares hasta dunas, pasando por varios tipos de selva baja. Como consecuencia, alberga una importante variedad de especies de fauna (alrededor de 600), de las cuales destacan el elevado número de peces y aves, además de ser notable la presencia de especies que únicamente habitan en esa determinada región.
-          </p>
-          <p>
-            Celestún se encuentra a 90 km de la ciudad de Mérida, en la costa poniente del estado de Yucatán.
-          </p>
-        </div>
-        <hr class="hr-interiores">
-        <div class="col-xs-12 col-sm-6 col-md-6">
-          <div id="caracteristicas">
-            <h1>CARACTERÍSTICAS DEL TOUR</h1>
+        <?php
+        if($_SESSION['lang']=='en')
+        {
+          ?>
+          <div id="info-general">
+            <h1>GENERAL INFORMATION</h1>
             <p>
-              Un puerto lleno de color, donde conviven las especies más exóticas de la geografía yucateca, como el flamenco rosa, que ofrece un espectáculo inigualable con sus peculiares vuelos rasantes. 
+              In mayan language means “Espanto de piedra”.
             </p>
             <p>
-              Celestún ofrece al visitante la oportunidad de mitigar el calor en las dulces y frescas aguas que emanan de los ojos de agua, escondidos en los túneles naturales que se forman con las ramas del mangle, y a donde se llega en botes conducidos por los pobladores que ofrecen recorridos amenizados con historias sobre el lugar.
-            </p>
-            <br>
-            <p>
-              <span>Incluye:</span><br>
-              <ul class="listas">
-                  <li>Salida de su hotel a las 9:00 a.m.</li>
-                  <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
-                  <li>Guía certificado durante el recorrido</li>
-                  <li>Paseo en lancha por la Ría de Celestún</li>
-                  <li>Comida a base de mariscos (cóctel de camarones, filete de pescado al gusto)</li>
-                  <li>Regreso a su hotel a las 4:30 p.m.</li>
-              </ul>
+              The Biosphere Reserve Estuary Celestun declared as such in 2000, in order to preserve the fragile ecosystem of hypersaline estuaries, some shallow lakes and high concentration of salts that are next to other lakes of the peninsula, home to the only colony of pink flamingo in the north hemisphere.
             </p>
             <p>
-              <span>No incluye:</span><br>
-              • Bebidas<br>
-              • Propinas
+              It has a landscape with great diversity of coastal tropical ecosystems, from mangroves and dunes, through various types of lowland rainforest. As a result, it houses a large variety of wildlife species (about 600) which highlighted the high number of fish and birds , besides being remarkable the presence of species that live only in that particular region.
             </p>
             <p>
-              <span>Recomendaciones:</span><br>
-              Llevar sombrero o gorra, ropa cómoda, traje de baño, toalla, cámara fotográfica, repelente de insectos y protector solar biodegradable.
-            </p>
-            <p>
-              <span>Nota:</span><br>
-              El avistamiento de flamencos no está garantizado, ya que depende de factores como las condiciones climáticas, temporada de migración y otros.
+              Celestun is located 90 km from the city of Merida, on the west coast of Yucatan.
             </p>
           </div>
+          <?php
+        }else{
+          ?>
+          <div id="info-general">
+            <h1>INFORMACIÓN GENERAL</h1>
+            <p>
+              Significa en lengua maya “Espanto de piedra”.
+            </p>
+            <p>
+              La Reserva de la Biosfera Ría Celestún fue decretada como tal en el año 2000, con el fin de preservar el frágil ecosistema formado por los esteros hipersalinos, algunas lagunas de baja profundidad y alta concentración en sales que son junto a otras lagunas de la Península, el hogar de la única colonia de flamenco rosado en el hemisferio norte.
+            </p>
+            <p>
+              Posee un paisaje con gran diversidad de ecosistemas tropicales costeros, que van desde manglares hasta dunas, pasando por varios tipos de selva baja. Como consecuencia, alberga una importante variedad de especies de fauna (alrededor de 600), de las cuales destacan el elevado número de peces y aves, además de ser notable la presencia de especies que únicamente habitan en esa determinada región.
+            </p>
+            <p>
+              Celestún se encuentra a 90 km de la ciudad de Mérida, en la costa poniente del estado de Yucatán.
+            </p>
+          </div>
+          <?php
+        }
+        ?>
+        <hr class="hr-interiores">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <?php
+          if($_SESSION['lang']=='en')
+          {
+            ?>
+            <div id="caracteristicas">
+              <h1>TOUR DETAILS</h1>
+              <p>
+                This colorful coastal port is where a large variety of exotic bird species can be seen. These exotic birds include the fabulous pink flamingos that use Celestun as their nesting grounds after the long flights from the eastern parts of the Yucatan coast.
+              </p>
+              <p>
+                Visitors to Celestun will also find refreshing waters in the fresh water springs that are hidden in the natural tunnels formed in the mangroves.
+              </p>
+              <br>
+              <p>
+                <span>Included:</span><br>
+              <ul class="listas">
+                <li>Departure from your hotel at 9:00 a.m.</li>
+                <li>Transportation with A/C (bus or van)</li>
+                <li>Boat trip into the mangroves and to see the flamingos</li>
+                <li>Certified guide</li>
+                <li>Seafood lunch (including shrimp cocktail and fish fillet)</li>
+                <li>Return to your hotel at 4:30 p.m.</li>
+              </ul>
+              </p>
+              <p>
+                <span>Not included:</span><br>
+                • Beverages<br>
+                • Tips
+              </p>
+              <p>
+                <span>Recommendations:</span><br>
+                Bring hat or cap, comfortable clothes, camera, bathing suit, towel, and biodegradable sun block and repellent.
+              </p>
+              <p>
+                <span>Note:</span><br>
+                The sighting of flamingos is not guaranteed, because it depends on factors such as weather conditions, seasonal migration and others.
+              </p>
+            </div>
+            <?php
+          }else{
+            ?>
+            <div id="caracteristicas">
+              <h1>CARACTERÍSTICAS DEL TOUR</h1>
+              <p>
+                Un puerto lleno de color, donde conviven las especies más exóticas de la geografía yucateca, como el flamenco rosa, que ofrece un espectáculo inigualable con sus peculiares vuelos rasantes.
+              </p>
+              <p>
+                Celestún ofrece al visitante la oportunidad de mitigar el calor en las dulces y frescas aguas que emanan de los ojos de agua, escondidos en los túneles naturales que se forman con las ramas del mangle, y a donde se llega en botes conducidos por los pobladores que ofrecen recorridos amenizados con historias sobre el lugar.
+              </p>
+              <br>
+              <p>
+                <span>Incluye:</span><br>
+              <ul class="listas">
+                <li>Salida de su hotel a las 9:00 a.m.</li>
+                <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
+                <li>Guía certificado durante el recorrido</li>
+                <li>Paseo en lancha por la Ría de Celestún</li>
+                <li>Comida a base de mariscos (cóctel de camarones, filete de pescado al gusto)</li>
+                <li>Regreso a su hotel a las 4:30 p.m.</li>
+              </ul>
+              </p>
+              <p>
+                <span>No incluye:</span><br>
+                • Bebidas<br>
+                • Propinas
+              </p>
+              <p>
+                <span>Recomendaciones:</span><br>
+                Llevar sombrero o gorra, ropa cómoda, traje de baño, toalla, cámara fotográfica, repelente de insectos y protector solar biodegradable.
+              </p>
+              <p>
+                <span>Nota:</span><br>
+                El avistamiento de flamencos no está garantizado, ya que depende de factores como las condiciones climáticas, temporada de migración y otros.
+              </p>
+            </div>
+            <?php
+          }
+          ?>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
           <div class="row" id="actividades">
             <div class="col-xs-4 col-sm-2 col-md-2">
-              <p class="txt-activides">Actividades<br>disponibles</p>
+              <?php
+              if($_SESSION['lang']=='en'){echo'<p class="txt-activides">Activities<br>Available</p>';}else{echo'<p class="txt-activides">Actividades<br>disponibles</p>';}
+              ?>
             </div>
             <div class="col-xs-4 col-sm-2 col-md-2">
               <img src="images/actividades/02.jpg" class="img-responsive center-block">
@@ -130,7 +207,18 @@ Henequén, Sisal, Truck, Vida Maya">
           <div>
             <img src="images/thumbnail_interiores/14_celestun.jpg" class="img-responsive img-foto-interior center-block">
             <div id="bg-video-sin-camioneta">
+              <?php
+              if($_SESSION['lang']=='en')
+              {
+                ?>
+                <h1>Departures: <span>9:00 a.m. - 4:30 p.m.</span></h1>
+                <?php
+              }else{
+                ?>
                 <h1>Salidas: <span>de 9:00 a.m. a 4:30 p.m.</span></h1>
+                <?php
+              }
+              ?>
               <table>
                 <tr>
                   <td><a href="https://www.youtube.com/watch?v=nPo8gjIl-Mk" target="_blank"><img src="images/video.png" class="img-responsive btn-video"></a></td>

@@ -1,5 +1,11 @@
 <?php
-$titulo="Hacienda Sotuta de Peón";
+include('includs/session.php');
+
+if($_SESSION['lang']=='en') {
+  $titulo="Hacienda Sotuta de Peón";
+}else{
+  $titulo="Hacienda Sotuta de Peón";
+}
 
 $protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') === FALSE ? 'http' : 'https';
 $host     = $_SERVER['HTTP_HOST'];
@@ -66,55 +72,128 @@ Henequén, Sisal, Truck, Vida Maya">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
-        <div id="info-general">
-          <h1>INFORMACIÓN GENERAL</h1>
-          <p>
-            Sotuta de Peón es una de las pocas haciendas henequeneras que existen en plena producción y en la que la historia se encuentra viva. Recorrer sus instalaciones representa una experiencia extraordinaria en la que la belleza, el confort y la aventura son los protagonistas de una travesía por el glorioso pasado peninsular.
-          </p>
-          <p>
-            Visitar la Hacienda Sotuta de Peón es viajar al pasado y remontarnos 100 años atrás; el recorrido se realiza en un peculiar truck, jalado por mulas, con ruedas metálicas que transitan sobre rieles. Extensos plantíos de henequén nos reciben como preámbulo al tour que te adentrará en Sotuta de Peón, una hacienda viva. 
-          </p>
-          <p>
-            En tiempos pasados casas de máquinas, hoy en día restaurantes de comida yucateca contemporánea; antes establos y corrales, ahora albercas y spas; antiguas estancias señoriales son ahora propiedades de encanto peculiar, de Yucatán para el mundo. 
-          </p>
-        </div>
-        <hr class="hr-interiores">
-        <div class="col-xs-12 col-sm-6 col-md-6">
-          <div id="caracteristicas">
-            <h1>CARACTERÍSTICAS DEL TOUR</h1>
+        <?php
+        if($_SESSION['lang']=='en')
+        {
+          ?>
+          <div id="info-general">
+            <h1>GENERAL INFORMATION</h1>
             <p>
-              <span>Incluye:</span><br>
-              <ul class="listas">
-                  <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
-                  <li>Recorrido y paseo en truck</li>
-                  <li>Comida en restaurante de la hacienda</li>
-              </ul>
+              Sotuta de Peon is one of the lasts henequen haciendas that exist in full production and that history is alive. This tour represents an extraordinary experience where beauty, comfort and adventure are the protagonists of a journey through the peninsular glorious past.
             </p>
             <p>
-              <span>No incluye:</span><br>
-              • Bebidas<br>
-              • Propinas
+              Visit this hacienda is travel to past and go back 100 years ago, the tour is done in a peculiar “truck”, pulled by mules with metal wheels that travel on rails. Extensive henequen plantations welcome us as a prelude to the tour that offers you Sotuta de Peon, a live hacienda.
             </p>
             <p>
-              <span>Recomendaciones:</span><br>
-              Llevar sombrero o gorra, ropa cómoda, repelente de insectos, protector solar y cámara fotográfica.
-            </p>
-            <p>
-              <span>Nota:</span><br>
-              Hay  tres puntos de salida para este  tour:<br><br>
-              1. Starbucks Gran Plaza a las 8:10 a.m.<br>
-              2. Starbucks Paseo de Montejo a las 8:25 a.m.<br>
-              3. Oficina Sotuta de Peón, ubicada en la calle 55 # 497 x 58 y 60 Centro, a las 8:40 a.m.<br><br>
-              El regreso es aproximadamente a las 4:00 p.m. en el mismo punto donde se tomó el transporte.<br>
-              Para reservar este tour, se pide realizar el pago total del mismo.
-
+              In the past, powerhouses but today contemporary yucatecan food restaurants; before stables and corrals, now pools and spas; old stately rooms are now properties peculiar charm, Yucatan to the world.
             </p>
           </div>
+          <?php
+        }else{
+          ?>
+          <div id="info-general">
+            <h1>INFORMACIÓN GENERAL</h1>
+            <p>
+              Sotuta de Peón es una de las pocas haciendas henequeneras que existen en plena producción y en la que la historia se encuentra viva. Recorrer sus instalaciones representa una experiencia extraordinaria en la que la belleza, el confort y la aventura son los protagonistas de una travesía por el glorioso pasado peninsular.
+            </p>
+            <p>
+              Visitar la Hacienda Sotuta de Peón es viajar al pasado y remontarnos 100 años atrás; el recorrido se realiza en un peculiar truck, jalado por mulas, con ruedas metálicas que transitan sobre rieles. Extensos plantíos de henequén nos reciben como preámbulo al tour que te adentrará en Sotuta de Peón, una hacienda viva.
+            </p>
+            <p>
+              En tiempos pasados casas de máquinas, hoy en día restaurantes de comida yucateca contemporánea; antes establos y corrales, ahora albercas y spas; antiguas estancias señoriales son ahora propiedades de encanto peculiar, de Yucatán para el mundo.
+            </p>
+          </div>
+          <?php
+        }
+        ?>
+        <hr class="hr-interiores">
+        <div class="col-xs-12 col-sm-6 col-md-6">
+          <?php
+          if($_SESSION['lang']=='en')
+          {
+            ?>
+            <div id="caracteristicas">
+              <h1>TOUR DETAILS</h1>
+              <p>
+                To visit Hacienda Sotuta de Peon is to travel into the past and go back to the history of haciendas of over 100 years ago. The trip is done by truck, pulled by mules, with metallic wheels running on long cauville rails. Extensive henequen plantations welcome us as an introduction to the tour in which we know intimately Sotuta de Peon de Peon, a living past.
+              </p>
+              <p>
+                In other times, machinery houses, today restaurants serving contemporary Yucatan cuisine; before, stables and farmyards, now, pools and spas; stately ranches of old, today real estate of peculiar charm from Yucatan to the world.
+              </p>
+              <p>
+                <span>Included:</span><br>
+              <ul class="listas">
+                <li>Transportation with A/C (bus or van)</li>
+                <li>Travel and truck ride</li>
+                <li>Lunch</li>
+              </ul>
+              </p>
+              <p>
+                <span>Not included:</span><br>
+                • Beverages<br>
+                • Tips
+              </p>
+              <p>
+                <span>Recommendations:</span><br>
+                Bring hat or cap, comfortable clothes, camera, bathing suit, towel, and biodegradable sun block and repellent.
+              </p>
+              <p>
+                <span>Notes:</span><br>
+                We have three meeting points for this tour:<br>
+                Starbucks Gran Plaza Mall - 8:10 a.m.<br>
+                Starbucks at Paseo de Montejo - 8:25 a.m.<br>
+                Sotuta de Peón Office, located at Street 55 # 497 between 58 and 60, Downtown - 8:40 a.m.<br>
+              </p>
+              <p>
+                The return is approximately at 4:00 p.m at the same point where transport was taken.
+              </p>
+              <p>
+                To book this tour, you need to pay full.
+              </p>
+            </div>
+            <?php
+          }else{
+            ?>
+            <div id="caracteristicas">
+              <h1>CARACTERÍSTICAS DEL TOUR</h1>
+              <p>
+                <span>Incluye:</span><br>
+              <ul class="listas">
+                <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
+                <li>Recorrido y paseo en truck</li>
+                <li>Comida en restaurante de la hacienda</li>
+              </ul>
+              </p>
+              <p>
+                <span>No incluye:</span><br>
+                • Bebidas<br>
+                • Propinas
+              </p>
+              <p>
+                <span>Recomendaciones:</span><br>
+                Llevar sombrero o gorra, ropa cómoda, repelente de insectos, protector solar y cámara fotográfica.
+              </p>
+              <p>
+                <span>Nota:</span><br>
+                Hay  tres puntos de salida para este  tour:<br><br>
+                1. Starbucks Gran Plaza a las 8:10 a.m.<br>
+                2. Starbucks Paseo de Montejo a las 8:25 a.m.<br>
+                3. Oficina Sotuta de Peón, ubicada en la calle 55 # 497 x 58 y 60 Centro, a las 8:40 a.m.<br><br>
+                El regreso es aproximadamente a las 4:00 p.m. en el mismo punto donde se tomó el transporte.<br>
+                Para reservar este tour, se pide realizar el pago total del mismo.
+
+              </p>
+            </div>
+            <?php
+          }
+          ?>
         </div>
         <div class="col-xs-12 col-sm-6 col-md-6">
           <div class="row" id="actividades">
             <div class="col-xs-4 col-sm-2 col-md-2">
-              <p class="txt-activides">Actividades<br>disponibles</p>
+              <?php
+              if($_SESSION['lang']=='en'){echo'<p class="txt-activides">Activities<br>Available</p>';}else{echo'<p class="txt-activides">Actividades<br>disponibles</p>';}
+              ?>
             </div>
             <div class="col-xs-4 col-sm-2 col-md-2">
               <img src="images/actividades/02.jpg" class="img-responsive center-block">

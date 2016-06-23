@@ -77,7 +77,7 @@ Henequén, Sisal, Truck, Vida Maya">
         {
         ?>
           <div id="info-general">
-            <h1>INFORMACIÓN GENERAL</h1>
+            <h1>GENERAL INFORMATION</h1>
             <p>
               Chichen Itzá or “Mouth of the Well Itzaes” is one of the most famous and controversial metropolis still standing in the Mayan world. Once a prominent cultural and political center of the old Maya civilization, it was one of the most extensive settlements during the end of the tenth century when the city was invaded by a predominantly warlike tribe, the Toltecs. This invasion infused the culture with a new series of elements, not least of which is the representation of the snake god Kukulcan. However, years later the city was abandoned for reasons which are still unknown.
             </p>
@@ -137,7 +137,7 @@ Henequén, Sisal, Truck, Vida Maya">
           {
             ?>
             <div id="caracteristicas">
-              <h1>CARACTERÍSTICAS DEL TOUR</h1>
+              <h1>TOUR DETAILS</h1>
               <p>
                 Chichen Itzá is one of the largest and richest monuments of Mexico’s archaeological sites. It became a World Heritage Site in 1988 and today stands proud to be named one of the Seven Wonders of the Modern World.
               </p>
@@ -225,16 +225,8 @@ Henequén, Sisal, Truck, Vida Maya">
           <div class="row" id="actividades">
             <div class="col-xs-4 col-sm-2 col-md-2">
               <?php
-              if($_SESSION['lang']=='en')
-              {
-                ?>
-                <?php
-              }else{
-                ?>
-                <?php
-              }
+              if($_SESSION['lang']=='en'){echo'<p class="txt-activides">Activities<br>Available</p>';}else{echo'<p class="txt-activides">Actividades<br>disponibles</p>';}
               ?>
-              <p class="txt-activides">Actividades<br>disponibles</p>
             </div>
             <div class="col-xs-4 col-sm-2 col-md-2">
               <img src="images/actividades/01.jpg" class="img-responsive center-block">
@@ -251,21 +243,23 @@ Henequén, Sisal, Truck, Vida Maya">
           </div>
           <div>
             <img src="images/thumbnail_interiores/01_chichen.jpg" class="img-responsive img-foto-interior center-block">
-            <?php
-            if($_SESSION['lang']=='en')
-            {
-              ?>
-              <?php
-            }else{
-              ?>
-              <?php
-            }
-            ?>
             <div class="bg-salidas1">
               <div id="bg-salidas2">
                 <img src="images/combi.png" class="img-combi">
-                <h1>Salidas:</h1>
-                <p>lunes y jueves de 9:00 a.m. a 5:00 p.m.</p>
+                <?php
+                if($_SESSION['lang']=='en')
+                {
+                  ?>
+                  <h1>Departures:</h1>
+                  <p>Monday and Thursday at 9:00 a.m. - 5:00 p.m.</p>
+                  <?php
+                }else{
+                  ?>
+                  <h1>Salidas:</h1>
+                  <p>lunes y jueves de 9:00 a.m. a 5:00 p.m.</p>
+                  <?php
+                }
+                ?>
               </div>
               <div class="video-camioneta">
                 <table>

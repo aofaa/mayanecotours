@@ -77,7 +77,7 @@ Henequén, Sisal, Truck, Vida Maya">
         {
           ?>
           <div id="info-general">
-            <h1>INFORMACIÓN GENERAL</h1>
+            <h1>GENERAL INFORMATION</h1>
             <p>
               Uxmal, enveloped by legends, myths and anecdotes, poetic by name and by nature, is situated within a series of hills known as the “Puuc” or “mountainous area” in Maya. The name was later given to describe the architectural style of region.
             </p>
@@ -134,7 +134,7 @@ Henequén, Sisal, Truck, Vida Maya">
           {
             ?>
             <div id="caracteristicas">
-              <h1>CARACTERÍSTICAS DEL TOUR</h1>
+              <h1>TOUR DETAILS</h1>
               <p>
                 <span>Included:</span><br>
               <ul class="listas">
@@ -191,16 +191,8 @@ Henequén, Sisal, Truck, Vida Maya">
           <div class="row" id="actividades">
             <div class="col-xs-4 col-sm-2 col-md-2">
               <?php
-              if($_SESSION['lang']=='en')
-              {
-                ?>
-                <?php
-              }else{
-                ?>
-                <?php
-              }
+              if($_SESSION['lang']=='en'){echo'<p class="txt-activides">Activities<br>Available</p>';}else{echo'<p class="txt-activides">Actividades<br>disponibles</p>';}
               ?>
-              <p class="txt-activides">Actividades<br>disponibles</p>
             </div>
             <div class="col-xs-4 col-sm-2 col-md-2">
               <img src="images/actividades/01.jpg" class="img-responsive center-block">
@@ -212,7 +204,18 @@ Henequén, Sisal, Truck, Vida Maya">
           <div>
             <img src="images/thumbnail_interiores/06_uxmal.jpg" class="img-responsive img-foto-interior center-block">
             <div id="bg-video-sin-camioneta">
-                <h1>Salidas: <span>de 9:00 a.m. a 5.00 p.m.</span></h1>
+              <?php
+              if($_SESSION['lang']=='en')
+              {
+                ?>
+                <h1>Departures: <span>9:00 a.m. - 5:00 p.m.</span></h1>
+                <?php
+              }else{
+                ?>
+                <h1>Salidas: <span>de 9:00 a.m. a 5:00 p.m.</span></h1>
+                <?php
+              }
+              ?>
               <table>
                 <tr>
                   <td><a href="https://www.youtube.com/watch?v=sOCtBenVytc" target="_blank"><img src="images/video.png" class="img-responsive btn-video"></a></td>
