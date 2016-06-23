@@ -125,7 +125,7 @@ var wow = new WOW({
 wow.init();
 
 /*-----------------------------------------------------------------------------------*/
-/*    CONTACT FORM FOOTER
+/*    CONTACT FORM
 /*-----------------------------------------------------------------------------------*/
 $(document).ready(function(){
 
@@ -168,6 +168,52 @@ $("#formulario").bind("jqv.form.result", function(event , errorFound){
 $('body').prepend('<div id="overlay" class="ui-widget-overlay" style="z-index: 1060; display: none;"></div>');
 $('body').prepend('<div id="PleaseWait" class="wait"><img src="images/ajax-loader.gif" /></div>');
   
+});
+
+/*-----------------------------------------------------------------------------------*/
+/*    CONTACT FORM MOVIL
+ /*-----------------------------------------------------------------------------------*/
+$(document).ready(function(){
+
+    jQuery("#form_contacto_movil").validationEngine('attach', {
+        onValidationComplete: function(form, status){
+            if (status == true) {
+                $('#overlay, #PleaseWait').show();
+
+                $.ajax({
+                    type: "POST",
+                    url:"Clases/send_contacto.php",
+                    data: {'btnContacto':true, 'nombre':$('#txtnombrecm').val(), 'email':$('#txtemailcm').val(), 'tel':$('#txttelcm').val(), 'pais':$('#txtpaiscm').val(), 'estado':$('#txtestadocm').val(), 'comentarios':$('#txtcomentarioscm').val(), 'codigo':$('#txtcodigocm').val() },
+                    type:  'post',
+                    success: function(d) {
+
+                        //alert(d);
+                        //console.log(d);
+
+                        if(d == "<p>Captcha incorrecto</p>"){
+                            $('#overlay, #PleaseWait').hide();
+                        }
+
+                        $('#error_contacto2').html(d);
+                    }
+                });
+                //return true;
+            }
+
+        }
+    });
+
+    $("#formulario").bind("jqv.form.validating", function(event){
+        $("#hookError").html("")
+    })
+
+    $("#formulario").bind("jqv.form.result", function(event , errorFound){
+        if(errorFound) $("#hookError").append("There is some problems with your form");
+    })
+
+    $('body').prepend('<div id="overlay" class="ui-widget-overlay" style="z-index: 1060; display: none;"></div>');
+    $('body').prepend('<div id="PleaseWait" class="wait"><img src="images/ajax-loader.gif" /></div>');
+
 });
 
 /*-----------------------------------------------------------------------------------*/
@@ -214,6 +260,52 @@ $("#formulario").bind("jqv.form.result", function(event , errorFound){
 $('body').prepend('<div id="overlay" class="ui-widget-overlay" style="z-index: 1060; display: none;"></div>');
 $('body').prepend('<div id="PleaseWait" class="wait"><img src="images/ajax-loader.gif" /></div>');
   
+});
+
+/*-----------------------------------------------------------------------------------*/
+/*    CONTACT FORM INTERIOR MOVIL
+ /*-----------------------------------------------------------------------------------*/
+$(document).ready(function(){
+
+    jQuery("#form_interior360").validationEngine('attach', {
+        onValidationComplete: function(form, status){
+            if (status == true) {
+                $('#overlay, #PleaseWait').show();
+
+                $.ajax({
+                    type: "POST",
+                    url:"Clases/send_interiores.php",
+                    data: {'btnInterior':true, 'titulo':$('#hdntituloIntm').val(), 'url':$('#hdnurlIntm').val(), 'nombre':$('#txtnombreIntm').val(), 'email':$('#txtemailIntm').val(), 'tel':$('#txttelIntm').val(), 'comentarios':$('#txtcomentariosIntm').val(), 'codigo':$('#txtcodigoIntm').val() },
+                    type:  'post',
+                    success: function(d) {
+
+                        //alert(d);
+                        //console.log(d);
+
+                        if(d == "<p>Captcha incorrecto</p>"){
+                            $('#overlay, #PleaseWait').hide();
+                        }
+
+                        $('#error_interiorm').html(d);
+                    }
+                });
+                //return true;
+            }
+
+        }
+    });
+
+    $("#formulario").bind("jqv.form.validating", function(event){
+        $("#hookError").html("")
+    })
+
+    $("#formulario").bind("jqv.form.result", function(event , errorFound){
+        if(errorFound) $("#hookError").append("There is some problems with your form");
+    })
+
+    $('body').prepend('<div id="overlay" class="ui-widget-overlay" style="z-index: 1060; display: none;"></div>');
+    $('body').prepend('<div id="PleaseWait" class="wait"><img src="images/ajax-loader.gif" /></div>');
+
 });
 
 /*-----------------------------------------------------------------------------------*/

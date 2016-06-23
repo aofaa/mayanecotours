@@ -46,7 +46,9 @@ Henequén, Sisal, Truck, Vida Maya">
       <div class="col-xs-12 col-sm-12 col-md-12">
         <div id="info-general">
           <p>&nbsp;</p>
-          <p>En esta sección te presentamos información relevante acerca de las festividades más importantes de la ciudad de Mérida, al igual que un breve repaso por la riqueza cultural yucateca con el fin de acercarte más a la bella tierra que visitarás.
+          <a href="pdf/Eventos_culturales_en_Merida_espanol.pdf" target="_blank"><img src="images/eventos.jpg" class="img-responsive img-eventos"></a>
+          <p>
+            En esta sección te presentamos información relevante acerca de las festividades más importantes de la ciudad de Mérida, al igual que un breve repaso por la riqueza cultural yucateca con el fin de acercarte más a la bella tierra que visitarás.
           </p>
           <p>
             <strong>Aniversario de la ciudad:</strong> La noche del 5 de enero, la tradicional alborada despierta a la Blanca Mérida al son de cientos de trovadores que le cantan a la ciudad, en vísperas de su aniversario. A partir de ese día se llevan a cabo más de 170 eventos, una intensa actividad cultural que engalana los festejos por el aniversario de la fundación de Mérida, capital del estado de Yucatán. 

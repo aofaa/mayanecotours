@@ -40,28 +40,6 @@ Henequén, Sisal, Truck, Vida Maya">
 <section>
     <img src="images/banner-contacto.jpg" class="banner-interiores">
 </section>
-<section class="visible-xs visible-sm bg360-titulo">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12 col-sm-10 col-sm-offset-1 contacto-titulo360">
-        <h1>CONTACTO</h1>
-        <p>
-          Comunícate con nosotros y te brindaremos mayor información.
-        </p>
-        <p>
-          Tel: <a href="tel:999987-3710">(999) 987-3710</a><br>
-          Móvil: <a href="tel:999105-4614">(999) 105-4614</a>
-        </p>
-        <p>
-          <a href="mailto:info@mayanecotours.com">Email: info@mayanecotours.com</a>
-        </p>
-        <p>
-          Mérida, Yucatán, México.
-        </p>
-      </div>
-    </div>
-  </div>
-</section>
 <section class="hidden-xs hidden-sm">
     <div class="bg-form-titulo">
       <h1>CONTACTO</h1>
@@ -85,6 +63,35 @@ Henequén, Sisal, Truck, Vida Maya">
     <img src="images/bg-contacto.jpg" class="banner-interiores">
 </section>
 
+<section class="visible-xs visible-sm bg360-titulo">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-10 col-sm-offset-1 contacto-titulo360">
+        <h1>CONTACTO</h1>
+        <p>
+          Comunícate con nosotros y te brindaremos mayor información.
+        </p>
+        <p>
+          Tel: <a href="tel:999987-3710">(999) 987-3710</a><br>
+          Móvil: <a href="tel:999105-4614">(999) 105-4614</a>
+        </p>
+        <p>
+          <a href="mailto:info@mayanecotours.com">Email: info@mayanecotours.com</a>
+        </p>
+        <p>
+          Mérida, Yucatán, México.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="visible-xs visible-sm bg360-contacto">
+  <div class="bg-form-contacto360">
+    <?php include('includs/form_contacto_movil.php'); ?>
+  </div>
+  <img src="images/banner360px/contacto_movil.jpg" class="img-movil">
+</section>
+<div class="clearfix"></div>
 <section class="bg-mapa">
   <div class="map">
     <div id="map"></div>

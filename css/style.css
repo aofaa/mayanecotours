@@ -423,6 +423,11 @@ a:hover, a:focus {
 	margin-bottom: 20px;
 }
 
+.img-eventos{
+	float:right;
+	margin: 0px 0px 0px 10px
+}
+
 #caracteristicas{
 	margin-right: 0px;
 	margin-left: -15px;
@@ -904,12 +909,19 @@ a:hover, a:focus {
 
 #error_interior{
   font-size: 14px;
-  color: #000;
+  color: #434343;
   text-align: center;
 }
 
 	
 /** FORM FOOTER **/
+.img-hotel{
+	position: absolute;
+	left: 0;
+	margin-top: 15px;
+	z-index: 2;
+}
+
 ::-webkit-input-placeholder {
   color: #053719;
   opacity: 1;
@@ -1197,6 +1209,23 @@ body {
     padding-bottom: 50px;
 }
 
+.bg-01 {
+	background: url('../images/bg-01.jpg') no-repeat center top;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	margin-top: -2px;
+	padding-bottom: 230px;
+}
+
+.bg-03 {
+	background: url('../images/bg-02.jpg') no-repeat center top;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 80px;
+}
+
 .bg-footer {
     background: url('../images/bg-footer-768px.jpg') no-repeat center top;
     background-size: 100% 100%;
@@ -1221,9 +1250,89 @@ body {
     color: #434343;
 }
 
+#maravillas {
+	margin-left: 150px;
+	margin-right: 0px;
+}
+
+#maravillas h1 {
+	 font-family: 'Oxygen Bold';
+	 font-size: 26px;
+	 text-align: center;
+	 color: #552307;
+	 padding-top: 10px;
+ }
+
+#maravillas p {
+	font-size: 14px;
+	text-align: justify;
+	color: #552307;
+}
+
+#experiencia h1 {
+	font-family: 'Oxygen Bold';
+	font-size: 26px;
+	text-align: center;
+	color: #313131;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+#portfolio h1 {
+	font-family: 'Oxygen Bold';
+	font-size: 26px;
+	text-align: center;
+	color: #313131;
+}
+
+#portfolio p {
+	font-size: 14px;
+	text-align: center;
+	color: #313131;
+	padding-bottom: 30px;
+}
+
+.img-info {
+	width: 209px !important;
+	padding-top: 70px !important;
+}
+
+#arma-tour h1 {
+	font-family: 'Oxygen Bold';
+	font-size: 26px;
+	text-align: center;
+	color: #552307;
+	padding-top: 50px;
+}
+
+#arma-tour p {
+	 font-size: 14px;
+	 color: #552307;
+	 text-align: justify;
+}
+
+.btn-aventura {
+	display: block;
+	font-family: 'Oxygen Bold';
+	font-size: 18px;
+	text-align: center;
+	color: #fff;
+	background-color: #552307;
+	line-height: 50px;
+	margin-top: 35px;
+}
+
 .telefonos {
     text-align: center;
     margin-left: 22px;
+}
+
+#experiencia p {
+	font-family: 'Oxygen Bold';
+	font-size: 13px;
+	text-align: center;
+	color: #313131;
+	margin-bottom: 40px;
 }
 
 .bg-form-interior {
@@ -1477,14 +1586,92 @@ body {
 	text-align: center;
 }
 
+.bg360-titulo {
+	background: #f6f195;
+	border-bottom: 2px solid #0c5b2b;
+	padding-bottom: 20px;
+}
+
+.contacto-titulo360 {
+	padding-top: 30px;
+}
+
+.contacto-titulo360 h1 {
+	font-family: 'Oxygen Bold';
+	font-size: 20px;
+	color: #138241;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+.contacto-titulo360 p {
+	font-family: 'Oxygen Regular';
+	font-size: 14px;
+	color: #434343;
+	text-align: justify;
+}
+
+.contacto-titulo360 p > a {
+	font-family: 'Oxygen Regular';
+	font-size: 14px;
+	color: #434343;
+}
+
+.bg360-contacto {
+	background: #FFFFFF;
+}
+
+.bg-form-contacto360 {
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#error_contacto2 {
+	font-size: 12px;
+	color: #434343;
+	text-align: center;
+}
+
+.img-movil{
+	width: 100%;
+}
+
+.map {
+	position: relative;
+	min-height: 300px;
+}
+
 
 /*Form footer*/
+
+.img-hotel {
+	position: absolute;
+	left: 0;
+	margin-top: 116px;
+	z-index: 2;
+	width: 130px;
+}
+
+.img-logo-footer {
+	padding-top: 21px;
+	margin-bottom: 10px;}
+
+.dir-footer {
+	font-size: 13px;
+	text-align: center;
+	color: #fff;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+
 .bg-form {
     background: rgba(3, 53, 16, 0.7);
     padding: 20px;
     margin-right: 0px;
     margin-left: 0px;
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 }
 
 .columna1 {
@@ -1587,7 +1774,7 @@ body {
 
 #error_interior {
     font-size: 12px;
-    color: #000;
+    color: #434343;
     text-align: center;
 }
 
@@ -1638,12 +1825,56 @@ body {
     padding-bottom: 85px;
 }
 
+.bg-01 {
+	background: url('../images/bg-01.jpg') no-repeat center top;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	margin-top: -2px;
+	padding-bottom: 267px;
+}
+
+.bg-03 {
+	background: url('../images/bg-02.jpg') no-repeat center top;
+	background-size: 100% 100%;
+	width: 100%;
+	height: 100%;
+	padding-bottom: 80px;
+}
+
+#maravillas h1 {
+	font-family: 'Oxygen Bold';
+	font-size: 30px;
+	text-align: center;
+	color: #552307;
+	padding-top: 20px;
+}
+
 #experiencia p {
     font-family: 'Oxygen Bold';
     font-size: 15px;
     text-align: center;
     color: #313131;
     margin-bottom: 80px;
+}
+
+#arma-tour h1 {
+	font-family: 'Oxygen Bold';
+	font-size: 30px;
+	text-align: center;
+	color: #552307;
+	padding-top: 70px;
+}
+
+.btn-aventura {
+	display: block;
+	font-family: 'Oxygen Bold';
+	font-size: 20px;
+	text-align: center;
+	color: #fff;
+	background-color: #552307;
+	line-height: 60px;
+	margin-top: 60px;
 }
 
 .img-info {
@@ -1730,15 +1961,15 @@ body {
 
 .bg-form-tour p {
     font-family: 'Oxygen Regular';
-    font-size: 11px;
+    font-size: 12px;
     color: #434343;
-    margin-right: 223px;
+    margin-right: 166px;
     text-align: justify;
 }
 
 .bg-form-tour p > a {
     font-family: 'Oxygen Regular';
-    font-size: 11px;
+    font-size: 12px;
     color: #434343;
 }
 
@@ -1747,7 +1978,7 @@ body {
     z-index: 2;
     width: 24%;
     right: 62%;
-    margin-top: 230px;
+    margin-top: 215px;
 }
 
 .form-contacto-tour {
@@ -1823,7 +2054,113 @@ body {
     padding-bottom: 15px;
 }
 
+.bg-form-titulo {
+	position: absolute;
+	z-index: 2;
+	width: 50%;
+	right: 41%;
+	padding-top: 10px;
+}
+
+.bg-form-titulo h1 {
+	font-family: 'Oxygen Regular';
+	font-size: 18px;
+	color: #138241;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 5px;
+}
+
+.bg-form-titulo p {
+	font-family: 'Oxygen Regular';
+	font-size: 12px;
+	color: #434343;
+}
+
+.bg-form-titulo p > a {
+	font-family: 'Oxygen Regular';
+	font-size: 12px;
+	color: #434343;
+}
+
+.bg-form-contacto {
+	position: absolute;
+	z-index: 2;
+	width: 24%;
+	right: 62%;
+	margin-top: 155px;
+}
+
+.form-contacto {
+	font-size: 13px;
+	border: 1px solid #e1d837;
+	width: 100%;
+	height: 26px !important;
+	-moz-border-radius: 3px;
+	margin-top: 4px;
+	padding: 6px;
+	background-color: #fffcc6;
+	color: #0f0f0f;
+}
+
+.comentarios-contacto {
+	font-size: 13px;
+	border: 1px solid #e1d837;
+	width: 100%;
+	height: 40px;
+	-moz-border-radius: 3px;
+	margin-top: 4px;
+	padding: 6px;
+	background-color: #fffcc6;
+	color: #0f0f0f;
+}
+
+.form-captcha-contacto {
+	font-size: 13px;
+	text-align: center;
+	border: 1px solid #e1d837;
+	width: 100%;
+	height: 26px !important;
+	-moz-border-radius: 3px;
+	margin-top: 4px;
+	padding: 6px;
+	background-color: #fffcc6;
+	color: #0f0f0f;
+}
+
+.boton_enviar_contacto {
+	font-family: 'Oxygen Bold';
+	font-size: 14px;
+	width: 50%;
+	background-color: #ff8400;
+	color: #fff;
+	line-height: 30px;
+	border: 0;
+	cursor: pointer;
+	margin-top: 10px;
+}
+
+#error_contacto {
+	font-size: 13px;
+	color: #434343;
+	text-align: center;
+}
+
+#error_contacto2 {
+	font-size: 13px;
+	color: #434343;
+	text-align: center;
+}
+
 /*FOOTER*/
+.img-hotel {
+	position: absolute;
+	left: 0;
+	margin-top: 15px;
+	z-index: 2;
+	width: 140px;
+}
+
 .telefonos {
     margin-top: -25px;
     margin-left: 36px;
@@ -1885,7 +2222,7 @@ body {
 
 #error_interior {
     font-size: 12px;
-    color: #000;
+    color: #434343;
     text-align: center;
 }
 
@@ -1940,6 +2277,14 @@ body {
     padding-bottom: 10px;
     line-height: 20px;
 }
+
+.dropdown-menu {
+	font-family: 'Oxygen Bold';
+	font-size: 12px;
+	text-align: left;
+	list-style: none;
+}
+
 .navbar-nav .open .dropdown-menu {
     position: static;
     float: none;
@@ -2188,6 +2533,29 @@ padding-top: 20px;
     text-transform: uppercase;
     padding-bottom: 15px;
 }
+.bg-form-interiores360{
+	padding-bottom: 0px;
+}
+
+.fom-interiores360{
+	padding-top: 30px;
+}
+
+.fom-interiores360 h1 {
+	font-family: 'Oxygen Regular';
+	font-size: 18px;
+	text-align: center;
+	color: #626262;
+	padding: 0;
+	margin: 0;
+	padding-bottom: 10px;
+}
+
+#error_interiorm {
+	font-size: 12px;
+	color: #434343;
+	text-align: center;
+}
 
 .bg360{
 	background: #fff;
@@ -2280,6 +2648,26 @@ padding-top: 20px;
     color: #434343;
 }
 
+.bg360-contacto {
+	background: #FFFFFF;
+}
+
+.bg-form-contacto360 {
+	width: 80%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+#error_contacto2 {
+	font-size: 13px;
+	color: #434343;
+	text-align: center;
+}
+
+.img-movil{
+	width: 100%;
+}
+
 .map {
     position: relative;
     min-height: 300px;
@@ -2288,6 +2676,19 @@ padding-top: 20px;
 /*Form footer*/
 .bg-footer {
     background: #0a5e2a;
+}
+
+.img-hotel{
+	position: absolute;
+	left: 0;
+	margin-top: 125px;
+	z-index: 2;
+	width: 95px;
+}
+
+.img-logo-footer {
+	padding-top: 0px;
+	margin-bottom: 20px;
 }
 
 .img-correo{

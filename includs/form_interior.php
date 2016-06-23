@@ -20,7 +20,7 @@
                   </div>
   
                   <div class="columna-codigo">
-                      <input type="text" name="codigo" id="txtcodigoInt" class="form-control form-captcha-interior" placeholder="Escribe el código de la derecha" autocomplete="off">
+                      <input type="text" name="codigo" id="txtcodigoInt" class="form-control form-captcha-interior" placeholder="Escribe el código de la imagen" autocomplete="off">
                   </div>
   
                   <div class="img-captcha">

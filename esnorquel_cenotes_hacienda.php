@@ -37,12 +37,17 @@ Henequén, Sisal, Truck, Vida Maya">
 <?php include('includs/analytics.php'); ?>
 
 <?php include('includs/menu.php'); ?>
-<section>
+<section class="hidden-xs">
     <div class="bg-form-interior">
       <?php include('includs/form_interior.php'); ?>
     </div>
     <img src="images/banner_interiores/esnorquel_cenotes_hacienda.jpg" class="banner-interiores">
 </section>
+
+<section class="visible-xs">
+  <img src="images/banner_interiores360px/esnorquel_cenotes_hacienda.jpg" class="banner-interiores">
+</section>
+
 <section class="bg-titulo">
   <div class="container">
     <div class="row">
@@ -52,6 +57,11 @@ Henequén, Sisal, Truck, Vida Maya">
     </div>
   </div>
 </section>
+
+<!--formulario movil-->
+<?php include('formulario_interiores_movil.php') ?>
+<!--------end-------->
+
 <section class="bg-interiores">
   <div class="container">
     <div class="row">
