@@ -1,5 +1,14 @@
 <?php
-$titulo="Quiénes somos";
+include('includs/session.php');
+
+if($_SESSION['lang']=='en') {
+
+  $titulo="Who we are?";
+
+}else{
+
+  $titulo="Quiénes somos";
+}
 
 $protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') === FALSE ? 'http' : 'https';
 $host     = $_SERVER['HTTP_HOST'];
@@ -42,17 +51,54 @@ Henequén, Sisal, Truck, Vida Maya">
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-6">
         <div id="quienes-somos">
-          <h1>Quiénes Somos</h1>
-          <p>
-            Mayan Ecotours es una agencia dedicada a la planeación, desarrollo y operación de recorridos turísticos alternativos, con el compromiso de un mínimo impacto a los lugares visitados. Nuestra empresa está integrada por guías especializados y certificados.
-          </p>
-          <p>
-            Empeñados en ofrecer un servicio personalizado y estrategias de ecoturismo responsabile sin actitudes improvisadas. Con alternativas atractivas para todo aquel que busca un equilibrio entre conocimiento, naturaleza y diversión.
-          </p>
-          <h1>VISIÓN</h1>
-          <p>
-            Fomentar el desarrollo sustentable a través de la participación activa de las poblaciones locales en los procesos de planificación y en la distribución de sus beneficios. Porque el ecoturismo tiene un papel significativo en la lucha contra la pobreza tal como ha sido reconocido en la Cumbre de Desarrollo Sostenible efectuado en Johannesburgo Sudáfrica en 2002. Es por sus características una oportunidad para las comunidades rurales de obtener una mejor calidad de vida y para nosotros Mayan Ecotours la oportunidad de contribuir con nuestras comunidades indígenas.
-          </p>
+          <h1><?php echo ($_SESSION['lang']=='en')? 'Who we are?':'Quiénes Somos'; ?></h1>
+
+          <?php
+            if($_SESSION['lang']== 'en') {
+              ?>
+              <p>
+                Mayan Ecotours is an agency dedicated to planning, developing and operating unique tours with a commitment to minimum impact for the places to visit.
+                Our company is integrated with specialized guides trained in speleology, diving, cave diving, vertical rescue, cave rescue, first aid, etc.
+              </p>
+              <p>
+                We are conscious about the natural and cultural wealth for our country and have a comparative advantage for becoming one of the most attractive places in the world speaking in terms of landscapes, diversity, interesting places, natural and cultural areas. We are determined to offer customized service and apply strategies for responsible eco-tourism without improvised attitudes.
+              </p>
+              <strong>Mission statement</strong>
+              <p>
+                To provide knowledge and food-for-thought thought visits to relatively unaltered geographical areas while enjoying and appreciating these natural attractions in their pure state.
+              </p>
+              <strong>Our vision</strong>
+              <p>
+                Support sustainable development by promoting the active participation of local Mayan villages, in the decision making process for planning and in the distribution of benefits.
+                Because ecotourism has an important role in the fight against poverty, as established in the World Summit on Sustainable Development (WSSD) held in Johannesburg, South Africa in 2002.
+                Mayan Ecotours is dedicated to helping the indigenous communities achieve a better quality of life.
+              </p>
+
+              <?php
+            }else {
+              ?>
+              <p>
+                Mayan Ecotours es una agencia dedicada a la planeación, desarrollo y operación de recorridos turísticos
+                alternativos, con el compromiso de un mínimo impacto a los lugares visitados. Nuestra empresa está
+                integrada por guías especializados y certificados.
+              </p>
+              <p>
+                Empeñados en ofrecer un servicio personalizado y estrategias de ecoturismo responsabile sin actitudes
+                improvisadas. Con alternativas atractivas para todo aquel que busca un equilibrio entre conocimiento,
+                naturaleza y diversión.
+              </p>
+              <h1>VISIÓN</h1>
+              <p>
+                Fomentar el desarrollo sustentable a través de la participación activa de las poblaciones locales en los
+                procesos de planificación y en la distribución de sus beneficios. Porque el ecoturismo tiene un papel
+                significativo en la lucha contra la pobreza tal como ha sido reconocido en la Cumbre de Desarrollo
+                Sostenible efectuado en Johannesburgo Sudáfrica en 2002. Es por sus características una oportunidad para
+                las comunidades rurales de obtener una mejor calidad de vida y para nosotros Mayan Ecotours la
+                oportunidad de contribuir con nuestras comunidades indígenas.
+              </p>
+              <?php
+            }
+          ?>
         </div>
       </div>
     </div>
