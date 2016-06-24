@@ -6782,8 +6782,9 @@ td.dataTables_empty {
 .login-container .login-box .login-footer {
   width: 100%;
   float: left;
-  padding: 10px;
+  padding: 0px;
   color: #FFF;
+  margin-top: 10px;
 }
 .login-container .login-box .login-footer a {
   color: #FFF;

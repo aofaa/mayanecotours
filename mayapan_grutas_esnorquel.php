@@ -83,13 +83,13 @@ Henequén, Sisal, Truck, Vida Maya">
               Known as “Flag of the Mayas”, the walled city of Mayapan is considered to be the last great Mayan capital, and although it is not a place that has had great construction works, more than four thousand architectonic structures have been discovered in it.
             </p>
             <p>
-              In its center temples were raised, among these the biggest was a replica the Castle of Chichen Itzá but in smaller dimensions, and it was named Kukulcan. Here also civic, administrative and religious buildings can be observed, as well as the residences of the ruling class. The round buildings known as observatories and the small sanctuaries are very representative of this city.
+              In its center temples were raised, among these the biggest was a replica the Castle of Chichen Itza but in smaller dimensions, and it was named Kukulcan. Here also civic, administrative and religious buildings can be observed, as well as the residences of the ruling class. The round buildings known as observatories and the small sanctuaries are very representative of this city.
             </p>
             <p>
-              Open every day from 8am to 3pm, it is located at km 45 of the Merida -Acanceh highway, in the same direction as the route named “Route of the Convents”.
+              Open every day from 8 a.m. to 3 p.m., it is located at km 45 of the Merida - Acanceh highway, in the same direction as the route named “Route of the Convents”.
             </p>
             <p>
-              An interesting phenomenon of sunlight and shadows takes place in this site during the winter solstice, identical to the one of Chichen Itzá.
+              An interesting phenomenon of sunlight and shadows takes place in this site during the winter solstice, identical to the one of Chichen Itza.
             </p>
           </div>
           <?php
@@ -127,7 +127,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Included:</span><br>
               <ul class="listas">
                 <li>Departure from your hotel at 9:00 a.m.</li>
-                <li>Transportation with A/C (bus or van)</li>
+                <li>Transportation with A/C</li>
                 <li>Certified guide who accompanies you at the archeological site</li>
                 <li>Visit to an impressive cave and cenote with a specialized guide</li>
                 <li>Entrance to the cenote</li>
@@ -159,7 +159,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Incluye:</span><br>
               <ul class="listas">
                 <li>Salida de su hotel a las 9:00 a.m.</li>
-                <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
+                <li>Transportación con aire acondicionado</li>
                 <li>Guía especializado durante actividades y recorrido</li>
                 <li>Entrada a las grutas</li>
                 <li>Equipo de esnórquel</li>

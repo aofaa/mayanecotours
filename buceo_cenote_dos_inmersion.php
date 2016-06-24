@@ -130,7 +130,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 In this tour, you will prolong your enjoyment and adventure.
               </p>
               <p>
-                On many occasions the cenote is so great and saves so much beauty that is impossible to know and enjoy it all in one dive so ...If you liked the cenote, now it is when you can enjoy again.
+                On many occasions the cenote is so great and saves so much beauty that is impossible to know and enjoy it all in one dive so... If you liked the cenote, now it is when you can enjoy again.
               </p>
               <p>
                 You'll have the opportunity to discover new formations will enjoy it again you know him well and you can always find something new, because when diving to another depth we assure you will discover a new cenote.
@@ -211,8 +211,19 @@ Henequén, Sisal, Truck, Vida Maya">
           <div>
             <img src="images/thumbnail_interiores/12_buceo.jpg" class="img-responsive img-foto-interior center-block">
             <div id="bg-video-sin-camioneta">
-              <h1><span>2 inmersiones de 45 minutos cada una</span></h1>
-              <?php include('includs/btn_reserva.php'); ?>
+              <h1><?php echo $_SESSION['lang']=='en'?'':'<span>2 inmersiones de 45 minutos cada una</span>'; ?></h1>
+              <?php
+              if($_SESSION['lang']=='en')
+              {
+                ?>
+                <?php include('includs/btn_reserva_cueva.php'); ?>
+                <?php
+              }else{
+                ?>
+                <?php include('includs/btn_reserva.php'); ?>
+                <?php
+              }
+              ?>
             </div>
           </div>
         </div>

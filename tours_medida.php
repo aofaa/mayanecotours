@@ -44,6 +44,24 @@ Henequén, Sisal, Truck, Vida Maya">
 
 <?php include('includs/menu.php'); ?>
 <section class="hidden-xs hidden-sm">
+  <?php
+  if($_SESSION['lang']== 'en') {
+    ?>
+    <div class="bg-form-tour">
+      <h1>Costum tour</h1>
+      <p>
+        We organize your stay in Yucatan, according to the days that you have available, your family, group of friends, couples, your event, convention or congress. From booking your hotel to different activities such as visits to the biosphere reserves, archaeological sites, cenotes, convents, haciendas, caves, kayaking, typical villages, and much more!
+      </p>
+      <p>
+        We plan your enjoy!
+      </p>
+      <p>
+        Leave your comment here or write to <a href="mailto:info@mayanecotours.com">info@mayanecotours.com</a>
+      </p>
+    </div>
+    <?php
+  }else {
+    ?>
     <div class="bg-form-tour">
       <h1>TOUR A LA MEDIDA</h1>
       <p>
@@ -56,19 +74,22 @@ Henequén, Sisal, Truck, Vida Maya">
         Escríbenos al correo <a href="mailto:info@mayanecotours.com">info@mayanecotours.com</a> y con gusto te enviaremos opciones a elegir.
       </p>
     </div>
+    <?php
+  }
+  ?>
     <div class="bg-form-tour-contacto">
       <?php include('includs/form_tour.php'); ?>
     </div>
     <img src="images/banner_tours_a_la_medida.jpg" class="banner-interiores">
 </section>
 <section class="visible-xs visible-sm">
-  <img src="images/banner360px/tours_a_la_medida.jpg" class="banner-interiores">
+  <img src="<?php echo $_SESSION['lang']=='en'?'images/eng/tours_a_la_medida.jpg':'images/banner360px/tours_a_la_medida.jpg'; ?>" class="banner-interiores">
 </section>
 <section class="bg-mapa">
   <div class="container">
     <div class="row">
       <div class="titulo-contacto">
-        <h1>¡PREPÁRATE PARA VIVIR UNA EXPERIENCIA INOLVIDABLE!</h1>
+        <h1><?php echo ($_SESSION['lang']== 'en')?'LIVE A UNFORGETTABLE EXPERIENCE!':'¡PREPÁRATE PARA VIVIR UNA EXPERIENCIA INOLVIDABLE!'; ?></h1>
       </div>
     </div>
   </div>

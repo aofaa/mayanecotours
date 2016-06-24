@@ -47,22 +47,44 @@ Henequén, Sisal, Truck, Vida Maya">
   <?php echo ($_SESSION['lang']=='en')?'<img src="images/eng/banner-contacto.jpg" class="banner-interiores">':'<img src="images/banner-contacto.jpg" class="banner-interiores">'; ?>
 </section>
 <section class="hidden-xs hidden-sm">
-    <div class="bg-form-titulo">
-      <h1>CONTACTO</h1>
-      <p>
-        Comunícate con nosotros y te brindaremos mayor información.
-      </p>
-      <p>
-        <img src="images/eng/telefono.png"> <a href="tel:999987-3710">(999) 987-3710</a><br>
-        <img src="images/eng/whatsapp.png"> <a href="tel:999105-4614">(999) 105-4614</a>
-      </p>
-      <p>
-        <img src="images/eng/mail.png"> <a href="mailto:info@mayanecotours.com">info@mayanecotours.com</a>
-      </p>
-      <p>
-        Mérida, Yucatán, México.
-      </p>
-    </div>
+    <?php
+    if($_SESSION['lang']== 'en') {
+      ?>
+      <div class="bg-form-titulo">
+        <h1>CONTACT</h1>
+        <p>
+          <img src="images/eng/telefono.png"> <a href="tel:999987-3710">(999) 987-3710</a><br>
+          <img src="images/eng/whatsapp.png"> <a href="tel:999105-4614">(999) 105-4614</a>
+        </p>
+        <p>
+          <img src="images/eng/mail.png"> <a href="mailto:info@mayanecotours.com">info@mayanecotours.com</a>
+        </p>
+        <p>
+          Merida, Yucatan, Mexico.
+        </p>
+      </div>
+      <?php
+    }else {
+      ?>
+      <div class="bg-form-titulo">
+        <h1>CONTACTO</h1>
+        <p>
+          Comunícate con nosotros y te brindaremos mayor información.
+        </p>
+        <p>
+          <img src="images/eng/telefono.png"> <a href="tel:999987-3710">(999) 987-3710</a><br>
+          <img src="images/eng/whatsapp.png"> <a href="tel:999105-4614">(999) 105-4614</a>
+        </p>
+        <p>
+          <img src="images/eng/mail.png"> <a href="mailto:info@mayanecotours.com">info@mayanecotours.com</a>
+        </p>
+        <p>
+          Mérida, Yucatán, México.
+        </p>
+      </div>
+      <?php
+    }
+    ?>
     <div class="bg-form-contacto">
       <?php include('includs/form_contacto.php'); ?>
     </div>
@@ -105,7 +127,7 @@ Henequén, Sisal, Truck, Vida Maya">
   <div class="container">
     <div class="row">
       <div class="titulo-contacto">
-        <h1>¡Reserva EL tour DE TU PREFERENCIA ahora!</h1>
+        <h1><?php echo ($_SESSION['lang']== 'en')?'BOOK YOUR TOUR NOW!':'¡RESERVA EL TOUR DE TU PREFERENCIA AHORA!'; ?></h1>
       </div>
     </div>
   </div>

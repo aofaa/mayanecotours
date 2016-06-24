@@ -2,7 +2,7 @@
 include('includs/session.php');
 
 if($_SESSION['lang']=='en') {
-  $titulo="Chichen Itzá | Cenote & lunch with option to rappel and zip line";
+  $titulo="Chichen Itza | Cenote & lunch with option to rappel and zip line";
 }else{
   $titulo="Chichen Itzá | Cenote y comida con opción de hacer rappel y tirolesa";
 }
@@ -58,7 +58,7 @@ Henequén, Sisal, Truck, Vida Maya">
   <div class="container">
     <div class="row">
       <div id="titulo-interiores">
-        <h1><?php if($_SESSION['lang']=='en'){echo'Chichen Itzá';}else{echo'Chichen Itzá';} ?> <span class="linea-interior">|</span> <span class="subinteriores"><?php if($_SESSION['lang']=='en'){echo'Cenote & lunch with option to rappel and zip line';}else{echo'Cenote y comida con opción de hacer rappel y tirolesa';} ?></span></h1>
+        <h1><?php if($_SESSION['lang']=='en'){echo'Chichen Itza';}else{echo'Chichen Itzá';} ?> <span class="linea-interior">|</span> <span class="subinteriores"><?php if($_SESSION['lang']=='en'){echo'Cenote & lunch with option to rappel and zip line';}else{echo'Cenote y comida con opción de hacer rappel y tirolesa';} ?></span></h1>
       </div>
     </div>
   </div>
@@ -79,13 +79,13 @@ Henequén, Sisal, Truck, Vida Maya">
           <div id="info-general">
             <h1>GENERAL INFORMATION</h1>
             <p>
-              Chichen Itzá or “Mouth of the Well Itzaes” is one of the most famous and controversial metropolis still standing in the Mayan world. Once a prominent cultural and political center of the old Maya civilization, it was one of the most extensive settlements during the end of the tenth century when the city was invaded by a predominantly warlike tribe, the Toltecs. This invasion infused the culture with a new series of elements, not least of which is the representation of the snake god Kukulcan. However, years later the city was abandoned for reasons which are still unknown.
+              Chichen Itza or “Mouth of the Well Itzaes” is one of the most famous and controversial metropolis still standing in the Mayan world. Once a prominent cultural and political center of the old Maya civilization, it was one of the most extensive settlements during the end of the tenth century when the city was invaded by a predominantly warlike tribe, the Toltecs. This invasion infused the culture with a new series of elements, not least of which is the representation of the snake god Kukulcan. However, years later the city was abandoned for reasons which are still unknown.
             </p>
             <p>
               During its golden age, Chichen Itza was the most powerful city in the Peninsula of Yucatan. Among its most remarkable buildings is the Temple of Warriors, the group of Thousands of Columns, the Platform of Venus, the Tzompantli, the Ball Court, the Snail or Observatory in the Church.
             </p>
             <p>
-              The spectacular Pyramid of Kukulcan in Chichen Itzá is breathtaking as it towers above its visitors. It is a four-sided pyramid, 30 meters high and crowned with a temple. The Pyramid actually has two distinct structures, each correspond to a different era. The oldest is completely covered by the most recent. Inside lies the sculpture of a “Chac Mool” and a throne in the form of a red painted jaguar. It is believed that this pyramid represents the Mayan calendar: each step is one day of the year. There are 91 steps on each of the four sides, plus the one represented by the platform, a total of 365 days, the solar year to the day, giving rise to the belief that the monument was erected to honor the god of the sun.
+              The spectacular Pyramid of Kukulcan in Chichen Itza is breathtaking as it towers above its visitors. It is a four-sided pyramid, 30 meters high and crowned with a temple. The Pyramid actually has two distinct structures, each correspond to a different era. The oldest is completely covered by the most recent. Inside lies the sculpture of a “Chac Mool” and a throne in the form of a red painted jaguar. It is believed that this pyramid represents the Mayan calendar: each step is one day of the year. There are 91 steps on each of the four sides, plus the one represented by the platform, a total of 365 days, the solar year to the day, giving rise to the belief that the monument was erected to honor the god of the sun.
             </p>
             <p>
               The astronomical meaning of this building is obvious in Chichen Itza. It is here that the “Feathered Serpent” descends punctually every equinox, in a light and shadow phenomenon that attracts thousands of visitors annually from all over the globe.
@@ -139,7 +139,7 @@ Henequén, Sisal, Truck, Vida Maya">
             <div id="caracteristicas">
               <h1>TOUR DETAILS</h1>
               <p>
-                Chichen Itzá is one of the largest and richest monuments of Mexico’s archaeological sites. It became a World Heritage Site in 1988 and today stands proud to be named one of the Seven Wonders of the Modern World.
+                Chichen Itza is one of the largest and richest monuments of Mexico’s archaeological sites. It became a World Heritage Site in 1988 and today stands proud to be named one of the Seven Wonders of the Modern World.
               </p>
               <p>
                 Later we take you to a beautiful open type cenote where you will have the opportunity to rappel, zip line, snorkel or just relax in a hammock after a delicious traditional meal from southeast Mexico.
@@ -264,7 +264,7 @@ Henequén, Sisal, Truck, Vida Maya">
               <div class="video-camioneta">
                 <table width="100%">
                   <tr>
-                    <td><a href="https://www.youtube.com/watch?v=T-7m8WqezDk" target="_blank"><img src="images/video.png" class="img-responsive btn-video"></a></td>
+                    <td><a href="https://www.youtube.com/watch?v=T-7m8WqezDk" target="_blank"><img src="<?php echo $_SESSION['lang']=='en'?'images/eng/video.png':'images/video.png'; ?>" class="img-responsive btn-video"></a></td>
                     <td><?php include('includs/btn_reserva.php'); ?></td>
                   </tr>
                 </table>

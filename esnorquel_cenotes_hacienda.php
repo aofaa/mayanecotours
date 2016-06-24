@@ -130,7 +130,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Included:</span><br>
               <ul class="listas">
                 <li>Departure from your hotel at 9:00 a.m.</li>
-                <li>Transportation with A/C (bus or van)</li>
+                <li>Transportation with A/C</li>
                 <li>Specialized guide</li>
                 <li>Snorkel equipment and life jacket</li>
                 <li>Entrance fees</li>
@@ -142,8 +142,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 • Lunch<br>
                 • Beverages<br>
                 • Tips
-
-              </p>p
+              </p>
               <p>
                 <span>Recommendations:</span><br>
                 Bring hat or cap, comfortable clothes, camera, bathing suit, towel, and biodegradable sun block and repellent.
@@ -172,7 +171,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Incluye:</span><br>
               <ul class="listas">
                 <li>Salida desde su hotel a las 9:00 a.m.</li>
-                <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
+                <li>Transportación con aire acondicionado</li>
                 <li>Entradas</li>
                 <li>Guía especializado en las actividades</li>
                 <li>Equipo de esnórquel y chaleco de flotación</li>
@@ -231,7 +230,7 @@ Henequén, Sisal, Truck, Vida Maya">
               ?>
               <table>
                 <tr>
-                  <td><a href="https://www.youtube.com/watch?v=tQ19Y0acnPE" target="_blank"><img src="images/video.png" class="img-responsive btn-video"></a></td>
+                  <td><a href="https://www.youtube.com/watch?v=tQ19Y0acnPE" target="_blank"><img src="<?php echo $_SESSION['lang']=='en'?'images/eng/video.png':'images/video.png'; ?>" class="img-responsive btn-video"></a></td>
                   <td><?php include('includs/btn_reserva.php'); ?></td>
                 </tr>
               </table>

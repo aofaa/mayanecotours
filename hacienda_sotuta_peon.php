@@ -2,7 +2,7 @@
 include('includs/session.php');
 
 if($_SESSION['lang']=='en') {
-  $titulo="Hacienda Sotuta de Peón";
+  $titulo="Hacienda Sotuta de Peon";
 }else{
   $titulo="Hacienda Sotuta de Peón";
 }
@@ -123,7 +123,7 @@ Henequén, Sisal, Truck, Vida Maya">
               <p>
                 <span>Included:</span><br>
               <ul class="listas">
-                <li>Transportation with A/C (bus or van)</li>
+                <li>Transportation with A/C</li>
                 <li>Travel and truck ride</li>
                 <li>Lunch</li>
               </ul>
@@ -142,10 +142,10 @@ Henequén, Sisal, Truck, Vida Maya">
                 We have three meeting points for this tour:<br>
                 Starbucks Gran Plaza Mall - 8:10 a.m.<br>
                 Starbucks at Paseo de Montejo - 8:25 a.m.<br>
-                Sotuta de Peón Office, located at Street 55 # 497 between 58 and 60, Downtown - 8:40 a.m.<br>
+                Sotuta de Peon Office, located at Street 55 # 497 between 58 and 60, Downtown - 8:40 a.m.<br>
               </p>
               <p>
-                The return is approximately at 4:00 p.m at the same point where transport was taken.
+                The return is approximately at 4:00 p.m. at the same point where transport was taken.
               </p>
               <p>
                 To book this tour, you need to pay full.
@@ -159,7 +159,7 @@ Henequén, Sisal, Truck, Vida Maya">
               <p>
                 <span>Incluye:</span><br>
               <ul class="listas">
-                <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
+                <li>Transportación con aire acondicionado</li>
                 <li>Recorrido y paseo en truck</li>
                 <li>Comida en restaurante de la hacienda</li>
               </ul>
@@ -202,8 +202,20 @@ Henequén, Sisal, Truck, Vida Maya">
           <div>
             <img src="images/thumbnail_interiores/10_sotuta.jpg" class="img-responsive img-foto-interior center-block">
             <div id="bg-video-sin-camioneta">
-              <h2>Salidas:</h2>
-              <span>Starbucks Gran Plaza - 8:10 a.m. <br>Starbucks Paseo de Montejo - 8:25 a.m. <br> Oficina Sotuta de Peón - 8:40 a.m.</span>
+              <?php
+              if($_SESSION['lang']=='en')
+              {
+                ?>
+                <h2>Departures:</h2>
+                <span>Starbucks Gran Plaza - 8:10 a.m. <br>Starbucks Paseo de Montejo - 8:25 a.m. <br> Oficina Sotuta de Peon - 8:40 a.m.</span>
+                <?php
+              }else{
+                ?>
+                <h2>Salidas:</h2>
+                <span>Starbucks Gran Plaza - 8:10 a.m. <br>Starbucks Paseo de Montejo - 8:25 a.m. <br> Oficina Sotuta de Peón - 8:40 a.m.</span>
+                <?php
+              }
+              ?>
               <?php include('includs/btn_reserva.php'); ?>
             </div>
           </div>

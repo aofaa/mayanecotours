@@ -63,17 +63,16 @@ Henequén, Sisal, Truck, Vida Maya">
               <p>
                 We are conscious about the natural and cultural wealth for our country and have a comparative advantage for becoming one of the most attractive places in the world speaking in terms of landscapes, diversity, interesting places, natural and cultural areas. We are determined to offer customized service and apply strategies for responsible eco-tourism without improvised attitudes.
               </p>
-              <strong>Mission statement</strong>
+              <h1>Mission statement</h1>
               <p>
                 To provide knowledge and food-for-thought thought visits to relatively unaltered geographical areas while enjoying and appreciating these natural attractions in their pure state.
               </p>
-              <strong>Our vision</strong>
+              <h1>Our vision</h1>
               <p>
                 Support sustainable development by promoting the active participation of local Mayan villages, in the decision making process for planning and in the distribution of benefits.
                 Because ecotourism has an important role in the fight against poverty, as established in the World Summit on Sustainable Development (WSSD) held in Johannesburg, South Africa in 2002.
                 Mayan Ecotours is dedicated to helping the indigenous communities achieve a better quality of life.
               </p>
-
               <?php
             }else {
               ?>

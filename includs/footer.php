@@ -56,34 +56,36 @@
               }
               ?>
             </div>
-            <div class="col-xs-2 col-sm-2 col-md-2">
-              <div class="row">
-                <a href="https://www.facebook.com/www.mayanecotours.com.mx" target="_blank"><img src="images/facebook.png" class="img-responsive center-block"></a>
+            <div class="redes-sociales">
+              <div class="col-xs-2 col-sm-2 col-md-2">
+                <div class="row">
+                  <a href="https://www.facebook.com/www.mayanecotours.com.mx" target="_blank"><img src="images/facebook.png" class="img-responsive center-block"></a>
+                </div>
               </div>
-            </div>
-            <div class="col-xs-2 col-sm-2 col-md-2">
-              <div class="row">
-                <a href="https://twitter.com/MayanEcotours" target="_blank"><img src="images/twitter.png" class="img-responsive center-block"></a>
+              <div class="col-xs-2 col-sm-2 col-md-2">
+                <div class="row">
+                  <a href="https://twitter.com/MayanEcotours" target="_blank"><img src="images/twitter.png" class="img-responsive center-block"></a>
+                </div>
               </div>
-            </div>
-            <div class="col-xs-2 col-sm-2 col-md-2">
-              <div class="row">
-                <a href="https://www.youtube.com/user/MayanEcotours" target="_blank"><img src="images/youtube.png" class="img-responsive center-block"></a>
+              <div class="col-xs-2 col-sm-2 col-md-2">
+                <div class="row">
+                  <a href="https://www.youtube.com/user/MayanEcotours" target="_blank"><img src="images/youtube.png" class="img-responsive center-block"></a>
+                </div>
               </div>
-            </div>
-            <div class="col-xs-2 col-sm-2 col-md-2">
-              <div class="row">
-                <a href="https://www.instagram.com/mayanecotours/" target="_blank"><img src="images/instagram.png" class="img-responsive center-block"></a>
+              <div class="col-xs-2 col-sm-2 col-md-2">
+                <div class="row">
+                  <a href="https://www.instagram.com/mayanecotours/" target="_blank"><img src="images/instagram.png" class="img-responsive center-block"></a>
+                </div>
               </div>
-            </div>
-            <div class="col-xs-2 col-sm-2 col-md-2">
-              <div class="row">
-                <a href="https://plus.google.com/100040283561022392606/posts" target="_blank"><img src="images/google.png" class="img-responsive center-block"></a>
+              <div class="col-xs-2 col-sm-2 col-md-2">
+                <div class="row">
+                  <a href="https://plus.google.com/100040283561022392606/posts" target="_blank"><img src="images/google.png" class="img-responsive center-block"></a>
+                </div>
               </div>
-            </div>
-            <div class="col-xs-2 col-sm-2 col-md-2">
-              <div class="row">
-                <a href="https://www.tripadvisor.com.mx/Attraction_Review-g150811-d1526385-Reviews-Mayan_Ecotours-Merida_Yucatan_Peninsula.html" target="_blank"><img src="images/trip.png" class="img-responsive center-block"></a>
+              <div class="col-xs-2 col-sm-2 col-md-2">
+                <div class="row">
+                  <a href="https://www.tripadvisor.com.mx/Attraction_Review-g150811-d1526385-Reviews-Mayan_Ecotours-Merida_Yucatan_Peninsula.html" target="_blank"><img src="images/trip.png" class="img-responsive center-block"></a>
+                </div>
               </div>
             </div>
           </div>

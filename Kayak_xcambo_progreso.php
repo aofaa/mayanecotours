@@ -136,7 +136,7 @@ Henequén, Sisal, Truck, Vida Maya">
             <div id="caracteristicas">
               <h1>TOUR DETAILS</h1>
               <p>
-                As you wind your way through these amazing mangroves in your kayak, your guide will explain the importance of this sensitive part of the ecosystem. Afterwards, you will head east to the archeological zone of X¬cambó, a Mayan city of grand importance. This is where salt was produced and commercialized with the other great Mayan cities. After this visit, you will return to Progreso for lunch on the beach under the shade of a thatched roof. After lunch, enjoy a stroll on the seaside walk “malecón” along with a typical “marquesita” – a large, rolled wafer with cheese inside.
+                As you wind your way through these amazing mangroves in your kayak, your guide will explain the importance of this sensitive part of the ecosystem. Afterwards, you will head east to the archeological zone of Xcambo, a Mayan city of grand importance. This is where salt was produced and commercialized with the other great Mayan cities. After this visit, you will return to Progreso for lunch on the beach under the shade of a thatched roof. After lunch, enjoy a stroll on the seaside walk “malecón” along with a typical “marquesita” – a large, rolled wafer with cheese inside.
               </p>
               <p>
                 This trip offers an attractive combination of history, fun, adventure and nature.
@@ -146,7 +146,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Included:</span><br>
               <ul class="listas">
                 <li>Departure from your hotel at 9:00 a.m.</li>
-                <li>Transportation with A/C (bus or van)</li>
+                <li>Transportation with A/C</li>
                 <li>Specialized guide</li>
                 <li>Kayak trip in the mangroves</li>
                 <li>Flamingo watching along with other marine birds</li>
@@ -187,7 +187,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Incluye:</span><br>
               <ul class="listas">
                 <li>Salida del hotel a las 9:00 a.m.</li>
-                <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
+                <li>Transportación con aire acondicionado</li>
                 <li>Guía español-inglés</li>
                 <li>Entrada a la ciénaga</li>
                 <li>Recorrido en kayak a través del mangle</li>
@@ -249,7 +249,7 @@ Henequén, Sisal, Truck, Vida Maya">
               ?>
               <table>
                 <tr>
-                  <td><a href="https://www.youtube.com/watch?v=LOxIycVJWLc" target="_blank"><img src="images/video.png" class="img-responsive btn-video"></a></td>
+                  <td><a href="https://www.youtube.com/watch?v=LOxIycVJWLc" target="_blank"><img src="<?php echo $_SESSION['lang']=='en'?'images/eng/video.png':'images/video.png'; ?>" class="img-responsive btn-video"></a></td>
                   <td><?php include('includs/btn_reserva.php'); ?></td>
                 </tr>
               </table>

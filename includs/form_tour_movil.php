@@ -1,23 +1,23 @@
 <div>
               <form action="" id="form_tour_movil" accept-charset="utf-8" method="post">
                   <div class="columna">
-                      <input type="text" name="nombre" id="txtnombretm" class="form-control form-contacto-tour" data-validation-engine="validate[required,custom[minSz2Nm]]" data-validation-placeholder="Escriba su nombre" placeholder="Nombre">
+                      <input type="text" name="nombre" id="txtnombretm" class="form-control form-contacto-tour" data-validation-engine="validate[required,custom[minSz2Nm]]" data-validation-placeholder="Escriba su nombre" placeholder="<?php if($_SESSION['lang']=='en'){echo'Name*';}else{echo'Nombre';} ?>">
                   </div>
 
                   <div class="columna1">
-                      <input type="text" name="tel" id="txtteltm" class="form-control form-contacto-tour" maxlength="10" placeholder="Teléfono">
+                      <input type="text" name="tel" id="txtteltm" class="form-control form-contacto-tour" maxlength="10" placeholder="<?php if($_SESSION['lang']=='en'){echo'Phone number';}else{echo'Teléfono';} ?>">
                   </div>
   
                   <div class="columna2">
-                      <input type="email" name="email" id="txtemailtm" class="form-control form-contacto-tour" data-validation-engine="validate[required,custom[email]]" data-validation-placeholder="Correo electrónico" placeholder="Correo Electrónico">
+                      <input type="email" name="email" id="txtemailtm" class="form-control form-contacto-tour" data-validation-engine="validate[required,custom[email]]" data-validation-placeholder="Correo electrónico" placeholder="<?php if($_SESSION['lang']=='en'){echo'Email adress';}else{echo'Correo Electrónico';} ?>">
                   </div>
                   
                   <div class="columna">
-                      <textarea name="comentarios" id="txtcomentariostm" class="form-control comentarios-contacto-tour" placeholder="Comentarios"></textarea>
+                      <textarea name="comentarios" id="txtcomentariostm" class="form-control comentarios-contacto-tour" placeholder="<?php if($_SESSION['lang']=='en'){echo'Comments';}else{echo'Comentarios';} ?>"></textarea>
                   </div>
   
                   <div class="columna-codigo">
-                      <input type="text" name="codigo" id="txtcodigotm" class="form-control form-captcha-contacto-tour" placeholder="Escribe el código de la imagen" autocomplete="off">
+                      <input type="text" name="codigo" id="txtcodigotm" class="form-control form-captcha-contacto-tour" placeholder="<?php if($_SESSION['lang']=='en'){echo'Tipe the code shown';}else{echo'Escribe el código de la imagen';} ?>" autocomplete="off">
                   </div>
   
                   <div class="img-captcha">
@@ -25,7 +25,7 @@
                   </div>
   
                   <div class="columna">
-                      <input type="submit" id="btnTour" name="btnTour" value="ENVIAR" class="center-block boton_enviar_tours">
+                      <input type="submit" id="btnTour" name="btnTour" value="<?php if($_SESSION['lang']=='en'){echo'SEND';}else{echo'ENVIAR';} ?>" class="center-block boton_enviar_tours">
                   </div>
                   <div class="columna">
                       <span id="error_tourm"></span>

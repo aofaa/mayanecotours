@@ -1,9 +1,9 @@
 <?php
 /*return array(
     'host' => 'localhost',
-    'username' => 'posgrad3_oferta',
-    'pass' => 'oferta_2015',
-    'db' => 'posgrad3_oferta_2015'
+    'username' => 'mayaneco_2016',
+    'pass' => 'mayan2016**',
+    'db' => 'mayaneco_2016'
 );*/
 
 return array(

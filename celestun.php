@@ -79,7 +79,7 @@ Henequén, Sisal, Truck, Vida Maya">
           <div id="info-general">
             <h1>GENERAL INFORMATION</h1>
             <p>
-              In mayan language means “Espanto de piedra”.
+              In mayan language means “Horror stone”.
             </p>
             <p>
               The Biosphere Reserve Estuary Celestun declared as such in 2000, in order to preserve the fragile ecosystem of hypersaline estuaries, some shallow lakes and high concentration of salts that are next to other lakes of the peninsula, home to the only colony of pink flamingo in the north hemisphere.
@@ -131,7 +131,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Included:</span><br>
               <ul class="listas">
                 <li>Departure from your hotel at 9:00 a.m.</li>
-                <li>Transportation with A/C (bus or van)</li>
+                <li>Transportation with A/C</li>
                 <li>Boat trip into the mangroves and to see the flamingos</li>
                 <li>Certified guide</li>
                 <li>Seafood lunch (including shrimp cocktail and fish fillet)</li>
@@ -168,7 +168,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Incluye:</span><br>
               <ul class="listas">
                 <li>Salida de su hotel a las 9:00 a.m.</li>
-                <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
+                <li>Transportación con aire acondicionado</li>
                 <li>Guía certificado durante el recorrido</li>
                 <li>Paseo en lancha por la Ría de Celestún</li>
                 <li>Comida a base de mariscos (cóctel de camarones, filete de pescado al gusto)</li>
@@ -221,7 +221,7 @@ Henequén, Sisal, Truck, Vida Maya">
               ?>
               <table>
                 <tr>
-                  <td><a href="https://www.youtube.com/watch?v=nPo8gjIl-Mk" target="_blank"><img src="images/video.png" class="img-responsive btn-video"></a></td>
+                  <td><a href="https://www.youtube.com/watch?v=nPo8gjIl-Mk" target="_blank"><img src="<?php echo $_SESSION['lang']=='en'?'images/eng/video.png':'images/video.png'; ?>" class="img-responsive btn-video"></a></td>
                   <td><?php include('includs/btn_reserva.php'); ?></td>
                 </tr>
               </table>

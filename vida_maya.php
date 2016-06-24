@@ -139,7 +139,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Incluye:</span><br>
               <ul class="listas">
                 <li>Departure from your hotel at 9:00 a.m.</li>
-                <li>Transportation with A/C (bus or van)</li>
+                <li>Transportation with A/C</li>
                 <li>Specialized guide</li>
                 <li>Snorkel equipment and life jacket</li>
                 <li>Visit a Mayan home</li>
@@ -177,7 +177,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Incluye:</span><br>
               <ul class="listas">
                 <li>Salida de su hotel a las 9:00 a.m.</li>
-                <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
+                <li>Transportación con aire acondicionado</li>
                 <li>Guía especializado durante actividades y recorrido</li>
                 <li>Equipo de esnórquel y chaleco de flotación</li>
                 <li>Recorrido por la exhacienda de la comunidad</li>

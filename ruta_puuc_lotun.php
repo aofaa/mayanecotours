@@ -93,7 +93,7 @@ Henequén, Sisal, Truck, Vida Maya">
             </p>
             <h2>LOLTUN CAVES</h2>
             <p>
-              The tour starts at the entrance of Nahkab, or beehive, where the famous bas¬relief known as “El guerrero de Loltún” (“The Loltun warrior”) is located, which seems to be emerging from the caves and is believed to be the God of the underworld.
+              The tour starts at the entrance of Nahkab, or beehive, where the famous bas¬relief known as “The Loltun warrior” is located, which seems to be emerging from the caves and is believed to be the God of the underworld.
             </p>
             <p>
               Another attraction of great interest is the cave paintings: in a wall one can see negatives of hands, in another one there are more elaborated paintings representing faces, animals and staggered greca patterns.
@@ -146,7 +146,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Included:</span><br>
               <ul class="listas">
                 <li>Departure from your hotel at 8:30 a.m.</li>
-                <li>Transportation with A/C (bus or van)</li>
+                <li>Transportation with A/C</li>
                 <li>Certified Guide</li>
                 <li>Visit to Loltun, Sayil, Labna and Xlapack</li>
                 <li>Return to your hotel at 6:00 p.m.</li>
@@ -177,8 +177,8 @@ Henequén, Sisal, Truck, Vida Maya">
               <p>
                 <span>Incluye:</span><br>
               <ul class="listas">
-                <li>Salida del su hotel a las 8:30 a.m. </li>
-                <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
+                <li>Salida de su hotel a las 8:30 a.m. </li>
+                <li>Transportación con aire acondicionado</li>
                 <li>Guía certificado durante el recorrido</li>
                 <li>Visita a Loltún, Sayil, Labná y Xlapack</li>
                 <li>Regreso a su hotel a las 6:00 p.m. </li>

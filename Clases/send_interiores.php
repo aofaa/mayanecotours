@@ -28,34 +28,34 @@ if(isset($_POST['btnInterior'])) {
 				
 			$frmcontactointerior = new frmContactoInterior($id,$nombre,$tel,$email,$comentarios);
 				
-			$email_to = "jesus.caamal@imaginaestudio.mx";
+			$email_to = "jesus.caamal@imaginaestudio.mx,priscila.may@imaginaestudio.mx";
 			$email_subject= "Formulario contacto - ".html_entity_decode ($titulo)."";
 		
 			$email_message= "<html>
 									<body>
 									  <table>
 									  	<tr>
-											<td align='right'>Título:</td>
+											<td align='right'>Título / Tittle:</td>
 											<td>".$titulo."</td>
 										</tr>
 										<tr>
-											<td align='right'>Nombre:</td>
+											<td align='right'>Nombre / Name:</td>
 											<td>".$nombre."</td>
 										</tr>
 										<tr>
-											<td align='right'>Teléfono:</td>
+											<td align='right'>Teléfono / Phone number:</td>
 											<td>".$tel."</td>
 										</tr>
 										<tr>
-											<td align='right'>Correo electrónico:</td>
+											<td align='right'>Correo electrónico / Email adress:</td>
 											<td>".$email."</td>
 										</tr>
 										<tr>
-											<td align='right'>Comentarios:</td>
+											<td align='right'>Comentarios / Comments:</td>
 											<td>".$comentarios."</td>
 										</tr>
 										<tr>
-											<td align='right'>Enviado desde:</td>
+											<td align='right'>Enviado desde / Sent from:</td>
 											<td>".$url."</td>
 										</tr>
 
@@ -75,13 +75,13 @@ if(isset($_POST['btnInterior'])) {
 				$frmcontactointerior->insertar();
 				
 				 echo "<script language='javascript'>
-							window.location.href = 'gracias.php';
+							window.location.href = 'gracias_interiores.php';
 					   </script>";
 			}
 
 		}
 	}else{
-		$msg = "<p>Captcha incorrecto</p>";
+		$msg = "<p>Error Captcha</p>";
 	}
 	
 	echo $msg;

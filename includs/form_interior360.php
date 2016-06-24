@@ -4,23 +4,23 @@
                   <input type="hidden" name="url" id="hdnurlIntm" value="<?php echo $currentUrl; ?>"/>
                   <input type="hidden" name="titulo" id="hdntituloIntm" value="<?php echo $titulo; ?>"/>
                   <div class="columna">
-                      <input type="text" name="nombre" id="txtnombreIntm" class="form-control form-interior" data-validation-engine="validate[required,custom[minSz2Nm]]" data-validation-placeholder="Escriba su nombre" placeholder="Nombre">
+                      <input type="text" name="nombre" id="txtnombreIntm" class="form-control form-interior" data-validation-engine="validate[required,custom[minSz2Nm]]" data-validation-placeholder="Escriba su nombre" placeholder="<?php if($_SESSION['lang']=='en'){echo'Name*';}else{echo'Nombre';} ?>">
                   </div>
 
                   <div class="columna">
-                      <input type="text" name="tel" id="txttelIntm" class="form-control form-interior" maxlength="10" placeholder="Teléfono">
+                      <input type="text" name="tel" id="txttelIntm" class="form-control form-interior" maxlength="10" placeholder="<?php if($_SESSION['lang']=='en'){echo'Phone number';}else{echo'Teléfono';} ?>">
                   </div>
   
                   <div class="columna">
-                      <input type="email" name="email" id="txtemailIntm" class="form-control form-interior" data-validation-engine="validate[required,custom[email]]" data-validation-placeholder="Correo electrónico" placeholder="Correo Electrónico">
+                      <input type="email" name="email" id="txtemailIntm" class="form-control form-interior" data-validation-engine="validate[required,custom[email]]" data-validation-placeholder="Correo electrónico" placeholder="<?php if($_SESSION['lang']=='en'){echo'Email adress';}else{echo'Correo Electrónico';} ?>">
                   </div>
                   
                   <div class="columna">
-                      <textarea name="comentarios" id="txtcomentariosIntm" class="form-control comentarios-interior" placeholder="Comentarios"></textarea>
+                      <textarea name="comentarios" id="txtcomentariosIntm" class="form-control comentarios-interior" placeholder="<?php if($_SESSION['lang']=='en'){echo'Comments';}else{echo'Comentarios';} ?>"></textarea>
                   </div>
   
                   <div class="columna-codigo">
-                      <input type="text" name="codigo" id="txtcodigoIntm" class="form-control form-captcha-interior" placeholder="Escribe el código de la imagen" autocomplete="off">
+                      <input type="text" name="codigo" id="txtcodigoIntm" class="form-control form-captcha-interior" placeholder="<?php if($_SESSION['lang']=='en'){echo'Tipe the code shown';}else{echo'Escribe el código de la imagen';} ?>" autocomplete="off">
                   </div>
   
                   <div class="img-captcha">
@@ -28,7 +28,7 @@
                   </div>
   
                   <div class="columna">
-                      <input type="submit" id="btnInterior" name="btnInterior" value="ENVIAR" class="center-block boton-enviar-interior">
+                      <input type="submit" id="btnInterior" name="btnInterior" value="<?php if($_SESSION['lang']=='en'){echo'SEND';}else{echo'ENVIAR';} ?>" class="center-block boton-enviar-interior">
                   </div>
                   <div class="columna">
                       <span id="error_interiorm"></span>

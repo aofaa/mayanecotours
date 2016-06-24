@@ -41,7 +41,7 @@ header("Expires: 0");
             </tr>
 		<?php
 		$cont=0;
-		foreach ($frm_inter as $e) {
+		foreach ($frm_tour as $e) {
 			$cont++;
 			
 					echo'<tr>';

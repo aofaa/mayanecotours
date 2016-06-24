@@ -144,7 +144,7 @@ jQuery("#form_contacto").validationEngine('attach', {
               //alert(d);
               //console.log(d);
               
-              if(d == "<p>Captcha incorrecto</p>"){
+              if(d == "<p>Error Captcha</p>"){
                 $('#overlay, #PleaseWait').hide();
               }
               
@@ -190,7 +190,7 @@ $(document).ready(function(){
                         //alert(d);
                         //console.log(d);
 
-                        if(d == "<p>Captcha incorrecto</p>"){
+                        if(d == "<p>Error Captcha</p>"){
                             $('#overlay, #PleaseWait').hide();
                         }
 
@@ -236,7 +236,7 @@ jQuery("#form_interior").validationEngine('attach', {
               //alert(d);
               //console.log(d);
               
-              if(d == "<p>Captcha incorrecto</p>"){
+              if(d == "<p>Error Captcha</p>"){
                 $('#overlay, #PleaseWait').hide();
               }
               
@@ -282,7 +282,7 @@ $(document).ready(function(){
                         //alert(d);
                         //console.log(d);
 
-                        if(d == "<p>Captcha incorrecto</p>"){
+                        if(d == "<p>Error Captcha</p>"){
                             $('#overlay, #PleaseWait').hide();
                         }
 
@@ -328,7 +328,7 @@ jQuery("#form_tour").validationEngine('attach', {
               //alert(d);
               //console.log(d);
               
-              if(d == "<p>Captcha incorrecto</p>"){
+              if(d == "<p>Error Captcha</p>"){
                 $('#overlay, #PleaseWait').hide();
               }
               
@@ -374,7 +374,7 @@ jQuery("#form_tour_movil").validationEngine('attach', {
               //alert(d);
               //console.log(d);
               
-              if(d == "<p>Captcha incorrecto</p>"){
+              if(d == "<p>Error Captcha</p>"){
                 $('#overlay, #PleaseWait').hide();
               }
               
@@ -421,7 +421,7 @@ jQuery("#form_footer").validationEngine('attach', {
               //alert(d);
               //console.log(d);
               
-              if(d == "<p>Captcha incorrecto</p>"){
+              if(d == "<p>Error Captcha</p>"){
                 $('#overlay, #PleaseWait').hide();
               }
               

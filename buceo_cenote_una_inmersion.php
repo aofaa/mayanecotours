@@ -236,8 +236,19 @@ Henequén, Sisal, Truck, Vida Maya">
           <div>
             <img src="images/thumbnail_interiores/11_buceo.jpg" class="img-responsive img-foto-interior center-block">
             <div id="bg-video-sin-camioneta">
-              <h1><span>1 inmersión de 45 minutos</span></h1>
-              <?php include('includs/btn_reserva.php'); ?>
+              <h1><?php echo $_SESSION['lang']=='en'?'':'<span>1 inmersión de 45 minutos</span>'; ?></h1>
+              <?php
+              if($_SESSION['lang']=='en')
+              {
+                ?>
+                <?php include('includs/btn_reserva_cueva.php'); ?>
+                <?php
+              }else{
+                ?>
+                <?php include('includs/btn_reserva.php'); ?>
+                <?php
+              }
+              ?>
             </div>
           </div>
         </div>

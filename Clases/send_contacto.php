@@ -29,34 +29,34 @@ if(isset($_POST['btnContacto'])) {
 				
 			$frmcontacto = new frmContacto($id,$nombre,$tel,$email,$pais,$estado,$comentarios);
 				
-			$email_to = "jesus.caamal@imaginaestudio.mx";
+			$email_to = "jesus.caamal@imaginaestudio.mx,priscila.may@imaginaestudio.mx";
 			$email_subject= "Formulario contacto mayanecotours.com";
 		
 			$email_message= "<html>
 									<body>
 									  <table>
 										<tr>
-											<td align='right'>Nombre:</td>
+											<td align='right'>Nombre / Name:</td>
 											<td>".$nombre."</td>
 										</tr>
 										<tr>
-											<td align='right'>Teléfono:</td>
+											<td align='right'>Teléfono / Phone number:</td>
 											<td>".$tel."</td>
 										</tr>
 										<tr>
-											<td align='right'>Correo electrónico:</td>
+											<td align='right'>Correo electrónico / Email adress:</td>
 											<td>".$email."</td>
 										</tr>
 										<tr>
-											<td align='right'>País:</td>
+											<td align='right'>País / Country:</td>
 											<td>".$pais."</td>
 										</tr>
 										<tr>
-											<td align='right'>Estado / Provincia:</td>
+											<td align='right'>Estado / Provincia / State / Province:</td>
 											<td>".$estado."</td>
 										</tr>
 										<tr>
-											<td align='right'>Comentarios:</td>
+											<td align='right'>Comentarios / Comments:</td>
 											<td>".$comentarios."</td>
 										</tr>
 
@@ -75,13 +75,13 @@ if(isset($_POST['btnContacto'])) {
 			{
 				$frmcontacto->insertar();
 				 echo "<script language='javascript'>
-							window.location.href = 'gracias.php';
+							window.location.href = 'gracias_contacto.php';
 					   </script>";
 			}
 
 		}
 	}else{
-		$msg = "<p>Captcha incorrecto</p>";
+		$msg = "<p>Error Captcha</p>";
 	}
 	
 	echo $msg;

@@ -332,6 +332,7 @@ a:hover, a:focus {
 	text-align: center;
 	color: #fff;
 	padding-top: 15px;
+	margin-left: 35px;
 	padding-bottom: 20px;
 }
 
@@ -915,10 +916,13 @@ a:hover, a:focus {
 
 	
 /** FORM FOOTER **/
+.redes-sociales{
+	margin-left: 35px;
+}
 .img-hotel{
 	position: absolute;
-	right: 133px;
-	margin-top: 32px;
+	left: 22px;
+	margin-top: 200px;
 	z-index: 2;
 }
 
@@ -949,7 +953,7 @@ a:hover, a:focus {
   height: 100%;
   width: 100%;
   z-index: 10;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 .wait {
@@ -1047,6 +1051,32 @@ a:hover, a:focus {
   font-size: 14px;
   color: #fff;
   text-align: center;
+}
+
+#gracias h1 {
+	font-family: 'Oxygen Bold';
+	font-size: 50px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#gracias h2 {
+	font-family: 'Oxygen Regular';
+	font-size: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+}
+
+#gracias h4 {
+	font-family: 'Oxygen Regular';
+	font-size: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
 }
 
 
@@ -1648,10 +1678,10 @@ body {
 
 .img-hotel {
 	position: absolute;
-	right: 385px;
-	margin-top: 135px;
+	left: 263px;
+	margin-top: 124px;
 	z-index: 2;
-	width: 130px;
+	width: 107px;
 }
 
 .img-logo-footer {
@@ -1776,6 +1806,32 @@ body {
     font-size: 12px;
     color: #434343;
     text-align: center;
+}
+
+#gracias h1 {
+	font-family: 'Oxygen Bold';
+	font-size: 34px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#gracias h2 {
+	font-family: 'Oxygen Regular';
+	font-size: 26px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+}
+
+#gracias h4 {
+	font-family: 'Oxygen Regular';
+	font-size: 14px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
 }
 
 }
@@ -2155,10 +2211,10 @@ body {
 /*FOOTER*/
 .img-hotel {
 	position: absolute;
-	right: 42px;
-	margin-top: 32px;
+	left: 10px;
+	margin-top: 255px;
 	z-index: 2;
-	width: 140px;
+	width: 88px;
 }
 
 .telefonos {
@@ -2677,10 +2733,22 @@ padding-top: 20px;
 .bg-footer {
     background: #0a5e2a;
 }
+.dir-footer {
+	font-size: 13px;
+	text-align: center;
+	color: #fff;
+	padding-top: 15px;
+	margin-left: 0px;
+	padding-bottom: 20px;
+}
+
+.redes-sociales {
+	margin-left: 0px;
+}
 
 .img-hotel{
 	position: absolute;
-	right: 30px;
+	left: 188px;
 	margin-top: 103px;
 	z-index: 2;
 	width: 95px;
@@ -2732,6 +2800,32 @@ padding-top: 20px;
     line-height: 32px;
     margin-top: 7px;
     border: 0;
+}
+
+#gracias h1 {
+	font-family: 'Oxygen Bold';
+	font-size: 30px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+#gracias h2 {
+	font-family: 'Oxygen Regular';
+	font-size: 20px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+}
+
+#gracias h4 {
+	font-family: 'Oxygen Regular';
+	font-size: 16px;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 0;
+	margin: 0;
+	padding-top: 10px;
 }
 
 }

@@ -94,7 +94,7 @@ Henequén, Sisal, Truck, Vida Maya">
               The most impressive structure, reaching a height of over 35 meters is the House of the Wizard. According to legend, this pyramid in Uxmal was built in just one night by a dwarf. In reality it was built in five stages, with the staircase facing west, towards the setting sun in the summer solstices. The Convent was not named by the Spaniards for its similarity to a European convent. It was probably used as a school for healers, astrologers and priests. The Governor‘s Palace is an excellent example of the rain God  Chaac, serpents and astrological symbols, and is considered the most beautiful construction in Mesoamerica for its style and imposing proportions.
             </p>
             <p>
-              The group of four elongated buildings surrounding the patio is the Nunnery. It is remarkable for its magnificent decoration with motifs, lattice motifs; Lattice¬work and human figures alternating with serpents, turtle heads, owls and masks of Chaac.
+              The group of four elongated buildings surrounding the patio is the Nunnery. It is remarkable for its magnificent decoration with motifs, lattice motifs; Lattice-work and human figures alternating with serpents, turtle heads, owls and masks of Chaac.
             </p>
             <p>
               It’s believed that the downfall of Uxmal was probably due to a social revolt which put an end to the governing elite.  There’s a certain refined air about Uxmal that touches visitors from outset.

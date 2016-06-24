@@ -121,7 +121,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Included:</span><br>
               <ul class="listas">
                 <li>Departure from your hotel at 9:00 am.</li>
-                <li>Transportation with A/C (bus or van).</li>
+                <li>Transportation with A/C</li>
                 <li>Specialized guide.</li>
                 <li>17 meter rappel.</li>
                 <li>Snorkeling in a cenote.</li>
@@ -139,13 +139,10 @@ Henequén, Sisal, Truck, Vida Maya">
               </p>
               <p>
                 <span>Recommendations:</span><br>
-                Llevar sombrero o gorra, ropa cómoda, traje de baño, cámara fotográfica, repelente de insectos y protector solar biodegradable.
-              </p>
-              <p>
-                <span>Note:</span><br>
                 Bring hat or cap, comfortable clothes, camera, bathing suit, towel, and biodegradable sun block and repellent
               </p>
               <p>
+                <span>Note:</span><br>
                 This tour operates with minimum 4 people, however contact us for availability.
               </p>
             </div>
@@ -165,7 +162,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Incluye:</span><br>
               <ul class="listas">
                 <li>Salida de su hotel a las 9:00 a.m.</li>
-                <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
+                <li>Transportación con aire acondicionado</li>
                 <li>Guía español-inglés, especializado en las actividades</li>
                 <li>Equipo para las diferentes actividades (cascos, arneses, cuerdas, lámparas, mosquetones, equipo de esnórquel, chaleco de flotación, etc.)</li>
                 <li>Entrada a la gruta</li>
@@ -231,7 +228,7 @@ Henequén, Sisal, Truck, Vida Maya">
               ?>
               <table>
                 <tr>
-                  <td><a href="https://www.youtube.com/watch?v=F7UDfVtgijM" target="_blank"><img src="images/video.png" class="img-responsive btn-video"></a></td>
+                  <td><a href="https://www.youtube.com/watch?v=F7UDfVtgijM" target="_blank"><img src="<?php echo $_SESSION['lang']=='en'?'images/eng/video.png':'images/video.png'; ?>" class="img-responsive btn-video"></a></td>
                   <td><?php include('includs/btn_reserva.php'); ?></td>
                 </tr>
               </table>

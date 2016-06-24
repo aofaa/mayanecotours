@@ -85,7 +85,7 @@ Henequén, Sisal, Truck, Vida Maya">
               Izamal is sometimes known as the “City of Hills”, referring to the covered pyramids found by the Spanish past on their arrival and also as the “City of the Three Cultures”, for the prehispanic, Colonial traces of its past, as well as contemporary influences.
             </p>
             <p>
-              Izamal was one of the most important city¬-states of the prehispanic mayan culture, between 850 and 1000 AD. For centuries the maya would pilgrimage here along the sacbés or white stone paths that joined the principal metropolises of the mayan world; this and Uxmal: The first settlements here date back to the 3rd century AD.
+              Izamal was one of the most important city-states of the prehispanic mayan culture, between 850 and 1000 AD. For centuries the maya would pilgrimage here along the sacbés or white stone paths that joined the principal metropolises of the mayan world; this and Uxmal: The first settlements here date back to the 3rd century AD.
             </p>
             <p>
               During the post classic period, Izamal experienced a popularity boom as a mayan toltec city, but like other major cities of this era, it was later abandoned. When the Spanish arrived, the place was all but deserted and belonged to an indigenous group called the Cocoms.
@@ -97,7 +97,7 @@ Henequén, Sisal, Truck, Vida Maya">
               The convent was founded in Izamal by the priest Fray Diego de Landa y Franciscan missionaries in 1549. The courtyard of Izamal is the second after St. Peter´s in the Vatican in size, and was chosen by Pope John Paul II for his reunion with a host of ethnic groups on one of his visits to México.
             </p>
             <p>
-              In Izamal, horse drawn carriages take the visitors for a charming ride down neat cobble¬stone streets, around the parks, squares and historical suburbs where Fray Diego de Landa himself seems to speak to us about the quality of the people, so alive and proud of their past.
+              In Izamal, horse drawn carriages take the visitors for a charming ride down neat cobble-stone streets, around the parks, squares and historical suburbs where Fray Diego de Landa himself seems to speak to us about the quality of the people, so alive and proud of their past.
             </p>
             <p>
               At night the view from Izamal is extraordinary. The pyramids, temples and colonial mansions are silhouetted against the starry heavens: shadows that seem to awaken from a centuries old dream.
@@ -106,7 +106,7 @@ Henequén, Sisal, Truck, Vida Maya">
               The second most significant structure in Izamal is the pyramid of Izamatul, dedicated to the founder of the city and standing 22 meters high.
             </p>
             <p>
-              Around 80 pre¬hispanic structures have been found on the site during innumerable excavations and restorations in Izamal, one of these is known as Kinich Kakmoo, a name meaning “Sun Face” and where homage was paid to the sun as the source of life.
+              Around 80 pre-hispanic structures have been found on the site during innumerable excavations and restorations in Izamal, one of these is known as Kinich Kakmoo, a name meaning “Sun Face” and where homage was paid to the sun as the source of life.
             </p>
           </div>
           <?php
@@ -165,7 +165,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Included:</span><br>
               <ul class="listas">
                 <li>Departure from your hotel at 9:00 a.m.</li>
-                <li>Transportation with A/C (bus or van)</li>
+                <li>Transportation with A/C</li>
                 <li>Certified guide</li>
                 <li>Horse and buggy tour of Izamal</li>
                 <li>Return to your hotel at 4:00 p.m.</li>
@@ -185,7 +185,7 @@ Henequén, Sisal, Truck, Vida Maya">
               </p>
               <p>
                 <span>Notes:</span><br>
-                Este tour opera con un mínimo de 4 personas, de cualquier manera contáctenos para conocer disponibilidad.
+                This tour operates with minimum 4 people, however contact us for availability.
               </p>
             </div>
             <?php
@@ -197,7 +197,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Incluye:</span><br>
               <ul class="listas">
                 <li>Salida de su hotel a las 9:00 a.m.</li>
-                <li>Transportación con aire acondicionado (autobús o camioneta tipo VAN)</li>
+                <li>Transportación con aire acondicionado</li>
                 <li>Guía certificado durante el recorrido</li>
                 <li>Paseo en calesa</li>
                 <li>Regreso a su hotel a las 4:00 p.m.</li>
@@ -254,7 +254,7 @@ Henequén, Sisal, Truck, Vida Maya">
               ?>
               <table>
                 <tr>
-                  <td><a href="https://www.youtube.com/watch?v=Ymw8VaLZv_4" target="_blank"><img src="images/video.png" class="img-responsive btn-video"></a></td>
+                  <td><a href="https://www.youtube.com/watch?v=Ymw8VaLZv_4" target="_blank"><img src="<?php echo $_SESSION['lang']=='en'?'images/eng/video.png':'images/video.png'; ?>" class="img-responsive btn-video"></a></td>
                   <td><?php include('includs/btn_reserva.php'); ?></td>
                 </tr>
               </table>
