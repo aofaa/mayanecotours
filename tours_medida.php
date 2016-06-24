@@ -1,5 +1,11 @@
 <?php
-$titulo="Tours a la medida";
+include('includs/session.php');
+
+if($_SESSION['lang']=='en') {
+  $titulo="Custom tour";
+}else{
+  $titulo="Tours a la medida";
+}
 
 $protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') === FALSE ? 'http' : 'https';
 $host     = $_SERVER['HTTP_HOST'];

@@ -46,18 +46,40 @@ Henequén, Sisal, Truck, Vida Maya">
 
 <?php include('includs/menu.php'); ?>
 <section>
+  <?php
+  if($_SESSION['lang']=='en')
+  {
+    ?>
     <!--empieza slider-->
     <div class="demo_wrapper">
-        <div class="demo_block">
-            <ul id="banner">
-              <li><a href="javascript:void(0);"><img src="images/banner01.jpg" alt="" title="" /></a></li>
-              <li><a href="chichen_cenote.php"><img src="images/banner02.jpg" alt="" title="" /></a></li>
-              <li><a href="uxmal_comida.php"><img src="images/banner03.jpg" alt="" title="" /></a></li>
-              <li><a href="esnorquel_cenotes_hacienda.php"><img src="images/banner04.jpg" alt="" title="" /></a></li>
-            </ul>
-        </div>
+      <div class="demo_block">
+        <ul id="banner">
+          <li><a href="javascript:void(0);"><img src="images/eng/banner01.jpg" alt="" title="" /></a></li>
+          <li><a href="chichen_cenote.php"><img src="images/eng/banner02.jpg" alt="" title="" /></a></li>
+          <li><a href="uxmal_comida.php"><img src="images/eng/banner03.jpg" alt="" title="" /></a></li>
+          <li><a href="esnorquel_cenotes_hacienda.php"><img src="images/eng/banner04.jpg" alt="" title="" /></a></li>
+        </ul>
+      </div>
     </div>
     <!--termina slider-->
+    <?php
+  }else{
+    ?>
+    <!--empieza slider-->
+    <div class="demo_wrapper">
+      <div class="demo_block">
+        <ul id="banner">
+          <li><a href="javascript:void(0);"><img src="images/banner01.jpg" alt="" title="" /></a></li>
+          <li><a href="chichen_cenote.php"><img src="images/banner02.jpg" alt="" title="" /></a></li>
+          <li><a href="uxmal_comida.php"><img src="images/banner03.jpg" alt="" title="" /></a></li>
+          <li><a href="esnorquel_cenotes_hacienda.php"><img src="images/banner04.jpg" alt="" title="" /></a></li>
+        </ul>
+      </div>
+    </div>
+    <!--termina slider-->
+    <?php
+  }
+  ?>
 </section>
 <section class="bg-01">
   <div class="container">
@@ -168,7 +190,7 @@ Henequén, Sisal, Truck, Vida Maya">
         
         <!--======= PORTFOLIO ITEM 1 =========-->
         <li class="item">
-          <div class="img"> <img src="images/chichen.jpg" alt="" >
+          <div class="img"> <?php if($_SESSION['lang']=='en'){echo'<img src="images/eng/chichen.jpg" alt="" >';}else{echo'<img src="images/chichen.jpg" alt="" >';} ?>
             <div class="over"> <a href="chichen_cenote.php" class="expand"><img src="images/mas-info.png" class="center-block img-info"></a>
             </div>
           </div>
@@ -176,7 +198,7 @@ Henequén, Sisal, Truck, Vida Maya">
         
         <!--======= PORTFOLIO ITEM 2 =========-->
         <li class="item">
-          <div class="img"> <img src="images/cuzama.jpg" alt="" >
+          <div class="img"> <?php echo ($_SESSION['lang']=='en')?'<img src="images/eng/cuzama.jpg" alt="" >':'<img src="images/cuzama.jpg" alt="" >'; ?>
             <div class="over"> <a href="esnorquel_cenotes_hacienda.php" class="expand"><img src="images/mas-info.png" class="center-block img-info"></a>
             </div>
           </div>
@@ -184,7 +206,7 @@ Henequén, Sisal, Truck, Vida Maya">
         
         <!--======= PORTFOLIO ITEM 3 =========-->
         <li class="item">
-          <div class="img"> <img src="images/uxmal.jpg" alt="" >
+          <div class="img"> <?php echo ($_SESSION['lang']=='en')?'<img src="images/eng/uxmal.jpg" alt="" >':'<img src="images/uxmal.jpg" alt="" >'; ?>
             <div class="over"> <a href="uxmal_comida.php" class="expand"><img src="images/mas-info.png" class="center-block img-info"></a>
             </div>
           </div>
@@ -210,7 +232,7 @@ Henequén, Sisal, Truck, Vida Maya">
               <p>
                 Contact us and know all options that we have in Mayan Ecotours.
               </p>
-              <a href="tours_medida.php" class="btn-aventura">¡COMIENZA TU AVENTURA AHORA!</a>
+              <a href="tours_medida.php" class="btn-aventura">Start your adventure right now!</a>
             </div>
             <?php
           }else{

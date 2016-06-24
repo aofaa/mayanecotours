@@ -498,7 +498,7 @@ a:hover, a:focus {
 	font-family: 'Oxygen Bold';
 	font-size: 18px;
 	color: #f6f195;
-	text-indent: 20px;
+	text-indent: 30px;
 	padding: 0;
 	margin: 0;
 }
@@ -917,8 +917,8 @@ a:hover, a:focus {
 /** FORM FOOTER **/
 .img-hotel{
 	position: absolute;
-	left: 0;
-	margin-top: 15px;
+	right: 133px;
+	margin-top: 32px;
 	z-index: 2;
 }
 
@@ -1648,8 +1648,8 @@ body {
 
 .img-hotel {
 	position: absolute;
-	left: 0;
-	margin-top: 116px;
+	right: 385px;
+	margin-top: 135px;
 	z-index: 2;
 	width: 130px;
 }
@@ -2155,8 +2155,8 @@ body {
 /*FOOTER*/
 .img-hotel {
 	position: absolute;
-	left: 0;
-	margin-top: 15px;
+	right: 42px;
+	margin-top: 32px;
 	z-index: 2;
 	width: 140px;
 }
@@ -2680,8 +2680,8 @@ padding-top: 20px;
 
 .img-hotel{
 	position: absolute;
-	left: 0;
-	margin-top: 125px;
+	right: 30px;
+	margin-top: 103px;
 	z-index: 2;
 	width: 95px;
 }

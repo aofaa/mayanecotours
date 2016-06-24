@@ -1,5 +1,11 @@
 <?php
-$titulo="Testimonios";
+include('includs/session.php');
+
+if($_SESSION['lang']=='en') {
+  $titulo="Testimonials";
+}else{
+  $titulo="Testimonios";
+}
 
 $protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') === FALSE ? 'http' : 'https';
 $host     = $_SERVER['HTTP_HOST'];
@@ -39,7 +45,7 @@ Henequén, Sisal, Truck, Vida Maya">
 
 <?php include('includs/menu.php'); ?>
 <section>
-    <img src="images/banner_testimonios.jpg" class="banner-interiores">
+  <?php echo ($_SESSION['lang']=='en')?'<img src="images/eng/banner_testimonios.jpg" class="banner-interiores">':'<img src="images/banner_testimonios.jpg" class="banner-interiores">'; ?>
 </section>
 <section class="bg-interiores">
   <div class="container">

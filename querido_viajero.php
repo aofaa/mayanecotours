@@ -44,7 +44,18 @@ Henequén, Sisal, Truck, Vida Maya">
 
 <?php include('includs/menu.php'); ?>
 <section>
+  <?php
+  if($_SESSION['lang']=='en')
+  {
+    ?>
+    <img src="images/eng/banner_querido_viajero.jpg" class="banner-interiores">
+    <?php
+  }else{
+    ?>
     <img src="images/banner_querido_viajero.jpg" class="banner-interiores">
+    <?php
+  }
+  ?>
 </section>
 <section class="bg-interiores">
   <div class="container">

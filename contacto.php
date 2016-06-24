@@ -1,5 +1,11 @@
 <?php
-$titulo="Contacto";
+include('includs/session.php');
+
+if($_SESSION['lang']=='en') {
+  $titulo="Contact";
+}else{
+  $titulo="Contacto";
+}
 
 $protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') === FALSE ? 'http' : 'https';
 $host     = $_SERVER['HTTP_HOST'];
@@ -38,7 +44,7 @@ Henequén, Sisal, Truck, Vida Maya">
 
 <?php include('includs/menu.php'); ?>
 <section>
-    <img src="images/banner-contacto.jpg" class="banner-interiores">
+  <?php echo ($_SESSION['lang']=='en')?'<img src="images/eng/banner-contacto.jpg" class="banner-interiores">':'<img src="images/banner-contacto.jpg" class="banner-interiores">'; ?>
 </section>
 <section class="hidden-xs hidden-sm">
     <div class="bg-form-titulo">
@@ -47,11 +53,11 @@ Henequén, Sisal, Truck, Vida Maya">
         Comunícate con nosotros y te brindaremos mayor información.
       </p>
       <p>
-        Tel: <a href="tel:999987-3710">(999) 987-3710</a><br>
-        Móvil: <a href="tel:999105-4614">(999) 105-4614</a>
+        <img src="images/eng/telefono.png"> <a href="tel:999987-3710">(999) 987-3710</a><br>
+        <img src="images/eng/whatsapp.png"> <a href="tel:999105-4614">(999) 105-4614</a>
       </p>
       <p>
-        <a href="mailto:info@mayanecotours.com">Email: info@mayanecotours.com</a>
+        <img src="images/eng/mail.png"> <a href="mailto:info@mayanecotours.com">info@mayanecotours.com</a>
       </p>
       <p>
         Mérida, Yucatán, México.

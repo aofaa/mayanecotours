@@ -1,5 +1,16 @@
 <section class="bg-footer">
-  <a href="http://www.hoteldelperegrino.com/reservaciones_hotel_del_peregrino_merida_yucatan_mexico.php" target="_blank"><img src="images/logo-hotel.png" class="img-hotel"></a>
+  <?php
+  if($_SESSION['lang']=='en')
+  {
+    ?>
+    <a href="http://www.hoteldelperegrino.com/eng_reservaciones_hotel_del_peregrino_merida_yucatan_mexico.php" target="_blank"><img src="images/eng/logo-hotel.png" class="img-hotel"></a>
+    <?php
+  }else{
+    ?>
+    <a href="http://www.hoteldelperegrino.com/reservaciones_hotel_del_peregrino_merida_yucatan_mexico.php" target="_blank"><img src="images/logo-hotel.png" class="img-hotel"></a>
+    <?php
+  }
+  ?>
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
@@ -10,17 +21,17 @@
           </div>
           <div class="col-xs-12 col-sm-12 col-md-3">
             <div class="row">
-              <a href="tel:9999873710"><img src="images/telefono.png" class="img-responsive img-correo center-block"> </a>
+              <a href="tel:9999873710"><img src="images/telefono.png" class="img-responsive"> </a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-3">
             <div class="row">
-              <a href="tel:9991054614"><img src="images/whatsapp.png" class="img-responsive img-correo center-block"> </a>
+              <a href="tel:9991054614"><img src="images/whatsapp.png" class="img-responsive img-correo"> </a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-5">
             <div class="row">
-              <a href="mailto:info@mayanecotours.com"><img src="images/correo.png" class="img-responsive img-correo center-block"> </a>
+              <a href="mailto:info@mayanecotours.com"><img src="images/correo.png" class="img-responsive img-correo"> </a>
             </div>
           </div>
           <div class="col-xs-12 col-sm-12 col-md-8">
