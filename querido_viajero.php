@@ -71,6 +71,26 @@ Henequén, Sisal, Truck, Vida Maya">
           <p>
             In this section, you will know about the most important festivities in Merida and a brief review for the richness Yucatecan culture in order to get closer to the beautiful land that you will visit.
           </p>
+          <h2>CULTURE, GASTRONOMY, WARM PEOPLE AND TRADITIONS</h2>
+          <p>
+            <strong>Merida: the White City</strong><br>
+            When we talk about exploring Yucatan, Merida is the starting point to be acquainted with all the routes of the Mayan world. For 500 years, Merida forged its vocation of a great metropolis and departure point for exploring the Yucatan. Founded on the Mayan city of Tho, after being colonized during the conquest it became the city of the Spanish government.
+          </p>
+          <p>
+            Currently, with its museums, parks, markets and outdoor cafes and restaurants, Merida is a fascinating and cosmopolitan destination, with almost 900,000 inhabitants, mostly Spanish and Mayan descendants.
+          </p>
+          <p>
+            Throughout Paseo and Prolongacion Montejo one can find restaurants, hotels, bars, cafés, banks and businesses, with all the services to ensure visitors have a pleasant stay.
+          </p>
+          <p>
+            Celebrations and lively traditions always offer a colorful spectacle, rich with unforgettable images. This is the manner Merida lives, a great year¬long cultural festival, and how thousands upon thousands of visitors from around the globe become spectators of the city’s day-to-day vibrant reality.
+          </p>
+          <p>
+            Every night, the Historic Center invites you to join in a memorable cultural evening. On Mondays, for instance, there is a show of Yucatecan “jaranas”, our traditional folk dance, and right in front of the City Hall; While on Sundays, two bands liven up the evening to the rhythms of salsa and cumbia. There are also theatrical, dance and film shows in other cultural venues, such as the Merida Theatre, located just a few steps from the Main Square.
+          </p>
+          <p>
+            Moreover, cultural centers, halls, museums and art galleries have proliferated in the city, offering an array of activities and events to suit all tastes. Music concerts cover all genres, from classical to jazz, going through rock, industrial music or romantic ballads. Art shows range from the traditional to the innovative, and there are art cinemas, children’s art workshops, literary events, conferences, popular outdoor dances, and much more.
+          </p>
           <h2>FESTIVITIES & ACTIVITIES</h2>
           <p>
             <strong>Merida’s anniversary arts festival</strong><br>
@@ -159,6 +179,23 @@ Henequén, Sisal, Truck, Vida Maya">
             <a href="pdf/Eventos_culturales_en_Merida_espanol.pdf" target="_blank"><img src="images/eventos.jpg" class="img-responsive img-eventos"></a>
             <p>
               En esta sección te presentamos información relevante acerca de las festividades más importantes de la ciudad de Mérida, al igual que un breve repaso por la riqueza cultural yucateca con el fin de acercarte más a la bella tierra que visitarás.
+            </p>
+            <h2>CULTURA, GASTRONOMÍA, GENTE CÁLIDA Y TRADICIONES</h2>
+            <p>
+              <strong>Mérida: Ciudad Blanca</strong><br>
+              Cuando de explorar Yucatán se trata, Mérida es el punto de inicio para conocer todas las Rutas del mundo maya.  Desde hace 500 años Mérida forjó su vocación de gran metrópoli y punto de partida para la exploración de Yucatán. Fundada sobre la ciudad maya de Tho, al ser colonizada durante la Conquista se convirtió en el sitio del gobierno español.
+            </p>
+            <p>
+              Actualmente con sus museos, parques, mercados, restaurantes y cafés al aire libre, Mérida es un lugar fascinante y cosmopolita, con sus casi 900,000 habitantes, en su mayoría descendientes de españoles y Mayas.
+            </p>
+            <p>
+              A lo largo del Paseo y Prolongación Montejo se pueden encontrar restaurantes, hoteles, bares, cafés, bancos y negocios, que ofrecen al visitante todos los servicios para hacer placentera su estancia. Fiestas y tradiciones de gran vida llegan siempre puntuales a su cita y ofrecen un espectáculo colorido, auténtico y rico en estampas inolvidables. Es de esta manera como Mérida vive una gran fiesta cultural los 365 días del año, y los miles de visitantes de todo el mundo que recibe se convierten en espectadores de su intensa realidad cotidiana.
+            </p>
+            <p>
+              El Centro Histórico invita cada noche a una velada cultural inolvidable. Los lunes, por ejemplo, frente al Palacio Municipal se baila la tradicional jarana yucateca y los domingos, dos orquestas amenizan la noche a ritmo de son, salsa y cumbia.
+            </p>
+            <p>
+              Además, hay espectáculos teatrales, danzas folclóricas y cine en los espacios culturales establecidos para las artes escénicas, como el Teatro Mérida, ubicado a solamente unos pasos de la Plaza Grande. A lo anterior hay que añadir los centros culturales, teatros, museos y galerías de la ciudad que se han multiplicado en número y variedad suficientes como para poder brindar una oferta de actividades y eventos para todos los gustos: desde música clásica hasta jazz, romántica trova, rock "a la antigüita" y música industrial, exposiciones de arte tradicional e innovador, danza folclórica o contemporánea, cine de arte, talleres infantiles, actividades literarias, conferencias, bailes populares al aire libre y mucho más.
             </p>
             <h2>FESTIVIDADES Y ACTIVIDADES</h2>
             <p>
