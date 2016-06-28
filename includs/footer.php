@@ -42,15 +42,15 @@
                 <p class="dir-footer">
                   C. 51 No. 488 by 54 and 56, Centro. Mérida, Yucatán<br>
                   • Cenotes in Yucatan • Ecotourism in México<br>
-                  • Yucatan travel agency
+                  • Coordination hotel and activities for student groups
                 </p>
               <?php
               }else{
               ?>
                 <p class="dir-footer">
                   C. 51 No. 488 por 54 y 56, Centro. Mérida, Yucatán.<br>
-                  • Tours de Cenotes en Yucatán   • Ecoturismo en México<br>
-                  • Tours de Ecoturismo en Yucatán
+                  • Tours de Cenotes en Yucatán • Ecoturismo en México<br>
+                  • Coordinación de hotel  y actividades  para grupos de estudiantes
                 </p>
               <?php
               }

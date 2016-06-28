@@ -127,35 +127,35 @@ Henequén, Sisal, Truck, Vida Maya">
           ?>
           <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/zonas.png" class="img-responsive center-block">
-            <p>Zonas arqueológicas</p>
+            <p><?php echo $_SESSION['lang']=='en'?'Archaeological Sites':'Zonas Arqueológicas'; ?></p>
           </div>
           <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/recorridos.png" class="img-responsive center-block">
-            <p>Recorridos y fotografía</p>
+            <p><?php echo $_SESSION['lang']=='en'?'Walking & Photography':'Recorridos y Fotografía'; ?></p>
           </div>
           <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/cenotes.png" class="img-responsive center-block">
-            <p>Cenotes</p>
+            <p><?php echo $_SESSION['lang']=='en'?'Cenotes':'Cenotes'; ?></p>
           </div>
           <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/kayak.png" class="img-responsive center-block">
-            <p>Kayak</p>
+            <p><?php echo $_SESSION['lang']=='en'?'Kayak':'Kayak'; ?></p>
           </div>
           <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/esnorquel.png" class="img-responsive center-block">
-            <p>Esnórquel</p>
+            <p><?php echo $_SESSION['lang']=='en'?'Snorkel':'Esnórquel'; ?></p>
           </div>
           <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/rapel.png" class="img-responsive center-block">
-            <p>Rappel</p>
+            <p><?php echo $_SESSION['lang']=='en'?'Rappel':'Rappel'; ?></p>
           </div>
           <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/grutas.png" class="img-responsive center-block">
-            <p>Grutas</p>
+            <p><?php echo $_SESSION['lang']=='en'?'Caves':'Grutas'; ?></p>
           </div>
           <div class="col-xs-6 col-sm-3 col-md-3">
             <img src="images/buceo.png" class="img-responsive center-block">
-            <p>Buceo</p>
+            <p><?php echo $_SESSION['lang']=='en'?'Diving':'Buceo'; ?></p>
           </div>
         </div>
       </div>
@@ -168,7 +168,7 @@ Henequén, Sisal, Truck, Vida Maya">
     if($_SESSION['lang']=='en')
     {
       ?>
-      <h1>OUR FLAGSHIP TOURS</h1>
+      <h1>OUR SIGNATURE TOURS</h1>
       <p>
         We present the most requested tours for travelers. Three options, three unforgettable adventures.<br>
         Click and learn more.

@@ -2,9 +2,9 @@
 include('includs/session.php');
 
 if($_SESSION['lang']=='en') {
-  $titulo="Uxmal | Snorkel in cenote and lunch in Mayan house";
+  $titulo="Uxmal | Snorkel in cenote and lunch in a Mayan house";
 }else{
-  $titulo="Uxmal | Esnórquel en un cenote y comida en casa maya";
+  $titulo="Uxmal | Esnórquel en un Cenote y Comida en Casa Maya";
 }
 
 $protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') === FALSE ? 'http' : 'https';
@@ -58,7 +58,7 @@ Henequén, Sisal, Truck, Vida Maya">
   <div class="container">
     <div class="row">
       <div id="titulo-interiores">
-        <h1><?php if($_SESSION['lang']=='en'){echo'Uxmal';}else{echo'Uxmal';} ?> <span class="linea-interior">|</span> <span class="subinteriores"><?php if($_SESSION['lang']=='en'){echo'Snorkel in cenote and lunch in Mayan house';}else{echo'Esnórquel en un cenote y comida en casa maya';} ?></span></h1>
+        <h1><?php if($_SESSION['lang']=='en'){echo'Uxmal';}else{echo'Uxmal';} ?> <span class="linea-interior">|</span> <span class="subinteriores"><?php if($_SESSION['lang']=='en'){echo'Snorkel in cenote and lunch in a Mayan house';}else{echo'Esnórquel en un cenote y comida en casa maya';} ?></span></h1>
       </div>
     </div>
   </div>
@@ -162,6 +162,10 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Recommendations:</span><br>
                 Bring hat or cap, comfortable clothes, camera, bathing suit, towel, biodegradable sun block and repellent
               </p>
+              <p>
+                <span>Note:</span><br>
+                This tour operates with minimum 4 people, however contact us for availability.
+              </p>
             </div>
             <?php
           }else{
@@ -198,6 +202,10 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Recomendaciones:</span><br>
                 Llevar sombrero o gorra, ropa cómoda, traje de baño, cámara fotográfica, repelente de insectos y protector solar biodegradables.
               </p>
+              <p>
+                <span>Nota:</span><br>
+                Este tour opera con un mínimo de 4 personas, de cualquier manera contáctenos para conocer disponibilidad.
+              </p>
             </div>
             <?php
           }
@@ -230,12 +238,12 @@ Henequén, Sisal, Truck, Vida Maya">
                 {
                   ?>
                   <h1>Departures:</h1>
-                  <p>Wednesday and Saturday at 9:00 a.m. – 5:00 p.m.</p>
+                  <p>daily 9:00 a.m. – 5:00 p.m.</p>
                   <?php
                 }else{
                   ?>
                   <h1>Salidas:</h1>
-                  <p>miércoles y sábado de 9:00 a.m. a 5:00 p.m.</p>
+                  <p>todos los días de 9:00 a.m. a 5:00 p.m.</p>
                   <?php
                 }
                 ?>

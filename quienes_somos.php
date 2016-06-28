@@ -51,49 +51,63 @@ Henequén, Sisal, Truck, Vida Maya">
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-6">
         <div id="quienes-somos">
-          <h1><?php echo ($_SESSION['lang']=='en')? 'Who we are?':'Quiénes Somos'; ?></h1>
+          <h1><?php echo ($_SESSION['lang']=='en')? 'ABOUT US?':'QUIÉNES SOMOS'; ?></h1>
 
           <?php
             if($_SESSION['lang']== 'en') {
               ?>
               <p>
-                Mayan Ecotours is an agency dedicated to planning, developing and operating unique tours with a commitment to minimum impact for the places to visit.
-                Our company is integrated with specialized guides trained in speleology, diving, cave diving, vertical rescue, cave rescue, first aid, etc.
+                Mayan Ecotours is dedicated to the planning, development and operation of alternative tours.
               </p>
               <p>
-                We are conscious about the natural and cultural wealth for our country and have a comparative advantage for becoming one of the most attractive places in the world speaking in terms of landscapes, diversity, interesting places, natural and cultural areas. We are determined to offer customized service and apply strategies for responsible eco-tourism without improvised attitudes.
+                We are committed to providing personalized service using responsible ecotourism strategies while offering attractive options for anyone who seeks a balance between knowledge, nature and fun. Our company is staffed by specialized guides and certificates.
               </p>
-              <h1>Mission statement</h1>
+              <h1>MISSION</h1>
               <p>
-                To provide knowledge and food-for-thought thought visits to relatively unaltered geographical areas while enjoying and appreciating these natural attractions in their pure state.
+                To guarantee our clients the best service based on our quality standards, seeking the total satisfaction of their recreational needs through our highly trained personnel for a variety of activities.
               </p>
-              <h1>Our vision</h1>
+              <h1>VISION</h1>
               <p>
-                Support sustainable development by promoting the active participation of local Mayan villages, in the decision making process for planning and in the distribution of benefits.
-                Because ecotourism has an important role in the fight against poverty, as established in the World Summit on Sustainable Development (WSSD) held in Johannesburg, South Africa in 2002.
-                Mayan Ecotours is dedicated to helping the indigenous communities achieve a better quality of life.
+                Consolidate our position as the leader and innovator for providing ecotourism services with the best human resources possible.
+              </p>
+              <h1>TRAVELING CAN CHANGE OUR MINDS</h1>
+              <p>
+                Physicians and scientists recommend that we “DISCONNECT”. An effective way to do this is to travel even to a remote corner of our planet.
+              </p>
+              <p>
+                Researchers studied a group of people who walked through a forest for an hour and a half. All mental activity decreased in areas that are generally responsible for the most common diseases.  Then imagine what could happen if someone spends a few days in nature.
+              </p>
+              <p>
+                Leave it all behind for a while, grab your bag and spend a few days in nature and enjoy life.<br>
+                <strong>Why not right now?</strong>
               </p>
               <?php
             }else {
               ?>
               <p>
-                Mayan Ecotours es una agencia dedicada a la planeación, desarrollo y operación de recorridos turísticos
-                alternativos, con el compromiso de un mínimo impacto a los lugares visitados. Nuestra empresa está
-                integrada por guías especializados y certificados.
+                Mayan Ecotours está dedicada a la planeación, desarrollo y operación de recorridos turísticos alternativos.
               </p>
               <p>
-                Empeñados en ofrecer un servicio personalizado y estrategias de ecoturismo responsabile sin actitudes
-                improvisadas. Con alternativas atractivas para todo aquel que busca un equilibrio entre conocimiento,
-                naturaleza y diversión.
+                Estamos empeñados en ofrecer un servicio personalizado y estrategias de ecoturismo responsable. Con atractivas opciones para todo aquel que busca un equilibrio entre conocimiento, naturaleza y diversión. Nuestra empresa está integrada por guías especializados y certificados.
+              </p>
+              <h1>MISIÓN</h1>
+              <p>
+                Garantizar a nuestros clientes el mejor servicio basado en nuestros estándares de calidad, buscando la total satisfacción de sus necesidades de recreo a través de nuestro personal altamente capacitado para las diferentes actividades.
               </p>
               <h1>VISIÓN</h1>
               <p>
-                Fomentar el desarrollo sustentable a través de la participación activa de las poblaciones locales en los
-                procesos de planificación y en la distribución de sus beneficios. Porque el ecoturismo tiene un papel
-                significativo en la lucha contra la pobreza tal como ha sido reconocido en la Cumbre de Desarrollo
-                Sostenible efectuado en Johannesburgo Sudáfrica en 2002. Es por sus características una oportunidad para
-                las comunidades rurales de obtener una mejor calidad de vida y para nosotros Mayan Ecotours la
-                oportunidad de contribuir con nuestras comunidades indígenas.
+                Consolidarnos como la agencia líder e innovadora en prestación de servicios ecoturísticos con la mejor calidad humana y profesional.
+              </p>
+              <h1>VIAJAR PUEDE CAMBIA NUESTRA MENTE</h1>
+              <p>
+                Médicos y científicos recomiendan “DESCONECTARSE”. Una forma efectiva de hacerlo es VIAJAR y aún más a un rincón remoto de nuestro planeta.
+              </p>
+              <p>
+                Investigadores han estudiado a un grupo de personas que caminaron por un bosque durante hora y media. La actividad mental de todos ellos disminuyó; lo hizo en las áreas que generalmente son responsables de las enfermedades más comunes, entonces imagina lo que podría ocurrir si alguien pasa un par de días en medio de la naturaleza.
+              </p>
+              <p>
+                Deja todo atrás por un tiempo, toma tu mochila y pasa unos días en un lugar natural…y disfruta de la vida.<br>
+                <strong>¿Porque no ahora? </strong>
               </p>
               <?php
             }

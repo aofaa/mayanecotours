@@ -220,20 +220,15 @@ Henequén, Sisal, Truck, Vida Maya">
               if($_SESSION['lang']=='en')
               {
                 ?>
-                <h1>Departures: <span>9:00 a.m. - 5:00 p.m.</span></h1>
+                <h1>Departures: <span>daily 9:00 a.m. - 5:00 p.m.</span></h1>
                 <?php
               }else{
                 ?>
-                <h1>Salidas: <span>de 9:00 a.m. a 5:00 p.m.</span></h1>
+                <h1>Salidas: <span>todos los días de 9:00 a.m. a 5:00 p.m.</span></h1>
                 <?php
               }
               ?>
-              <table>
-                <tr>
-                  <td><a href="https://www.youtube.com/watch?v=tQ19Y0acnPE" target="_blank"><img src="<?php echo $_SESSION['lang']=='en'?'images/eng/video.png':'images/video.png'; ?>" class="img-responsive btn-video"></a></td>
-                  <td><?php include('includs/btn_reserva.php'); ?></td>
-                </tr>
-              </table>
+              <?php include('includs/btn_reserva.php'); ?>
             </div>
           </div>
         </div>

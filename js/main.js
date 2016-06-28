@@ -448,6 +448,26 @@ $('body').prepend('<div id="PleaseWait" class="wait"><img src="images/ajax-loade
 });
 
 /*-----------------------------------------------------------------------------------*/
+/* 		responsive menu
+ /*-----------------------------------------------------------------------------------*/
+jQuery(function($) {
+    if($(window).width()>768){
+        $('.navbar .dropdown').hover(function() {
+            $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+
+        }, function() {
+            $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
+
+        });
+
+        $('.navbar .dropdown > a').click(function(){
+            location.href = this.href;
+        });
+
+    }
+});
+
+/*-----------------------------------------------------------------------------------*/
 /* 		Parallax
 /*-----------------------------------------------------------------------------------*/
 jQuery(document).ready(function(){

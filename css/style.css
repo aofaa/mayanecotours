@@ -73,6 +73,7 @@
 	-moz-border-radius: 6px 0 6px 6px;
 	border-radius: 6px 0 6px 6px;
 }
+
 /*end mega megu*/
 
 body {
@@ -328,12 +329,12 @@ a:hover, a:focus {
 }
 
 .dir-footer{
-	font-size: 13px;
+	font-size: 11px;
 	text-align: center;
 	color: #fff;
 	padding-top: 15px;
 	margin-left: 35px;
-	padding-bottom: 20px;
+	padding-bottom: 30px;
 }
 
 .telefonos{

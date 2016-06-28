@@ -159,7 +159,7 @@ Henequén, Sisal, Truck, Vida Maya">
               </p>
               <p>
                 <span>Note:</span><br>
-                Departs: Tuesday and Friday
+                This tour operates with minimum 4 people, however contact us for availability.
               </p>
             </div>
             <?php
@@ -193,6 +193,10 @@ Henequén, Sisal, Truck, Vida Maya">
                 <span>Recomendaciones:</span><br>
                 Llevar sombrero o gorra, ropa cómoda, traje de baño, toalla, cámara fotográfica, repelente de insectos y protector solar biodegradable.
               </p>
+              <p>
+                <span>Nota:</span><br>
+                Este tour opera con un mínimo de 4 personas, de cualquier manera contáctenos para conocer disponibilidad.
+              </p>
             </div>
             <?php
           }
@@ -225,12 +229,12 @@ Henequén, Sisal, Truck, Vida Maya">
                 {
                   ?>
                   <h1>Departures:</h1>
-                  <p>Tuesday and Friday</p>
+                  <p>daily</p>
                   <?php
                 }else{
                   ?>
                   <h1>Salidas:</h1>
-                  <p>martes y viernes</p>
+                  <p>todos los días</p>
                   <?php
                 }
                 ?>
