@@ -78,18 +78,28 @@ Henequén, Sisal, Truck, Vida Maya">
           ?>
           <div id="info-general">
             <h1>GENERAL INFORMATION</h1>
-            <h2>Hacienda Ochil</h2>
+            <h2>CENOTES</h2>
             <p>
-              An old henequen hacienda from XVIII century, nowadays resurfaced as a tourist hotel.
+              By tradition, cenotes are a distinctive insignia of the natural Yucatecan landscape. Sunlight filtering through the cracks in the rocks and projecting onto the transparent water is a visual banquet for nature lovers.
             </p>
             <p>
-              Possesses a beautiful arch of access with Moorish ornamentations and neoclassic influence, the principal house arranged in a piece of rectangular shape. Surrounded by a wide garden with endemic species, there are rails along that there passes the "truck" that moves the walkers across the place.
+              Cenotes vary in size and shape according to their location. They can be as irregular as the sunken ground which makes them possible. Some are open in the form of a lake or pool, other cenotes, are half hidden in the caverns,  still other cenotes are completely enclosed except for the sprinkling of sunlight through the cracks above and some are only accessible by following underground passages.
             </p>
             <p>
-              Inside the main house there’s a restaurant where you can enjoy yucatecan food, a small handcraft store and a museum that exhibits stuffs and objects that were part of daily life from the inhabitants, also the old remains of the henequen machines and  some passages of the life of the ancestors portrayed in photographs and drawings. In the southern area, there’ s a cenote in which very carefully , visitors can immerse themselves and enjoy the clear waters
+              Although no two forms are alike, it can be said that cenotes share certain characteristics. The water is cool and fresh since it emerges from underground deposits. It is clear and rich in flora and fauna giving rise to an ecosystem in almost perfect balance, and spectacularly beautiful.
             </p>
             <p>
-              Located just outside the town of Abalá very close to the road to Uxmal, is a good choice to start the journey to the "Puuc  Route”.
+              For many years the cenotes of Yucatan have been the object of speculation and legend, since they played a determining role in the development of the Maya civilization. Immense communities grew up around them, making them the hub of the city. An abundant quantity of offerings and jewelry has been recovered from the floor of the cenotes, apparently thrown into the depths after human sacrifices. Ceramic remains and utensils destined for religious ceremonies have also been found.
+            </p>
+            <h2>CITY TOUR - CENOTE SNORKEL TOUR WITH LUNCH AT A COLONIAL HACIENDA</h2>
+            <p>
+              Take in the highlights of the beautiful city of Merida.  Visit two cenotes of exceptional beauty. Without doubt you will have an amazing experience when visiting the crystal clear waters of the Mayan cenotes; such a magical world whose exceptional beauty does not seem real. This is considered by many as the best tour of their stay in the Yucatan. We invite you to experience it to believe it. The specialized guide accompanies you at all times in the water activities, giving you security and information of these magical places.
+            </p>
+            <p>
+              La Hacienda Ochil is famous for its traditional Yucatecan cuisine 100%. As tuniches (balls stuffed dough suckling pork), kimbombas chicken, panuchos, chicken and roasted suckling pork, chicken Abalá, venison pickled polcan (pumpkin seed and beans), cheese empanadas, all accompanied by sauces such as jicama and beets with habanero chile.
+            </p>
+            <p>
+              Hacienda Ochil, intimate, lovely, with the Museum of henequen haciendas, handicrafts shop and a gift shop.  Here you will learn the history of green gold; the fountain of colonial wealth.
             </p>
           </div>
           <?php
@@ -97,12 +107,26 @@ Henequén, Sisal, Truck, Vida Maya">
           ?>
           <div id="info-general">
             <h1>INFORMACIÓN GENERAL</h1>
-            <h2>Hacienda Ochil</h2>
+            <h2>CENOTES</h2>
             <p>
-              Una antigua hacienda henequenera del siglo XVIII, que hoy en día resurge como parador turístico.
-              Posee un bello arco de acceso con ornamentaciones de corte morisco e influencia neoclásica y la casa principal, dispuesta en una pieza de corte rectangular. Rodeada por un amplio jardín con especies endémicas, hay rieles por las que transita el “truck” que traslada a los paseantes a través del lugar.
-              Dentro de las instalaciones de la casa principal, se ubica el restaurante donde podrás disfrutar de platillos típicos yucatecos, una pequeña tienda de artesanías y el museo que exhibe objetos que formaron parte de la vida cotidiana de sus habitantes así como también los vestigios de las máquinas henequeneras y algunos pasajes de la vida de los antepasados retratados en fotografías y planos. En la parte sur de la hacienda  hay un cenote en el que de manera muy cuidadosa, los visitantes pueden sumergirse y disfrutar de las aguas claras.<br>
-              Ubicada a las afueras del municipio de Abalá muy cerca de la carretera a Uxmal, es una buena opción para iniciar el recorrido hacia la llamada  “Ruta Puuc”.
+              Uno de los atractivos que distingue al estado de Yucatán, cuyo término proviene del maya “dzonot”, que significa cavidad con agua. Los cenotes son formaciones únicas de esta región ya que además de ser un recurso primordial para la obtención de agua fresca en la selva, constituían lugares sagrados para los mayas, representando la entrada al inframundo espiritual.
+            </p>
+            <p>
+              El espectacular paisaje subterráneo, rodeado de estalactitas y estalagmitas hacen de cada cenote un lugar digno de admiración; la luz del sol filtrada por agujeros entre las rocas y proyectada sobre las aguas verdes, cristalinas o turquesas se conjugan para ofrecer un deleite visual a los visitantes.
+            </p>
+            <p>
+              Los cenotes varían en forma y tamaño, según el lugar donde se ubiquen. Hay de tipo abierto a manera de lago y ojo de agua;  semiocultos en cavernas; los cerrados que aunque por lo general tienen alguna abertura donde se filtra la luz del sol y algunos cenotes a los que solo es posible acceder después de una caminata por pasillos subterráneos. El agua fresca que emerge de ellos es clara y rica en flora y fauna lo cual da origen a un ecosistema de equilibrio perfecto.
+            </p>
+            <h2>CITY TOUR- ESNÓRQUEL EN CENOTES Y HACIENDA COLONIAL</h2>
+            <p>
+              City Tour por los aspectos más destacados en la bella ciudad de Mérida.<br>
+              Visita dos cenotes de excepcional belleza. Sin duda alguna vivirás una experiencia completamente diferente al visitar las claras aguas de los cenotes mayas, para encontrarte de pronto con un mundo mágico, cuya belleza no parece real… Formaciones enigmáticas únicas en el mundo de excepcional belleza. Considerado por muchos como el mejor tour de su estancia en Yucatán. Te invitamos a vivirlo para creerlo. El guía especializado te acompaña en todo momento en sus actividades acuáticas, brindándote seguridad e información de estos mágicos lugares.
+            </p>
+            <p>
+              La Hacienda Ochil es famosa por su cocina tradicional 100% yucateca. Como los tuniches (bolitas de masa rellenas de cochinita), kimbombas de pollo, panuchos, pollo y cochinita pibil, pollito Abalá, venado en escabeche, polcanes (semilla de calabaza y frijol), empanadas de queso, todo acompañado de salsas como las de jícama y betabel con chile habanero.
+            </p>
+            <p>
+              La Hacienda Ochil, íntima, encantadora, cuenta con el Museo de las Haciendas Henequeneras, taller de artesanías y una tienda de regalos. Aquí aprenderá la historia del oro verde; la fuente de la riqueza colonial.
             </p>
           </div>
           <?php
@@ -117,29 +141,20 @@ Henequén, Sisal, Truck, Vida Maya">
             <div id="caracteristicas">
               <h1>TOUR DETAILS</h1>
               <p>
-                Visit two cenotes of exceptional beauty. Without doubt you will have an amazing experience when visiting the crystal clear waters of the Mayan cenotes; such a magical world whose exceptional beauty does not seem real. This is considered by many as the best tour of their stay in the Yucatan. We invite you to experience it to believe it. The specialized guide accompanies you at all times in the water activities, giving you security and information of these magical places.
-              </p>
-              <p>
-                Hacienda Ochil is famous for his traditional Yucatecan cuisine, as tuniches (balls stuffed dough suckling pig), kimbombas chicken, panuchos, black stuffing, chicken and roasted suckling pig, chicken Abalá, venison pickled polcan (pumpkin seed and beans), cheese empanadas, all accompanied by sauces such as jicama and beets with habanero chile.
-              </p>
-              <p>
-                Hacienda Ochi is an intimate place, with the Museum of Henequen Haciendas, handicrafts and gifts shop.
-              </p>
-              <br>
-              <p>
                 <span>Included:</span><br>
               <ul class="listas">
                 <li>Departure from your hotel at 9:00 a.m.</li>
-                <li>Transportation with A/C</li>
+                <li>Transportation with A/C </li>
+                <li>City tour of Paseo de Montejo and the Centre of Mérida</li>
                 <li>Specialized guide</li>
                 <li>Snorkel equipment and life jacket</li>
+                <li>Lunch at the Hacienda</li>
                 <li>Entrance fees</li>
                 <li>Return to your hotel at 5:00 p.m.</li>
               </ul>
               </p>
               <p>
                 <span>Not included:</span><br>
-                • Lunch<br>
                 • Beverages<br>
                 • Tips
               </p>
@@ -158,34 +173,26 @@ Henequén, Sisal, Truck, Vida Maya">
             <div id="caracteristicas">
               <h1>CARACTERÍSTICAS DEL TOUR</h1>
               <p>
-                Visita dos cenotes de excepcional belleza. Sin duda alguna vivirás una experiencia completamente diferente al visitar las claras aguas de los cenotes mayas, para encontrarte de pronto con un mundo mágico, cuya belleza no parece real… Formaciones enigmáticas únicas en el mundo de excepcional belleza. Considerado por muchos como el mejor tour de su estancia en Yucatán. Te invitamos a vivirlo para creerlo. El guía especializado te acompaña en todo momento en sus actividades acuáticas, brindándote seguridad e información de estos mágicos lugares.
-              </p>
-              <p>
-                La hacienda Ochil es famosa por su cocina tradicional 100% yucateca. Como los tuniches (bolitas de masa rellenas de cochinita), kimbombas de pollo, panuchos, relleno negro, pollo y cochinita pibil, pollito Abalá, venado en escabeche, polcanes (semilla de calabaza y frijol), empanadas de queso, todo acompañado de salsas como las de jícama y betabel con chile habanero.
-              </p>
-              <p>
-                La hacienda Ochil, intima, encantadora, que cuenta con el Museo de las Haciendas Henequeneras, taller de artesanías y una tienda de regalos.
-              </p>
-              <br>
-              <p>
                 <span>Incluye:</span><br>
               <ul class="listas">
-                <li>Salida desde su hotel a las 9:00 a.m.</li>
+                <li>Salida del hotel a las 9:00 a.m.</li>
+                <li>City tour en Paseo de Montejo y centro de Mérida</li>
                 <li>Transportación con aire acondicionado</li>
                 <li>Entradas</li>
+                <li>Comida en la hacienda</li>
                 <li>Guía especializado en las actividades</li>
                 <li>Equipo de esnórquel y chaleco de flotación</li>
-                <li>Regreso a su hotel a las 5:00 p.m.</li>
+                <li>Regreso al hotel a las 5:00 p.m.</li>
               </ul>
               </p>
               <p>
                 <span>No incluye:</span><br>
-                • Comida en la hacienda<br>
+                • Bebidas<br>
                 • Propinas
               </p>
               <p>
                 <span>Recomendaciones:</span><br>
-                Llevar sombrero o gorra, ropa cómoda, traje de baño, toalla, cámara fotográfica, repelente de insectos y protector solar biodegradable.
+                Llevar sombrero o gorra, ropa cómoda, traje de baño, cámara fotográfica, repelente de insectos y protector solar biodegradable.
               </p>
               <p>
                 <span>Nota:</span><br>
