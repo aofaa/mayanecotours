@@ -150,6 +150,11 @@ a:hover, a:focus {
     list-style: none;
 }
 
+.img-maxwidth{
+	width: 100%;
+	margin-top: -1px;
+}
+
 .img-estrella{
 	margin-top: -5px;
 }
@@ -167,21 +172,33 @@ a:hover, a:focus {
 
 /*contenido pagina*/
 .bg-quienes-somos{
-	background: url('../images/banner_quienes_somos.jpg') no-repeat center top;
-	background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
-    padding-top: 20px;
-    padding-bottom: 112px;
+	position: absolute;
+	z-index: 2;
+	width: 85%;
+	right: 7.2%;
+}
+
+.bg-maravillas{
+	position: absolute;
+	z-index: 2;
+	width: 85%;
+	right: 7.2%;
+}
+
+.bg-arma-tour{
+	position: absolute;
+	z-index: 2;
+	width: 85%;
+	right: 7.2%;
 }
 
 .bg-01{
-	background: url('../images/bg-01.jpg') no-repeat center top;
-	background-size: 100% 100%;
+	/*background: url('../images/bg-01.jpg') no-repeat center top;
+	background-size: cover;
     width: 100%;
     height: 100%;
     margin-top: -2px;
-    padding-bottom: 333px;
+    padding-bottom: 333px;*/
 }
 
 .bg-02{
@@ -189,11 +206,11 @@ a:hover, a:focus {
 }
 
 .bg-03{
-	background: url('../images/bg-02.jpg') no-repeat center top;
-	background-size: 100% 100%;
+	/*background: url('../images/bg-02.jpg') no-repeat center top;
+	background-size: cover;
     width: 100%;
     height: 100%;
-    padding-bottom: 102px;
+    padding-bottom: 102px;*/
 }
 
 .bg-interiores{
@@ -214,7 +231,7 @@ a:hover, a:focus {
 
 .bg-footer{
 	background: url('../images/bg-footer.jpg') no-repeat center top;
-	background-size: 100% 100%;
+	background-size: cover;
     width: 100%;
     height: 100%;
 }
@@ -233,7 +250,7 @@ a:hover, a:focus {
 	font-family: 'Oxygen Bold';
     font-size: 20px;
     color: #138241;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 #quienes-somos p {
@@ -1096,7 +1113,7 @@ a:hover, a:focus {
 
 
 
-*======================================
+/*======================================
 			RESPONSIVE CSS
 =======================================*/
 /* Large */
@@ -1231,22 +1248,18 @@ body {
 }
 
 /*INTERIORES*/
-.bg-quienes-somos {
-    background: url('../images/banner_quienes_somos.jpg') no-repeat center top;
+.fondo-quienes-somos {
+    background: url('../images/fondo-quienes-somos.jpg') no-repeat center top;
     background-size: 100% 100%;
     width: 100%;
     height: 100%;
-    padding-top: 10px;
-    padding-bottom: 50px;
 }
 
-.bg-01 {
-	background: url('../images/bg-01.jpg') no-repeat center top;
-	background-size: 100% 100%;
-	width: 100%;
-	height: 100%;
-	margin-top: -2px;
-	padding-bottom: 230px;
+.bg-maravillas {
+	position: absolute;
+	z-index: 2;
+	width: 96%;
+	right: 3.2%;
 }
 
 .bg-03 {
@@ -1268,9 +1281,14 @@ body {
     margin-top: 10px;
 }
 
+#quienes-somos{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
 #quienes-somos h1 {
     font-family: 'Oxygen Bold';
-    font-size: 20px;
+    font-size: 14px;
     color: #138241;
     padding-top: 0px;
 }
@@ -1288,36 +1306,44 @@ body {
 
 #maravillas h1 {
 	 font-family: 'Oxygen Bold';
-	 font-size: 26px;
+	 font-size: 15px;
 	 text-align: center;
 	 color: #552307;
-	 padding-top: 10px;
+	 padding-top: 0px;
  }
 
 #maravillas p {
-	font-size: 14px;
+	font-size: 11.5px;
 	text-align: justify;
 	color: #552307;
 }
 
 #experiencia h1 {
 	font-family: 'Oxygen Bold';
-	font-size: 26px;
+	font-size: 20px;
 	text-align: center;
 	color: #313131;
 	padding-top: 40px;
 	padding-bottom: 50px;
 }
 
+#experiencia p {
+	font-family: 'Oxygen Bold';
+	font-size: 12px;
+	text-align: center;
+	color: #313131;
+	margin-bottom: 40px;
+}
+
 #portfolio h1 {
 	font-family: 'Oxygen Bold';
-	font-size: 26px;
+	font-size: 20px;
 	text-align: center;
 	color: #313131;
 }
 
 #portfolio p {
-	font-size: 14px;
+	font-size: 12px;
 	text-align: center;
 	color: #313131;
 	padding-bottom: 30px;
@@ -1330,14 +1356,14 @@ body {
 
 #arma-tour h1 {
 	font-family: 'Oxygen Bold';
-	font-size: 26px;
+	font-size: 20px;
 	text-align: center;
 	color: #552307;
-	padding-top: 50px;
+	padding-top: 20px;
 }
 
 #arma-tour p {
-	 font-size: 14px;
+	 font-size: 12px;
 	 color: #552307;
 	 text-align: justify;
 }
@@ -1345,25 +1371,17 @@ body {
 .btn-aventura {
 	display: block;
 	font-family: 'Oxygen Bold';
-	font-size: 18px;
+	font-size: 16px;
 	text-align: center;
 	color: #fff;
 	background-color: #552307;
-	line-height: 50px;
+	line-height: 40px;
 	margin-top: 35px;
 }
 
 .telefonos {
     text-align: center;
     margin-left: 22px;
-}
-
-#experiencia p {
-	font-family: 'Oxygen Bold';
-	font-size: 13px;
-	text-align: center;
-	color: #313131;
-	margin-bottom: 40px;
 }
 
 .bg-form-interior {
@@ -1874,21 +1892,17 @@ body {
 /*INTERIORES*/
 
 .bg-quienes-somos {
-    background: url('../images/banner_quienes_somos.jpg') no-repeat center top;
-    background-size: 100% 100%;
-    width: 100%;
-    height: 100%;
-    padding-top: 10px;
-    padding-bottom: 85px;
+	position: absolute;
+	z-index: 2;
+	width: 95%;
+	right: 2.2%;
 }
 
 .bg-01 {
-	background: url('../images/bg-01.jpg') no-repeat center top;
+	/*background: url('../images/bg-01.jpg') no-repeat center top;
 	background-size: 100% 100%;
 	width: 100%;
-	height: 100%;
-	margin-top: -2px;
-	padding-bottom: 267px;
+	height: 100%;*/
 }
 
 .bg-03 {
@@ -1899,38 +1913,94 @@ body {
 	padding-bottom: 80px;
 }
 
+.bg-maravillas {
+	position: absolute;
+	z-index: 2;
+	width: 96%;
+	right: 2.2%;
+}
+
+#quienes-somos h1 {
+	font-family: 'Oxygen Bold';
+	font-size: 13px;
+	color: #138241;
+	padding-top: 0px;
+}
+
+#quienes-somos p {
+	font-size: 12px;
+	text-align: justify;
+	color: #434343;
+	line-height: 16px;
+}
+
 #maravillas h1 {
 	font-family: 'Oxygen Bold';
-	font-size: 30px;
+	font-size: 20px;
 	text-align: center;
 	color: #552307;
-	padding-top: 20px;
+	padding-top: 10px;
+}
+
+#maravillas p {
+	font-size: 14px;
+	text-align: justify;
+	color: #552307;
+}
+
+#experiencia h1 {
+	font-family: 'Oxygen Bold';
+	font-size: 24px;
+	text-align: center;
+	color: #313131;
+	padding-top: 40px;
+	padding-bottom: 50px;
 }
 
 #experiencia p {
     font-family: 'Oxygen Bold';
-    font-size: 15px;
+    font-size: 14px;
     text-align: center;
     color: #313131;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
+}
+
+#portfolio h1 {
+	font-family: 'Oxygen Bold';
+	font-size: 24px;
+	text-align: center;
+	color: #313131;
+}
+
+#portfolio p {
+	font-size: 14px;
+	text-align: center;
+	color: #313131;
+	padding-bottom: 30px;
 }
 
 #arma-tour h1 {
 	font-family: 'Oxygen Bold';
-	font-size: 30px;
+	font-size: 24px;
 	text-align: center;
 	color: #552307;
 	padding-top: 70px;
 }
 
+#arma-tour p {
+	font-size: 14px;
+	color: #552307;
+	text-align: justify;
+}
+
 .btn-aventura {
 	display: block;
 	font-family: 'Oxygen Bold';
-	font-size: 20px;
+	font-size: 16px;
 	text-align: center;
 	color: #fff;
 	background-color: #552307;
-	line-height: 60px;
+	line-height: 50px;
 	margin-top: 60px;
 }
 
@@ -2386,6 +2456,24 @@ background-color: transparent;
     background: #00833b
 }
 
+#quienes-somos{
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+#quienes-somos h1 {
+	font-family: 'Oxygen Bold';
+	font-size: 14px;
+	color: #138241;
+	padding-top: 0px;
+}
+
+#quienes-somos p {
+	font-size: 12px;
+	text-align: justify;
+	color: #434343;
+}
+
 #maravillas {
     margin-left: 0px;
     margin-right: 0px;
@@ -2393,15 +2481,21 @@ background-color: transparent;
 
 #maravillas h1 {
 font-family: 'Oxygen Bold';
-font-size: 22px;
+font-size: 16px;
 text-align: center;
 color: #552307;
 padding-top: 20px;
 }
 
+#maravillas p {
+	font-size: 12px;
+	text-align: justify;
+	color: #552307;
+}
+
 #experiencia h1 {
     font-family: 'Oxygen Bold';
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     color: #313131;
     padding-top: 40px;
@@ -2410,7 +2504,7 @@ padding-top: 20px;
 
 #experiencia p {
     font-family: 'Oxygen Bold';
-    font-size: 16px;
+    font-size: 12px;
     text-align: center;
     color: #313131;
     margin-bottom: 40px;
@@ -2418,9 +2512,16 @@ padding-top: 20px;
 
 #portfolio h1 {
     font-family: 'Oxygen Bold';
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     color: #313131;
+}
+
+#portfolio p {
+	font-size: 12px;
+	text-align: center;
+	color: #313131;
+	padding-bottom: 30px;
 }
 
 .portfolio .item {
@@ -2439,22 +2540,27 @@ padding-top: 20px;
 
 #arma-tour h1 {
     font-family: 'Oxygen Bold';
-    font-size: 22px;
+    font-size: 20px;
     text-align: center;
     color: #552307;
     padding-top: 30px;
 }
 
+#arma-tour p {
+	font-size: 12px;
+	color: #552307;
+	text-align: justify;
+}
 
 .btn-aventura {
-    display: block;
-    font-family: 'Oxygen Bold';
-    font-size: 14px;
-    text-align: center;
-    color: #fff;
-    background-color: #552307;
-    line-height: 50px;
-    margin-top: 30px;
+display: block;
+font-family: 'Oxygen Bold';
+font-size: 14px;
+text-align: center;
+color: #fff;
+background-color: #552307;
+line-height: 50px;
+margin-top: 30px;
 }
 
 #titulo-interiores h1 {

@@ -58,7 +58,7 @@ Henequén, Sisal, Truck, Vida Maya">
   <div class="container">
     <div class="row">
       <div id="titulo-interiores">
-        <h1><?php if($_SESSION['lang']=='en'){echo'Chichen Itza';}else{echo'Chichen Itzá';} ?> <span class="linea-interior">|</span> <span class="subinteriores"><?php if($_SESSION['lang']=='en'){echo'Cenote & lunch with option to rappel and zip line';}else{echo'Cenote y comida con opción de hacer rappel y tirolesa';} ?></span></h1>
+        <h1><?php if($_SESSION['lang']=='en'){echo'Chichen Itza';}else{echo'Chichen Itzá';} ?> <span class="linea-interior">|</span> <span class="subinteriores"><?php if($_SESSION['lang']=='en'){echo'Cenote & lunch with option to do rappel and zip line';}else{echo'Cenote y comida con opción de hacer rappel y tirolesa';} ?></span></h1>
       </div>
     </div>
   </div>

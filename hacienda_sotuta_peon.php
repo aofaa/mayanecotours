@@ -171,7 +171,7 @@ Henequén, Sisal, Truck, Vida Maya">
               </p>
               <p>
                 <span>Recomendaciones:</span><br>
-                Llevar sombrero o gorra, ropa cómoda, repelente de insectos, protector solar y cámara fotográfica.
+                Llevar sombrero o gorra, ropa cómoda, traje de baño, cámara fotográfica, repelente de insectos y protector solar biodegradable.
               </p>
               <p>
                 <span>Nota:</span><br>

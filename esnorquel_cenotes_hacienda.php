@@ -2,9 +2,9 @@
 include('includs/session.php');
 
 if($_SESSION['lang']=='en') {
-  $titulo="Snorkeling & colonial hacienda";
+  $titulo="City tour - Cenote snorkel tour with lunch at a colonial hacienda";
 }else{
-  $titulo="Esnórquel en cenotes y hacienda colonial";
+  $titulo="City tour - Esnórquel en cenotes y hacienda colonial";
 }
 
 $protocol = strpos(strtolower($_SERVER['SERVER_PROTOCOL']),'https') === FALSE ? 'http' : 'https';
@@ -58,7 +58,7 @@ Henequén, Sisal, Truck, Vida Maya">
   <div class="container">
     <div class="row">
       <div id="titulo-interiores">
-        <h1><?php echo $titulo; ?></h1>
+        <h2><?php echo $titulo; ?></h2>
       </div>
     </div>
   </div>

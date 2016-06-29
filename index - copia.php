@@ -81,7 +81,7 @@ Henequén, Sisal, Truck, Vida Maya">
   }
   ?>
 </section>
-<section class="bg-01 visible-xs">
+<section class="bg-01">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-8 col-sm-offset-4  col-md-6 col-md-offset-6">
@@ -116,43 +116,6 @@ Henequén, Sisal, Truck, Vida Maya">
       </div>
     </div>
   </div>
-</section>
-<section class="hidden-xs">
-  <div class="bg-maravillas">
-    <div class="row">
-      <div class="col-xs-12 col-sm-8 col-sm-offset-4  col-md-6 col-md-offset-6">
-        <?php
-        if($_SESSION['lang']=='en')
-        {
-          ?>
-          <div id="maravillas">
-            <h1>COME AND ENJOY THE<br> MAYAN WONDERS!</h1>
-            <p>
-              With xx experience years, in Mayan Ecotours we take charge for your solo travel, or with your partner or family becomes an unforgettable adventure, full of visits to legendary places and facilities to unique activities as you wish.
-            </p>
-            <p>
-              From tours in the worldwide famous Mayan pyramids, diving sessions in magical cenotes and exciting zip line in jungle, we want you to enjoy and live amazing experiences.
-            </p>
-          </div>
-          <?php
-        }else{
-          ?>
-          <div id="maravillas">
-            <h1>¡VEN A CONOCER LAS <br>MARAVILLAS MAYAS!</h1>
-            <p>
-              Con xx años de experiencia, en Mayan Ecotours nos encargamos que tu viaje en solitario, con tu pareja o seres queridos se vuelva una aventura inolvidable, cargada de visitas a sitios de leyenda y con acceso a tantas actividades únicas como desees experimentar.
-            </p>
-            <p>
-              Desde visitas a las famosas pirámides prehispánicas hasta sesiones de buceo en los enigmáticos cenotes y emocionantes recorridos en tirolesa (rappel), nos encargamos de que vivas experiencias inolvidables y extraordinarias.
-            </p>
-          </div>
-          <?php
-        }
-        ?>
-      </div>
-    </div>
-  </div>
-  <img src="images/bg-01.jpg" class="img-maxwidth">
 </section>
 <section class="bg-02">
   <div class="container">
@@ -252,7 +215,7 @@ Henequén, Sisal, Truck, Vida Maya">
     </div>
   </div>
 </section>
-<section class="bg-03 visible-xs">
+<section class="bg-03">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
@@ -291,47 +254,6 @@ Henequén, Sisal, Truck, Vida Maya">
       </div>
     </div>
   </div>
-</section>
-<section class="hidden-xs">
-  <div class="bg-arma-tour">
-    <div class="row">
-      <div class="col-xs-12 col-sm-12 col-md-10 col-md-offset-1">
-        <div class="col-xs-12 col-sm-7 col-md-7">
-          <?php
-          if($_SESSION['lang']=='en')
-          {
-            ?>
-            <div id="arma-tour">
-              <h1>CREATE YOUR OWN TOUR</h1>
-              <p>
-                If you have a specific itinerary, we offer facilities and flexibility to build a tour in order to your needs. If you still don´t know, we will help you!
-              </p>
-              <p>
-                Contact us and know all options that we have in Mayan Ecotours.
-              </p>
-              <a href="tours_medida.php" class="btn-aventura">Start your adventure right now!</a>
-            </div>
-            <?php
-          }else{
-            ?>
-            <div id="arma-tour">
-              <h1>ARMA TU TOUR</h1>
-              <p>
-                Si tienes en mente un itinerario en específico te brindamos todas las facilidades y flexibilidad para armar un plan a tu medida. Si aún no lo tienes, nosotros te ayudamos.
-              </p>
-              <p>
-                Contáctanos y te platicaremos todas las opciones que tenemos para ofrecerte las emociones que buscas.
-              </p>
-              <a href="tours_medida.php" class="btn-aventura">¡COMIENZA TU AVENTURA AHORA!</a>
-            </div>
-            <?php
-          }
-          ?>
-        </div>
-      </div>
-    </div>
-  </div>
-  <img src="images/bg-02.jpg" class="img-maxwidth">
 </section>
 <?php include('includs/footer.php'); ?>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
