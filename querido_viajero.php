@@ -68,9 +68,6 @@ Henequén, Sisal, Truck, Vida Maya">
         <div id="info-general">
           <p>&nbsp;</p>
           <a href="pdf/Eventos_culturales_en_Merida_ingles.pdf" target="_blank"><img src="images/eng/eventos.jpg" class="img-responsive img-eventos"></a>
-          <p>
-            In this section, you will know about the most important festivities in Merida and a brief review for the richness Yucatecan culture in order to get closer to the beautiful land that you will visit.
-          </p>
           <h2>CULTURE, GASTRONOMY, WARM PEOPLE AND TRADITIONS</h2>
           <p>
             <strong>Merida: the White City</strong><br>
@@ -90,6 +87,9 @@ Henequén, Sisal, Truck, Vida Maya">
           </p>
           <p>
             Moreover, cultural centers, halls, museums and art galleries have proliferated in the city, offering an array of activities and events to suit all tastes. Music concerts cover all genres, from classical to jazz, going through rock, industrial music or romantic ballads. Art shows range from the traditional to the innovative, and there are art cinemas, children’s art workshops, literary events, conferences, popular outdoor dances, and much more.
+          </p>
+          <p>
+            In this section, you will know about the most important festivities in Merida and a brief review for the richness Yucatecan culture in order to get closer to the beautiful land that you will visit.
           </p>
           <h2>FESTIVITIES & ACTIVITIES</h2>
           <p>
@@ -177,9 +177,6 @@ Henequén, Sisal, Truck, Vida Maya">
           <div id="info-general">
             <p>&nbsp;</p>
             <a href="pdf/Eventos_culturales_en_Merida_espanol.pdf" target="_blank"><img src="images/eventos.jpg" class="img-responsive img-eventos"></a>
-            <p>
-              En esta sección te presentamos información relevante acerca de las festividades más importantes de la ciudad de Mérida, al igual que un breve repaso por la riqueza cultural yucateca con el fin de acercarte más a la bella tierra que visitarás.
-            </p>
             <h2>CULTURA, GASTRONOMÍA, GENTE CÁLIDA Y TRADICIONES</h2>
             <p>
               <strong>Mérida: Ciudad Blanca</strong><br>
@@ -196,6 +193,9 @@ Henequén, Sisal, Truck, Vida Maya">
             </p>
             <p>
               Además, hay espectáculos teatrales, danzas folclóricas y cine en los espacios culturales establecidos para las artes escénicas, como el Teatro Mérida, ubicado a solamente unos pasos de la Plaza Grande. A lo anterior hay que añadir los centros culturales, teatros, museos y galerías de la ciudad que se han multiplicado en número y variedad suficientes como para poder brindar una oferta de actividades y eventos para todos los gustos: desde música clásica hasta jazz, romántica trova, rock "a la antigüita" y música industrial, exposiciones de arte tradicional e innovador, danza folclórica o contemporánea, cine de arte, talleres infantiles, actividades literarias, conferencias, bailes populares al aire libre y mucho más.
+            </p>
+            <p>
+              En esta sección te presentamos información relevante acerca de las festividades más importantes de la ciudad de Mérida, al igual que un breve repaso por la riqueza cultural yucateca con el fin de acercarte más a la bella tierra que visitarás.
             </p>
             <h2>FESTIVIDADES Y ACTIVIDADES</h2>
             <p>
