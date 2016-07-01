@@ -176,7 +176,7 @@ Henequén, Sisal, Truck, Vida Maya">
               </p>
               <p>
                 Deja todo atrás por un tiempo, toma tu mochila y pasa unos días en un lugar natural…y disfruta de la vida.<br>
-                <strong>¿Porque no ahora? </strong>
+                <strong>¿Por qué no ahora? </strong>
               </p>
               <?php
             }
@@ -231,5 +231,8 @@ $(document).ready(function () {
   });
 });
 </script>
+<?php
+include_once ('firma_imagina.php');
+?>
 </body>
 </html>

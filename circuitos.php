@@ -250,5 +250,8 @@ $(document).ready(function () {
   });
 });
 </script>
+<?php
+include_once ('firma_imagina.php');
+?>
 </body>
 </html>

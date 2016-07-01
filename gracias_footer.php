@@ -52,9 +52,17 @@ Henequén, Sisal, Truck, Vida Maya">
                     </h1>
                     <h2>
                         <?php echo $_SESSION['lang']=='en'?'Soon we will contact you':'Pronto nos pondremos en contacto contigo'; ?>
-
                     </h2>
-                    <h4 id="cuentaregresiva"></h4>
+                    <h4>
+                        <?php echo $_SESSION['lang']=='en'?'office: (999) 987-3710 / Whatsapp: (999) 105-4614':'Oficina: (999) 987-3710 / Whatsapp: (999) 105-4614'; ?>
+                    </h4>
+                    <h4>
+                        <?php echo $_SESSION['lang']=='en'?'E-mail: info@mayanecotours.com':'Email: info@mayanecotours.com'; ?>
+                    </h4>
+                    <h4>
+                        <?php echo $_SESSION['lang']=='en'?'C. 51 No. 488 by 54 and 56, Centro. Merida, Yucatan':'C. 51 No. 488 por 54 y 56, Centro. Mérida, Yucatán.'; ?>
+                    </h4>
+                    <div class="btn-volver-sitio"><a href="."><?php echo $_SESSION['lang']=='en'?'Back to the site':'Volver al sitio'; ?></a></div>
                 </div>
             </div>
         </div>
@@ -65,58 +73,5 @@ Henequén, Sisal, Truck, Vida Maya">
 
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.js"></script>
-<script language="JavaScript">
-
-    /* Determinamos el tiempo total en segundos */
-
-    var totalTiempo=10;
-
-    /* Determinamos la url donde redireccionar */
-
-    var url=".";
-
-
-
-    function updateReloj()
-
-    {
-        <?php
-        if($_SESSION['lang']=='en')
-        {
-        ?>
-        $('#cuentaregresiva').html("Wait a moment we are being redirected again in "+totalTiempo+" seconds");
-        <?php
-        }else{
-        ?>
-        $('#cuentaregresiva').html("Espere un momento lo estamos redireccionando de nuevo en "+totalTiempo+" segundos");
-        <?php
-        }
-        ?>
-
-        if(totalTiempo==0)
-
-        {
-
-            window.location=url;
-
-        }else{
-
-            /* Restamos un segundo al tiempo restante */
-
-            totalTiempo-=1;
-
-            /* Ejecutamos nuevamente la función al pasar 1000 milisegundos (1 segundo) */
-
-            setTimeout("updateReloj()",1000);
-
-        }
-
-    }
-
-
-
-    window.onload=updateReloj;
-
-</script>
 </body>
 </html>

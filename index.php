@@ -15,10 +15,10 @@ $currentUrl;
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title><?php echo $titulo; ?> - Ecoturismo en Yucatan, Mexico - Tour de Cenotes en Yucatán México - Agencia de viajes en Yucatan</title>
-<meta name="keywords" content="Tours Yucatan, agencia de viajes Yucatan, ecoturismo yucatan, ecotourism Mexico, Yucatan travel agency, Esnorquel, Snorkel, Kayak, Espeleología, Ecoturismo, México, Cuevas,  
-Rappel, Exploración, Tours, Expedición, Viajes, Aventura, Adrenalina, Vacaciones, Buceo, Ecotours, 
-Eco Tours, Maya, Mayan, Chichen-Itza, Uxmal, Celestún, Reserva, Flamingos, Progreso, Dzibilchaltun, 
-Aguas Sagradas, Mayan Eco Tours, Playa, Mar, Agua, Inframundo Maya, Viajes, Excursiones, Haciendas, 
+<meta name="keywords" content="Tours Yucatan, agencia de viajes Yucatan, ecoturismo yucatan, ecotourism Mexico, Yucatan travel agency, Esnorquel, Snorkel, Kayak, Espeleología, Ecoturismo, México, Cuevas,
+Rappel, Exploración, Tours, Expedición, Viajes, Aventura, Adrenalina, Vacaciones, Buceo, Ecotours,
+Eco Tours, Maya, Mayan, Chichen-Itza, Uxmal, Celestún, Reserva, Flamingos, Progreso, Dzibilchaltun,
+Aguas Sagradas, Mayan Eco Tours, Playa, Mar, Agua, Inframundo Maya, Viajes, Excursiones, Haciendas,
 Henequén, Sisal, Truck, Vida Maya">
 <meta name="description" content="Contiene el tour de cenotes, Mayan Ecotours">
 <meta name="author" content="mayanecotours">
@@ -92,7 +92,7 @@ Henequén, Sisal, Truck, Vida Maya">
           <div id="maravillas">
             <h1>COME AND ENJOY THE<br> MAYAN WONDERS!</h1>
             <p>
-              With xx experience years, in Mayan Ecotours we take charge for your solo travel, or with your partner or family becomes an unforgettable adventure, full of visits to legendary places and facilities to unique activities as you wish.
+              With 15 experience years, in Mayan Ecotours we take charge for your solo travel, or with your partner or family becomes an unforgettable adventure, full of visits to legendary places and facilities to unique activities as you wish.
             </p>
             <p>
               From tours in the worldwide famous Mayan pyramids, diving sessions in magical cenotes and exciting zip line in jungle, we want you to enjoy and live amazing experiences.
@@ -104,10 +104,10 @@ Henequén, Sisal, Truck, Vida Maya">
           <div id="maravillas">
             <h1>¡VEN A CONOCER LAS <br>MARAVILLAS MAYAS!</h1>
             <p>
-              Con xx años de experiencia, en Mayan Ecotours nos encargamos que tu viaje en solitario, con tu pareja o seres queridos se vuelva una aventura inolvidable, cargada de visitas a sitios de leyenda y con acceso a tantas actividades únicas como desees experimentar.
+              Con 15 años de experiencia, en Mayan Ecotours nos encargamos que tu viaje en solitario, con tu pareja o seres queridos se vuelva una aventura inolvidable, cargada de visitas a sitios de leyenda y con acceso a tantas actividades únicas como desees experimentar.
             </p>
             <p>
-              Desde visitas a las famosas pirámides prehispánicas hasta sesiones de buceo en los enigmáticos cenotes y emocionantes recorridos en tirolesa (rappel), nos encargamos de que vivas experiencias inolvidables y extraordinarias.
+              Desde visitas a las famosas pirámides prehispánicas hasta sesiones de buceo en los enigmáticos cenotes y emocionantes recorridos en kayak, bicicleta, práctica de rappel,  tirolesa y esnórquel.  Nos encargamos de que vivas experiencias inolvidables y extraordinarias.
             </p>
           </div>
           <?php
@@ -128,7 +128,7 @@ Henequén, Sisal, Truck, Vida Maya">
           <div id="maravillas">
             <h1>COME AND ENJOY THE<br> MAYAN WONDERS!</h1>
             <p>
-              With xx experience years, in Mayan Ecotours we take charge for your solo travel, or with your partner or family becomes an unforgettable adventure, full of visits to legendary places and facilities to unique activities as you wish.
+              With 15 experience years, in Mayan Ecotours we take charge for your solo travel, or with your partner or family becomes an unforgettable adventure, full of visits to legendary places and facilities to unique activities as you wish.
             </p>
             <p>
               From tours in the worldwide famous Mayan pyramids, diving sessions in magical cenotes and exciting zip line in jungle, we want you to enjoy and live amazing experiences.
@@ -140,10 +140,10 @@ Henequén, Sisal, Truck, Vida Maya">
           <div id="maravillas">
             <h1>¡VEN A CONOCER LAS <br>MARAVILLAS MAYAS!</h1>
             <p>
-              Con xx años de experiencia, en Mayan Ecotours nos encargamos que tu viaje en solitario, con tu pareja o seres queridos se vuelva una aventura inolvidable, cargada de visitas a sitios de leyenda y con acceso a tantas actividades únicas como desees experimentar.
+              Con 15 años de experiencia, en Mayan Ecotours nos encargamos que tu viaje en solitario, con tu pareja o seres queridos se vuelva una aventura inolvidable, cargada de visitas a sitios de leyenda y con acceso a tantas actividades únicas como desees experimentar.
             </p>
             <p>
-              Desde visitas a las famosas pirámides prehispánicas hasta sesiones de buceo en los enigmáticos cenotes y emocionantes recorridos en tirolesa (rappel), nos encargamos de que vivas experiencias inolvidables y extraordinarias.
+              Desde visitas a las famosas pirámides prehispánicas hasta sesiones de buceo en los enigmáticos cenotes y emocionantes recorridos en kayak, bicicleta, práctica de rappel,  tirolesa y esnórquel.  Nos encargamos de que vivas experiencias inolvidables y extraordinarias.
             </p>
           </div>
           <?php
@@ -199,7 +199,7 @@ Henequén, Sisal, Truck, Vida Maya">
     </div>
   </div>
 </section>
-<section id="portfolio"> 
+<section id="portfolio">
   <div class="portfolio-wrapper">
     <?php
     if($_SESSION['lang']=='en')
@@ -224,7 +224,7 @@ Henequén, Sisal, Truck, Vida Maya">
     <!--======= PORTFOLIO ITEM =========-->
     <div class="portfolio">
       <ul class="items">
-        
+
         <!--======= PORTFOLIO ITEM 1 =========-->
         <li class="item">
           <div class="img"> <?php if($_SESSION['lang']=='en'){echo'<img src="images/eng/chichen.jpg" alt="" >';}else{echo'<img src="images/chichen.jpg" alt="" >';} ?>
@@ -232,7 +232,7 @@ Henequén, Sisal, Truck, Vida Maya">
             </div>
           </div>
         </li>
-        
+
         <!--======= PORTFOLIO ITEM 2 =========-->
         <li class="item">
           <div class="img"> <?php echo ($_SESSION['lang']=='en')?'<img src="images/eng/cuzama.jpg" alt="" >':'<img src="images/cuzama.jpg" alt="" >'; ?>
@@ -240,7 +240,7 @@ Henequén, Sisal, Truck, Vida Maya">
             </div>
           </div>
         </li>
-        
+
         <!--======= PORTFOLIO ITEM 3 =========-->
         <li class="item">
           <div class="img"> <?php echo ($_SESSION['lang']=='en')?'<img src="images/eng/uxmal.jpg" alt="" >':'<img src="images/uxmal.jpg" alt="" >'; ?>
@@ -334,20 +334,20 @@ Henequén, Sisal, Truck, Vida Maya">
   <img src="images/bg-02.jpg" class="img-maxwidth">
 </section>
 <?php include('includs/footer.php'); ?>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="js/jquery-1.11.3.min.js"></script>
 
-<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<!-- Include all compiled plugins (below), or include individual files as needed -->
 <script src="js/bootstrap.js"></script>
 <script src="js/menu.js"></script>
 <!--hover isotope-->
-<script src="js/wow.min.js"></script> 
-<script src="js/jquery.isotope.min.js"></script> 
-<script src="js/isotope.pkgd.min.js"></script> 
+<script src="js/wow.min.js"></script>
+<script src="js/jquery.isotope.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
 <script src="js/main.js"></script>
 
 <!-- Validation -->
-<?php include('includs/validacion.php'); ?> 
+<?php include('includs/validacion.php'); ?>
 
 
 <!--banner-->
@@ -363,5 +363,8 @@ $(function() {
     });
 });
 </script>
+<?php
+include_once ('firma_imagina.php');
+?>
 </body>
 </html>

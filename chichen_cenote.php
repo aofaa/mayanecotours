@@ -325,5 +325,8 @@ Henequén, Sisal, Truck, Vida Maya">
     });
   });
 </script>
+<?php
+include_once ('firma_imagina.php');
+?>
 </body>
 </html>

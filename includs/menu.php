@@ -116,11 +116,11 @@
                                 <?php
                                 if($_SESSION['lang']=='en'){
                                     ?>
-                                    <li><a href="chichen_cenote.php">Chichen Itza-Cenote/ rappel or Zip Line/ Lunch</a></li>
+                                    <li><a href="chichen_cenote.php">Chichen Itza-Cenote/ rappel or Zip Line/ Lunch <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="chichen_paseo.php">Chichen Itza-Tour in Archaeological Site</a></li>
                                     <li><a href="chichen_cancun.php">Chichen Itza-to Cancun</a></li>
                                     <li><a href="chichen_playa_carmen.php">Chichen Itza-to Playa del Carmen or Riviera</a></li>
-                                    <li><a href="uxmal_comida.php">Uxmal-Snorkel & Lunch in a Mayan House</a></li>
+                                    <li><a href="uxmal_comida.php">Uxmal-Snorkel & Lunch in a Mayan House <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="uxmal_paseo_kabah.php">Uxmal-with Kabah Tour</a></li>
                                     <li><a href="uxmal_luz_sonido.php">Uxmal-Light & Sound</a></li>
                                     <li><a href="Kayak_xcambo_progreso.php">Kayak/ Xcambo/ Progreso</a></li>
@@ -131,11 +131,11 @@
                                     <?php
                                 }else{
                                     ?>
-                                    <li><a href="chichen_cenote.php">Chichén Itzá-Cenote/ Rappel o Tirolesa/ Comida</a></li>
+                                    <li><a href="chichen_cenote.php">Chichén Itzá-Cenote/ Rappel o Tirolesa/ Comida <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="chichen_paseo.php">Chichén Itzá-Paseo en Zona Arqueológica</a></li>
                                     <li><a href="chichen_cancun.php">Chichén Itzá-con Llegada a Cancún</a></li>
                                     <li><a href="chichen_playa_carmen.php">Chichén Itzá-con Llegada a Playa del Carmen o Riviera</a></li>
-                                    <li><a href="uxmal_comida.php">Uxmal-Esnórquel y Comida en Casa Maya</a></li>
+                                    <li><a href="uxmal_comida.php">Uxmal-Esnórquel y Comida en Casa Maya <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="uxmal_paseo_kabah.php">Uxmal-con Paseo en Kabáh</a></li>
                                     <li><a href="uxmal_luz_sonido.php">Uxmal-Luz y Sonido</a></li>
                                     <li><a href="Kayak_xcambo_progreso.php">Kayak/ X’cambó/ Progreso</a></li>
@@ -153,14 +153,14 @@
                                 <?php
                                 if($_SESSION['lang']=='en'){
                                     ?>
-                                    <li><a href="chichen_cenote.php">Chichen Itza-Cenote/ Rappel or Zip Line/ Lunch</a></li>
+                                    <li><a href="chichen_cenote.php">Chichen Itza-Cenote/ Rappel or Zip Line/ Lunch <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="chichen_paseo.php">Chichen Itza-Tour in Archaeological Site</a></li>
                                     <li><a href="chichen_cancun.php">Chichen Itza-to Cancun</a></li>
                                     <li><a href="chichen_playa_carmen.php">Chichen Itza-to Playa del Carmen or Riviera</a></li>
-                                    <li><a href="uxmal_comida.php">Uxmal-Snorkel & lunch in a Mayan House</a></li>
+                                    <li><a href="uxmal_comida.php">Uxmal-Snorkel & lunch in a Mayan House <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="uxmal_paseo_kabah.php">Uxmal-with Kabah Tour</a></li>
                                     <li><a href="uxmal_luz_sonido.php">Uxmal-Light & Sound</a></li>
-                                    <li><a href="esnorquel_cenotes_hacienda.php">Snorkeling & Colonial Hacienda</a></li>
+                                    <li><a href="esnorquel_cenotes_hacienda.php">Snorkeling & Colonial Hacienda <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="Kayak_xcambo_progreso.php">Kayak/ Xcambo/ Progreso</a></li>
                                     <li><a href="cenotes_cuzama.php">Cenotes Cuzama</a></li>
                                     <li><a href="vida_maya.php">Mayan Life</a></li>
@@ -173,14 +173,14 @@
                                     <?php
                                 }else{
                                     ?>
-                                    <li><a href="chichen_cenote.php">Chichén Itzá-Cenote/ Rappel o Tirolesa/ Comida</a></li>
+                                    <li><a href="chichen_cenote.php">Chichén Itzá-Cenote/ Rappel o Tirolesa/ Comida <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="chichen_paseo.php">Chichén Itzá-Paseo en Zona Arqueológica</a></li>
                                     <li><a href="chichen_cancun.php">Chichén Itzá-con Llegada a Cancún</a></li>
                                     <li><a href="chichen_playa_carmen.php">Chichén Itzá-con Llegada a Playa del Carmen o Riviera</a></li>
-                                    <li><a href="uxmal_comida.php">Uxmal-Esnórquel y Comida en Casa Maya</a></li>
+                                    <li><a href="uxmal_comida.php">Uxmal-Esnórquel y Comida en Casa Maya <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="uxmal_paseo_kabah.php">Uxmal-con Paseo en Kabáh</a></li>
                                     <li><a href="uxmal_luz_sonido.php">Uxmal-Luz y Sonido</a></li>
-                                    <li><a href="esnorquel_cenotes_hacienda.php">Esnórquel en Cenote y Hacienda</a></li>
+                                    <li><a href="esnorquel_cenotes_hacienda.php">Esnórquel en Cenote y Hacienda <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="Kayak_xcambo_progreso.php">Kayak/ X’cambó/ Progreso</a></li>
                                     <li><a href="cenotes_cuzama.php">Cenotes Cuzamá</a></li>
                                     <li><a href="vida_maya.php">Vida Maya</a></li>
@@ -200,9 +200,9 @@
                                 <?php
                                 if($_SESSION['lang']=='en'){
                                     ?>
-                                    <li><a href="chichen_cenote.php">Chichen Itza-Cenote/ Rappel or Zip Line/ Lunch</a></li>
-                                    <li><a href="uxmal_comida.php">Uxmal-Snorkel & Lunch in a Mayan House</a></li>
-                                    <li><a href="esnorquel_cenotes_hacienda.php">Snorkeling & Colonial Hacienda</a></li>
+                                    <li><a href="chichen_cenote.php">Chichen Itza-Cenote/ Rappel or Zip Line/ Lunch <img src="images/estrella.png" class="img-estrella"></a></li>
+                                    <li><a href="uxmal_comida.php">Uxmal-Snorkel & Lunch in a Mayan House <img src="images/estrella.png" class="img-estrella"></a></li>
+                                    <li><a href="esnorquel_cenotes_hacienda.php">Snorkeling & Colonial Hacienda <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="cenotes_cuzama.php">Cenotes Cuzama</a></li>
                                     <li><a href="vida_maya.php">Mayan Life</a></li>
                                     <li><a href="rappel_esnorquel_gruta_comida_hacienda.php">Rappel/ Snorkel/ Cave/ Lunch in Hacienda</a></li>
@@ -215,9 +215,9 @@
                                     <?php
                                 }else{
                                     ?>
-                                    <li><a href="chichen_cenote.php">Chichén Itzá-Cenote/ Rappel o Tirolesa/ Comida</a></li>
-                                    <li><a href="uxmal_comida.php">Uxmal-Esnórquel y Comida en Casa Maya</a></li>
-                                    <li><a href="esnorquel_cenotes_hacienda.php">Esnórquel en Cenote y Hacienda</a></li>
+                                    <li><a href="chichen_cenote.php">Chichén Itzá-Cenote/ Rappel o Tirolesa/ Comida <img src="images/estrella.png" class="img-estrella"></a></li>
+                                    <li><a href="uxmal_comida.php">Uxmal-Esnórquel y Comida en Casa Maya <img src="images/estrella.png" class="img-estrella"></a></li>
+                                    <li><a href="esnorquel_cenotes_hacienda.php">Esnórquel en Cenote y Hacienda <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="cenotes_cuzama.php">Cenotes Cuzamá</a></li>
                                     <li><a href="vida_maya.php">Vida Maya</a></li>
                                     <li><a href="rappel_esnorquel_gruta_comida_hacienda.php">Rappel/ Esnórquel/ Gruta/ Comida en Hacienda</a></li>
@@ -237,8 +237,8 @@
                                 <?php
                                 if($_SESSION['lang']=='en'){
                                     ?>
-                                    <li><a href="uxmal_comida.php">Uxmal-Snorkel & Lunch in a Mayan House</a></li>
-                                    <li><a href="esnorquel_cenotes_hacienda.php">Snorkeling & Colonial Hacienda</a></li>
+                                    <li><a href="uxmal_comida.php">Uxmal-Snorkel & Lunch in a Mayan House <img src="images/estrella.png" class="img-estrella"></a></li>
+                                    <li><a href="esnorquel_cenotes_hacienda.php">Snorkeling & Colonial Hacienda <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="cenotes_cuzama.php">Cenotes Cuzama</a></li>
                                     <li><a href="vida_maya.php">Mayan Life</a></li>
                                     <li><a href="rappel_esnorquel_gruta_comida_hacienda.php">Rappel/ Snorkel/ Cave/ Lunch in Hacienda</a></li>
@@ -247,8 +247,8 @@
                                     <?php
                                 }else{
                                     ?>
-                                    <li><a href="uxmal_comida.php">Uxmal-Esnórquel y Comida en Casa Maya</a></li>
-                                    <li><a href="esnorquel_cenotes_hacienda.php">Esnórquel en Cenote y Hacienda</a></li>
+                                    <li><a href="uxmal_comida.php">Uxmal-Esnórquel y Comida en Casa Maya <img src="images/estrella.png" class="img-estrella"></a></li>
+                                    <li><a href="esnorquel_cenotes_hacienda.php">Esnórquel en Cenote y Hacienda <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="cenotes_cuzama.php">Cenotes Cuzamá</a></li>
                                     <li><a href="vida_maya.php">Vida Maya</a></li>
                                     <li><a href="rappel_esnorquel_gruta_comida_hacienda.php">Rappel/ Esnórquel/ Gruta/ Comida en Hacienda</a></li>
@@ -264,12 +264,12 @@
                                 <?php
                                 if($_SESSION['lang']=='en'){
                                     ?>
-                                    <li><a href="chichen_cenote.php">Chichen Itza-Cenote/ Rappel or Zip line/ Lunch</a></li>
+                                    <li><a href="chichen_cenote.php">Chichen Itza-Cenote/ Rappel or Zip line/ Lunch <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="rappel_esnorquel_gruta_comida_hacienda.php">Rappel/ Snorkel/ Cave/ Lunch in Hacienda</a></li>
                                     <?php
                                 }else{
                                     ?>
-                                    <li><a href="chichen_cenote.php">Chichén Itzá-Cenote/ Rappel o Tirolesa/ Comida</a></li>
+                                    <li><a href="chichen_cenote.php">Chichén Itzá-Cenote/ Rappel o Tirolesa/ Comida <img src="images/estrella.png" class="img-estrella"></a></li>
                                     <li><a href="rappel_esnorquel_gruta_comida_hacienda.php">Rappel/ Esnórquel/ Gruta/ Comida en Hacienda</a></li>
                                     <?php
                                 } ?>
