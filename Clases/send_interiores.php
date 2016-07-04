@@ -26,7 +26,7 @@ if(isset($_POST['btnInterior'])) {
 				$url = htmlentities($_POST['url'], ENT_QUOTES);
 				$comentarios = htmlentities($_POST['comentarios'], ENT_QUOTES);
 				
-			$frmcontactointerior = new frmContactoInterior($id,$nombre,$tel,$email,$comentarios);
+			$frmcontactointerior = new frmContactoInterior($id,$nombre,$tel,$email,$comentarios,$titulo,'');
 				
 			$email_to = "jesus.caamal@imaginaestudio.mx,priscila.may@imaginaestudio.mx";
 			$email_subject= "Formulario contacto - ".html_entity_decode ($titulo)."";

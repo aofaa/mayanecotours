@@ -129,7 +129,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <li>Departure from your hotel at 9:00 a.m.</li>
                 <li>Transportation with A/C</li>
                 <li>Certified guide who accompanies you at the archeological site</li>
-                <li>Visit to an impressive cave and cenote with a specialized guide</li>
+                <li>•	Visit to an impressive cave and a cenote a with specialized guide</li>
                 <li>Entrance to the cenote</li>
                 <li>Head lamps, helmets, gloves, knee pads, snorkel equipment and life jacket</li>
                 <li>Return to your hotel at 5:00 p.m.</li>
@@ -137,7 +137,7 @@ Henequén, Sisal, Truck, Vida Maya">
               </p>
               <p>
                 <span>Not included:</span><br>
-                • Entrance to the archaeological sitea<br>
+                • Entrance to the archaeological site<br>
                 • Lunch<br>
                 • Tips
               </p>

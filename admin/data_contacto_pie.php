@@ -40,6 +40,8 @@ header("Expires: 0");
 				<th style="background-color:#01833B; text-align:center; color:#FFF;">Pais</th>
 				<th style="background-color:#01833B; text-align:center; color:#FFF;">Estado</th>
                 <th style="background-color:#01833B; text-align:center; color:#FFF;">Comentarios</th>
+				<th style="background-color:#01833B; text-align:center; color:#FFF;">Título</th>
+				<th style="background-color:#01833B; text-align:center; color:#FFF;">Fecha</th>
             </tr>
 		<?php
 		$cont=0;
@@ -54,6 +56,8 @@ header("Expires: 0");
 						echo'<td align="center">'.$e['pais'].'</td>';
 						echo'<td align="center">'.$e['estado'].'</td>';
 						echo'<td align="center">'.$e['comentarios'].'</td>';
+						echo'<td align="center">'.$e['titulo'].'</td>';
+						echo'<td align="center">'.$e['fecha'].'</td>';
 					echo'</tr>';
 				}
         ?>

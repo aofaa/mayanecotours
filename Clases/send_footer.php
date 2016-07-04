@@ -30,7 +30,7 @@ if(isset($_POST['btnFooter'])) {
 				$url = htmlentities($_POST['url'], ENT_QUOTES);
 				$comentarios = htmlentities($_POST['comentarios'], ENT_QUOTES);
 				
-			$frmcontactopie = new frmcontactoPie($id,$nombre,$tel,$email,$pais,$estado,$comentarios);
+			$frmcontactopie = new frmcontactoPie($id,$nombre,$tel,$email,$pais,$estado,$comentarios,$titulo,'');
 				
 			$email_to = "jesus.caamal@imaginaestudio.mx,priscila.may@imaginaestudio.mx";
 			$email_subject= "Formulario footer - ".html_entity_decode ($titulo)."";

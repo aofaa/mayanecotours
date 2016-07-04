@@ -39,25 +39,14 @@ require_once('../Clases/frmcontactopie.php');
                 <div class="x-hnavigation-logo">
                     <a href=".">Mayanecotours</a>
                 </div>
-                <!--<ul>
-                    <li class="active">
-                        <a href="#">Home</a>
-                    </li>
-                </ul>-->
-
                 <div class="x-features">
                     <div class="x-features-nav-open">
                         <span class="fa fa-bars"></span>
                     </div>
                     <div class="pull-right">
-                        <!--<div class="x-features-search">
-                            <input type="text" name="search">
-                            <input type="submit">
-                        </div>-->
                         <div class="x-features-profile">
                             <img src="assets/images/users/avatar.jpg">
                             <ul class="xn-drop-left animated zoomIn">
-                                <li><a href="pages-lock-screen.html"><span class="fa fa-lock"></span> Lock Screen</a></li>
                                 <li><a href="#" class="mb-control" data-box="#mb-signout"><span class="fa fa-sign-out"></span> Sign Out</a></li>
                             </ul>
                         </div>
@@ -103,23 +92,31 @@ require_once('../Clases/frmcontactopie.php');
                                             <th>Teléfono</th>
                                             <th>Email</th>
                                             <th>Comentarios</th>
+                                            <th>Título</th>
+                                            <th>Fecha</th>
+                                            <th>Eliminar</th>
                                         </tr>
                                         </thead>
                                         <tbody>
                                         <?php
-                                        $tmpfrmint = new frmContactoInterior(0,'','','','');
+                                        $tmpfrmint = new frmContactoInterior(0,'','','','','','');
                                         $frminter = $tmpfrmint->listar();
 
                                         $cont=0;
                                         foreach($frminter as $e){
                                                 $cont++;
                                             ?>
-                                            <tr>
+                                            <tr id="trow_<?php echo $e['idFrmContactoInterior']; ?>">
                                                 <td width="5"><?php echo $cont ?></td>
                                                 <td><?php echo $e['nombre'] ?></td>
                                                 <td><?php echo $e['tel'] ?></td>
                                                 <td><?php echo $e['email'] ?></td>
                                                 <td><?php echo $e['comentarios'] ?></td>
+                                                <td><?php echo $e['titulo'] ?></td>
+                                                <td><?php echo $e['fecha'] ?></td>
+                                                <td>
+                                                    <button class="btn btn-danger btn-rounded btn-condensed btn-sm delte_row_data" onClick="delete_interior('trow_<?php echo $e['idFrmContactoInterior']; ?>',this);" data-idin="<?php echo $e['idFrmContactoInterior']; ?>"><span class="fa fa-times"></span></button>
+                                                </td>
                                             </tr>
                                             <?php
                                             }
@@ -156,23 +153,28 @@ require_once('../Clases/frmcontactopie.php');
                                             <th>Teléfono</th>
                                             <th>Email</th>
                                             <th>Comentarios</th>
+                                            <th>Fecha</th>
                                         </tr>
                                         </thead>
                                         <tbody>
                                         <?php
-                                        $tmpfrmtour = new frmContactoTour(0,'','','','');
+                                        $tmpfrmtour = new frmContactoTour(0,'','','','','');
                                         $frmtour = $tmpfrmtour->listar();
 
                                         $cont=0;
                                         foreach($frmtour as $e){
                                             $cont++;
                                             ?>
-                                            <tr>
+                                            <tr id="trow_<?php echo $e['idFrmContactoTour']; ?>">
                                                 <td width="5"><?php echo $cont ?></td>
                                                 <td><?php echo $e['nombre'] ?></td>
                                                 <td><?php echo $e['tel'] ?></td>
                                                 <td><?php echo $e['email'] ?></td>
                                                 <td><?php echo $e['comentarios'] ?></td>
+                                                <td><?php echo $e['fecha'] ?></td>
+                                                <td>
+                                                    <button class="btn btn-danger btn-rounded btn-condensed btn-sm delte_row_data" onClick="delete_tour('trow_<?php echo $e['idFrmContactoTour']; ?>',this);" data-idtour="<?php echo $e['idFrmContactoTour']; ?>"><span class="fa fa-times"></span></button>
+                                                </td>
                                             </tr>
                                             <?php
                                         }
@@ -211,6 +213,8 @@ require_once('../Clases/frmcontactopie.php');
                                             <th>País</th>
                                             <th>Estado</th>
                                             <th>Comentarios</th>
+                                            <th>Fecha</th>
+                                            <th>Eliminar</th>
                                         </tr>
                                         </thead>
                                         <tbody>
@@ -222,7 +226,7 @@ require_once('../Clases/frmcontactopie.php');
                                         foreach($frmcontacto as $e){
                                             $cont++;
                                             ?>
-                                            <tr>
+                                            <tr id="trow_<?php echo $e['idFrmContacto']; ?>">
                                                 <td width="5"><?php echo $cont ?></td>
                                                 <td><?php echo $e['nombre'] ?></td>
                                                 <td><?php echo $e['tel'] ?></td>
@@ -230,6 +234,10 @@ require_once('../Clases/frmcontactopie.php');
                                                 <td><?php echo $e['pais'] ?></td>
                                                 <td><?php echo $e['estado'] ?></td>
                                                 <td><?php echo $e['comentarios'] ?></td>
+                                                <td><?php echo $e['fecha'] ?></td>
+                                                <td>
+                                                    <button class="btn btn-danger btn-rounded btn-condensed btn-sm delte_row_data" onClick="delete_contacto('trow_<?php echo $e['idFrmContacto']; ?>',this);" data-idcontacto="<?php echo $e['idFrmContacto']; ?>"><span class="fa fa-times"></span></button>
+                                                </td>
                                             </tr>
                                             <?php
                                         }
@@ -268,18 +276,21 @@ require_once('../Clases/frmcontactopie.php');
                                             <th>País</th>
                                             <th>Estado</th>
                                             <th>Comentarios</th>
+                                            <th>Título</th>
+                                            <th>Fecha</th>
+                                            <th>Eliminar</th>
                                         </tr>
                                         </thead>
                                         <tbody>
                                         <?php
-                                        $tmpfrmcontactopie = new frmcontactoPie(0,'','','','','','');
+                                        $tmpfrmcontactopie = new frmcontactoPie(0,'','','','','','','','');
                                         $frmcontactopie = $tmpfrmcontactopie->listar();
 
                                         $cont=0;
                                         foreach($frmcontactopie as $e){
                                             $cont++;
                                             ?>
-                                            <tr>
+                                            <tr id="trow_<?php echo $e['idFrmContactoPie']; ?>">
                                                 <td width="5"><?php echo $cont ?></td>
                                                 <td><?php echo $e['nombre'] ?></td>
                                                 <td><?php echo $e['tel'] ?></td>
@@ -287,6 +298,11 @@ require_once('../Clases/frmcontactopie.php');
                                                 <td><?php echo $e['pais'] ?></td>
                                                 <td><?php echo $e['estado'] ?></td>
                                                 <td><?php echo $e['comentarios'] ?></td>
+                                                <td><?php echo $e['titulo'] ?></td>
+                                                <td><?php echo $e['fecha'] ?></td>
+                                                <td>
+                                                    <button class="btn btn-danger btn-rounded btn-condensed btn-sm delte_row_data" onClick="delete_pie('trow_<?php echo $e['idFrmContactoPie']; ?>',this);" data-idpie="<?php echo $e['idFrmContactoPie']; ?>"><span class="fa fa-times"></span></button>
+                                                </td>
                                             </tr>
                                             <?php
                                         }
@@ -312,6 +328,26 @@ require_once('../Clases/frmcontactopie.php');
     <!-- END PAGE CONTENT -->
 </div>
 <!-- END PAGE CONTAINER -->
+
+<!-- MESSAGE BOX-->
+<div class="message-box animated fadeIn" data-sound="alert" id="mb-remove-row">
+    <div class="mb-container">
+        <div class="mb-middle">
+            <div class="mb-title"><span class="fa fa-times"></span> Eliminar <strong>Datos</strong> ?</div>
+            <div class="mb-content">
+                <p>¿Seguro que quieres eliminar esta fila?</p>
+                <p>Presione Sí, si Seguro.</p>
+            </div>
+            <div class="mb-footer">
+                <div class="pull-left">
+                    <button class="btn btn-success btn-lg mb-control-yes">Si</button>
+                    <button class="btn btn-default btn-lg mb-control-close">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END MESSAGE BOX-->
 
 <!-- MESSAGE BOX-->
 <div class="message-box animated fadeIn" data-sound="alert" id="mb-signout">
@@ -380,6 +416,141 @@ require_once('../Clases/frmcontactopie.php');
 <script type="text/javascript" src="assets/js/plugins/tabs/prefixfree.min.js"></script>
 <!-- END TEMPLATE -->
 <!-- END SCRIPTS -->
+<script type="application/x-javascript">
+    $(document).ready(function(){
+
+        $(".fakeloader").fakeLoader({
+            timeToHide:1200,
+            bgColor:"#e5e5e5",
+            spinner:"spinner1"
+        });
+
+    });
+
+
+    /*DELETE ROW DATABASE*/
+
+    function delete_interior(row,obj){
+
+        var box = $("#mb-remove-row");
+        box.addClass("open");
+
+        var $_this = $(obj);
+
+        box.find(".mb-control-yes").on("click",function(){
+            box.removeClass("open");
+            $("#"+row).hide("slow",function(){
+                //alert($_this);
+                //console.log($_this);
+                $.ajax({
+                    data:  {'op':'Eliminar', 'id':$_this.data('idin') },
+                    url:   'opinterior.php',
+                    type:  'post',
+                    success:  function (response) {
+                        //alert(response);
+                    }
+                });
+
+                $(this).remove();
+            });
+        });
+
+    }
+
+    $(".mb-control-close").on("click",function(){
+       $(this).parents(".message-box").removeClass("open");
+       return false;
+    });
+
+/*****************************************/
+    function delete_pie(row,obj){
+
+        var box = $("#mb-remove-row");
+        box.addClass("open");
+
+        var $_this = $(obj);
+
+        box.find(".mb-control-yes").on("click",function(){
+            box.removeClass("open");
+            $("#"+row).hide("slow",function(){
+                //alert($_this);
+                //console.log($_this);
+                $.ajax({
+                    data:  {'op':'Eliminar', 'id':$_this.data('idpie') },
+                    url:   'opfooter.php',
+                    type:  'post',
+                    success:  function (response) {
+                        //alert(response);
+                    }
+                });
+
+                $(this).remove();
+            });
+        });
+
+    }
+
+    function delete_tour(row,obj){
+
+        var box = $("#mb-remove-row");
+        box.addClass("open");
+
+        var $_this = $(obj);
+
+        box.find(".mb-control-yes").on("click",function(){
+            box.removeClass("open");
+            $("#"+row).hide("slow",function(){
+                //alert($_this);
+                //console.log($_this);
+                $.ajax({
+                    data:  {'op':'Eliminar', 'id':$_this.data('idtour') },
+                    url:   'optour.php',
+                    type:  'post',
+                    success:  function (response) {
+                        //alert(response);
+                    }
+                });
+
+                $(this).remove();
+            });
+        });
+
+    }
+
+    function delete_contacto(row,obj){
+
+        var box = $("#mb-remove-row");
+        box.addClass("open");
+
+        var $_this = $(obj);
+
+        box.find(".mb-control-yes").on("click",function(){
+            box.removeClass("open");
+            $("#"+row).hide("slow",function(){
+                //alert($_this);
+                //console.log($_this);
+                $.ajax({
+                    data:  {'op':'Eliminar', 'id':$_this.data('idcontacto') },
+                    url:   'opcontacto.php',
+                    type:  'post',
+                    success:  function (response) {
+                        //alert(response);
+                    }
+                });
+
+                $(this).remove();
+            });
+        });
+
+    }
+    
+    
+    $(".x-features .x-features-profile").on("click",function(e){
+        e.stopPropagation();
+        $(this).toggleClass("active");
+    });
+
+</script>
 </body>
 </html>
 

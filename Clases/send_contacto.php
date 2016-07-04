@@ -27,7 +27,7 @@ if(isset($_POST['btnContacto'])) {
 				$estado = htmlentities($_POST['estado'], ENT_QUOTES);
 				$comentarios = htmlentities($_POST['comentarios'], ENT_QUOTES);
 				
-			$frmcontacto = new frmContacto($id,$nombre,$tel,$email,$pais,$estado,$comentarios);
+			$frmcontacto = new frmContacto($id,$nombre,$tel,$email,$pais,$estado,$comentarios,'');
 				
 			$email_to = "jesus.caamal@imaginaestudio.mx,priscila.may@imaginaestudio.mx";
 			$email_subject= "Formulario contacto mayanecotours.com";

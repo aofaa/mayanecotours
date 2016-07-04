@@ -172,7 +172,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <li>Transportación con aire acondicionado</li>
                 <li>Guía especializado dentro de la zona arqueológica</li>
                 <li>Comida típica yucateca</li>
-                <li>Llegada a Playa del Carmen o Riviera Maya a las 7:30 p.m.</li>
+                <li>Llegada a Playa del Carmen o Riviera Maya a las 10:00 p.m.</li>
               </ul>
               </p>
               <p>

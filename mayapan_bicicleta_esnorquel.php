@@ -156,6 +156,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <li>Transportación con aire acondicionado</li>
                 <li>Guía especializado durante actividades y recorrido</li>
                 <li>Entrada al cenote</li>
+                <li>Bicicletas de montaña</li>
                 <li>Equipo de esnórquel </li>
                 <li>Regreso a su hotel a las 5:00 p.m.</li>
               </ul>

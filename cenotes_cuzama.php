@@ -129,29 +129,27 @@ Henequén, Sisal, Truck, Vida Maya">
               <p>
                 The cenotes of Cuzama are among the most beautiful in the Yucatan. To visit the cenotes you get to take a truck; a carriage pulled by mules or horses on rails.  These were used years ago to transport sisal from the plantation to the processing machinery.
               </p>
-              <p>
-                Haciendas were born and lived during the henequen boom of the late 1800’s. By the mid-1940’s, when synthetic fibers were invented, the henequen industry fell sharply and with it, the splendor of the haciendas. In the last decade of the twentieth century, many of the Yucatan haciendas regained their splendor and are now places with perfect harmony for rest, reflection and meditation, but above all to offer visitors a unique experience in the Yucatan.
-              </p>
               <br>
               <p>
                 <span>Included:</span><br>
               <ul class="listas">
-                <li>Departure from your hotel at 9:00 a.m.</li>
+                <li>Departure from your hotel at 9 a.m.</li>
                 <li>Transportation with A/C</li>
-                <li>Specialized guide</li>
-                <li>Snorkel equipment and life jacket</li>
+                <li>Visit two impressive cenotes</li>
                 <li>Horse drawn Truck</li>
-                <li>Lunch</li>
                 <li>Entrance fees</li>
-                <li>Visit the Hacienda</li>
-                <li>Return to hotel at 5:00 p.m.</li>
+                <li>Return to hotel at 5 p.m.</li>
               </ul>
               </p>
               <p>
                 <span>Not included:</span><br>
+                • Lunch<br>
                 • Beverages<br>
                 • Tips
 
+              </p>
+              <p>
+                <strong>Price per person: $550 Pesos </strong>
               </p>
               <p>
                 <span>Recommendations:</span><br>

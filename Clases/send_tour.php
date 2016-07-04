@@ -23,7 +23,7 @@ if(isset($_POST['btnTour'])) {
 				$email = htmlentities($_POST['email'], ENT_QUOTES);
 				$comentarios = htmlentities($_POST['comentarios'], ENT_QUOTES);
 				
-			$frmcontactotour = new frmContactoTour($id,$nombre,$tel,$email,$comentarios);
+			$frmcontactotour = new frmContactoTour($id,$nombre,$tel,$email,$comentarios,'');
 				
 			$email_to = "jesus.caamal@imaginaestudio.mx,priscila.may@imaginaestudio.mx";
 			$email_subject= "Formulario contacto tour a la medida";

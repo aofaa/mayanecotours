@@ -171,7 +171,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <li>Transportación con aire acondicionado</li>
                 <li>Guía especializado dentro de la zona arqueológica</li>
                 <li>Comida típica yucateca</li>
-                <li>Llegada a Cancún a las 7:30 p.m.</li>
+                <li>Llegada a Cancún a las 8:00 p.m.</li>
               </ul>
               </p>
               <p>

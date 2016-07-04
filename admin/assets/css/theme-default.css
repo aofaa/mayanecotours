@@ -11290,19 +11290,19 @@ label:before {
 }
 
 label[for*='1']:before {
-  content: '\f1cb';
+  content: '\f0ca';
 }
 
 label[for*='2']:before {
-  content: '\f17d';
+  content: '\f0ca';
 }
 
 label[for*='3']:before {
-  content: '\f16b';
+  content: '\f0ca';
 }
 
 label[for*='4']:before {
-  content: '\f1a9';
+  content: '\f0ca';
 }
 
 label:hover {

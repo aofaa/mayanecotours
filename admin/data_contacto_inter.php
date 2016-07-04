@@ -38,24 +38,28 @@ header("Expires: 0");
                 <th style="background-color:#01833B; text-align:center; color:#FFF;">Teléfono</th>
 				<th style="background-color:#01833B; text-align:center; color:#FFF;">Email</th>
                 <th style="background-color:#01833B; text-align:center; color:#FFF;">Comentarios</th>
+				<th style="background-color:#01833B; text-align:center; color:#FFF;">Título</th>
+				<th style="background-color:#01833B; text-align:center; color:#FFF;">Fecha</th>
             </tr>
 		<?php
 		$cont=0;
 		foreach ($frm_inter as $e) {
 			$cont++;
-			
+
 					echo'<tr>';
 						echo'<td align="center">'.$cont.'</td>';
 						echo'<td align="center">'.$e['nombre'].'</td>';
 						echo'<td align="center">'.$e['tel'].'</td>';
 						echo'<td align="center">'.$e['email'].'</td>';
 						echo'<td align="center">'.$e['comentarios'].'</td>';
+						echo'<td align="center">'.$e['titulo'].'</td>';
+						echo'<td align="center">'.$e['fecha'].'</td>';
 					echo'</tr>';
 				}
         ?>
         </tr>
            </table>
-			
+
 </body>
 
 </html>

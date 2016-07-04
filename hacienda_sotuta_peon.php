@@ -148,7 +148,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 The return is approximately at 4:00 p.m. at the same point where transport was taken.
               </p>
               <p>
-                To book this tour, you need to pay full.
+                To book this tour, you need to pay in full.
               </p>
             </div>
             <?php
