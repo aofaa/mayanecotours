@@ -58,7 +58,7 @@ Henequén, Sisal, Truck, Vida Maya">
   <div class="container">
     <div class="row">
       <div id="titulo-interiores">
-        <h1><?php if($_SESSION['lang']=='en'){echo'Mayapan ';}else{echo'Mayapán';} ?> <span class="linea-interior">|</span> <span class="subinteriores"><?php if($_SESSION['lang']=='en'){echo'Caves and snorkeling in cenote';}else{echo'Grutas y esnórquel en cenote';} ?></span></h1>
+        <h1><?php if($_SESSION['lang']=='en'){echo'Mayapan ';}else{echo'Mayapán';} ?> <span class="linea-interior">|</span> <span class="subinteriores"><?php if($_SESSION['lang']=='en'){echo'Caves and snorkeling in a cenote';}else{echo'Grutas y esnórquel en cenote';} ?></span></h1>
       </div>
     </div>
   </div>

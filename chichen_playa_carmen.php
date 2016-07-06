@@ -145,7 +145,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <li>Transportation with A/C</li>
                 <li>Certified guide who accompanies you at the archeological site</li>
                 <li>Buffet lunch serving Yucatecan food</li>
-                <li>Arrival to Playa Del Carmen or Riviera Maya at 7:30 p.m.</li>
+                <li>Arrival to Playa Del Carmen or Riviera Maya at 10:00 p.m.</li>
               </ul>
               </p>
               <p>

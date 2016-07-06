@@ -145,7 +145,7 @@ Henequén, Sisal, Truck, Vida Maya">
                 <li>Transportation with A/C</li>
                 <li>Certified guide who accompanies you at the archeological site</li>
                 <li>Buffet lunch serving Yucatecan food</li>
-                <li>Arrival to Cancun at 7:30 p.m. </li>
+                <li>Arrival to Cancun at 8:00 p.m. </li>
               </ul>
               </p>
               <p>
